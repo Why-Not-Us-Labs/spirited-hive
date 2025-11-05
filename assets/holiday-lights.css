@@ -3,17 +3,19 @@
    ======================================== */
 
 .holiday-lights {
-  position: fixed;
-  top: 75px; /* Sits at bottom of header */
+  position: relative; /* Part of header structure - flows naturally after nav */
   left: 0;
   right: 0;
+  width: 100%;
   height: 50px;
-  z-index: 9998;
+  margin: 0;
+  z-index: 1; /* Within header stacking context */
   pointer-events: none; /* Ensures buttons underneath are still clickable */
   display: flex;
   justify-content: space-around;
   align-items: center;
   padding: 0 20px;
+  background: transparent;
 }
 
 .light-bulb {
@@ -76,10 +78,9 @@
     rgba(0,0,0,0.3) 100%);
 }
 
-/* Mobile: Fewer lights, smaller size, and positioned at very top to avoid overlap */
+/* Mobile: Fewer lights, smaller size */
 @media (max-width: 768px) {
   .holiday-lights {
-    top: 0; /* Move to very top on mobile */
     height: 30px; /* Smaller height */
     padding: 0 10px; /* Less padding */
   }

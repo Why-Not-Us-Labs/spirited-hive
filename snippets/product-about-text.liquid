@@ -1,0 +1,29 @@
+{% comment %}
+  Product About Text
+  Shows product-specific "About" text with fallbacks
+  Priority: 1. Metafield, 2. Product-specific default based on handle
+{% endcomment %}
+
+<!-- DEBUG: Product handle = {{ product.handle }} -->
+{% if product.metafields.custom.product_about != blank %}
+  <!-- DEBUG: Using metafield -->
+  {{ product.metafields.custom.product_about | metafield_tag }}
+{% else %}
+  <!-- DEBUG: Using handle-based text -->
+  {% case product.handle %}
+    {% when 'spirited-hive-vodka-cranberry-lime' %}
+      <p>Kick off your snow boots and let Santa's favorite spirit do the heavy lifting. Our 6‑times‑distilled vodka mingles with tart cranberries, zesty lime and organic wildflower honey, creating a can full of Christmas cheer. It's like a festive cocktail straight from the North Pole — lightly sweetened, full of berry brightness and perfect for unwinding after a long day.</p>
+      <p>Sip, smile and let the season get a little sweeter. Santa won't mind if you have one more for the road!</p>
+
+    {% when 'spirited-hive-tequila-ginger' %}
+      <p>Made with smooth Blanco Tequila from Jalisco, Mexico, this cocktail tastes like Christmas cheer wrapped in a can. The warm ginger notes feel like holiday baking, the bright lime adds that festive sparkle, and the organic wildflower honey brings a natural winter sweetness that feels right at home by a glowing tree.</p>
+      <p>It's familiar, comforting, and just surprising enough to make it the drink everyone talks about at the holiday party. Perfect for cozy nights, family gatherings, or the moment you finally sit down after wrapping a dozen gifts.</p>
+
+    {% when 'spirited-hive-gin-lemon' %}
+      <p>This is Christmas in a glass—bright, pine-kissed, and full of holiday sparkle. The lemon adds a cheerful lift, while juniper berry brings that classic evergreen warmth, like walking through a pine forest dusted with snow. Finished with organic wildflower honey, it has a natural sweetness that feels cozy, inviting, and perfectly seasonal.</p>
+      <p>Ideal for fireside gatherings, holiday dinners, and every festive toast in between.</p>
+
+    {% else %}
+      {{ product.description }}
+  {% endcase %}
+{% endif %}

@@ -1,10 +1,13 @@
 # Ground Truth Recovery Instructions
 
-## Ground Source of Truth: Holiday Theme v1.0
+## Ground Source of Truth - Holiday Theme v1.0
 
 **Commit:** `0cda0c8` - "Add holiday theme: Christmas lights, snowfall, red background"
+
 **Date:** Friday, October 31, 2025, 1:01 PM
+
 **Tag:** `GROUND-TRUTH-HOLIDAY-v1.0`
+
 **Backup Branch:** `backup/ground-truth-holiday-v1.0`
 
 ---
@@ -18,8 +21,9 @@ This is the foundational holiday theme with:
 - ✓ White text contrast styling on red background
 - ✓ All effects integrated into `layout/theme.liquid`
 
-### Files Included:
-```
+### Files Included
+
+```text
 assets/custom.css              - Red background styling
 assets/holiday-snow.css        - Snowfall animation
 assets/holiday-lights.css      - Christmas lights styling

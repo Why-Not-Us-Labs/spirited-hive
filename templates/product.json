@@ -64,7 +64,7 @@
             "open_close_icon": "plus_minus",
             "open_by_default": true,
             "margin_bottom": 0,
-            "text": "<p>Kick off your snow boots and let Santa's favorite spirit do the heavy lifting. Our 6\u2011times\u2011distilled vodka mingles with tart cranberries, zesty lime and organic wildflower honey, creating a can full of Christmas cheer. It's like a festive cocktail straight from the North Pole \u2014 lightly sweetened, full of berry brightness and perfect for unwinding after a long day.</p><p>Sip, smile and let the season get a little sweeter. Santa won't mind if you have one more for the road!</p>",
+            "text": "{% render 'product-about-text' %}",
             "page": ""
           }
         },
