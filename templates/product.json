@@ -64,7 +64,7 @@
             "open_close_icon": "plus_minus",
             "open_by_default": true,
             "margin_bottom": 0,
-            "text": "{% render 'product-about-text' %}",
+            "text": "<p>Kick off your snow boots and let Santa's favorite spirit do the heavy lifting. Our 6-times-distilled vodka mingles with tart cranberries, zesty lime and organic wildflower honey, creating a can full of Christmas cheer.</p><p>Sip, smile and let the season get a little sweeter!</p>",
             "page": ""
           }
         },
@@ -531,41 +531,37 @@
         "video_1": {
           "type": "video",
           "settings": {
-            "video_title": "The Grinch Discovers Spirited Hive",
-            "video_description": "Watch what happens when the Grinch gets his hands on our honey-sweetened cocktails...",
-            "video": "",
-            "video_url": "",
-            "poster_image": ""
+            "video_title": "Holiday Cocktail Class with Jack Espy",
+            "video_description": "Learn how to make the perfect holiday cocktail with Jack! Cranberry, vodka, and holiday vibes.",
+            "video_src": "https://cdn.shopify.com/videos/c/o/v/88fb6535d42b4d41b44b11cb8209a915.mp4",
+            "video_url": ""
           }
         },
         "video_2": {
           "type": "video",
           "settings": {
-            "video_title": "Santa's Workshop Goes Wild",
-            "video_description": "The elves found the secret ingredient to make Christmas merrier... spoiler: it's vodka cranberry!",
-            "video": "",
-            "video_url": "",
-            "poster_image": ""
+            "video_title": "Holiday Cocktail Class with Jack Griswold",
+            "video_description": "Jack channels his inner Griswold for some chaotic holiday cocktail energy! Things get festive.",
+            "video_src": "https://cdn.shopify.com/videos/c/o/v/ecccc87c4ce54713a20c342ef7f0b8e9.mp4",
+            "video_url": ""
           }
         },
         "video_3": {
           "type": "video",
           "settings": {
-            "video_title": "Rudolph's Night Off",
-            "video_description": "Even reindeer need to unwind after practice runs. Turns out Rudolph's a vodka cranberry guy!",
-            "video": "",
-            "video_url": "",
-            "poster_image": ""
+            "video_title": "I LOVE HIVE Infomercial",
+            "video_description": "But wait, there's more! Experience the most spirited infomercial you've ever seen.",
+            "video_src": "https://cdn.shopify.com/videos/c/o/v/ce9b7694b977487f859893cafc24b814.mp4",
+            "video_url": ""
           }
         },
         "video_4": {
           "type": "video",
           "settings": {
-            "video_title": "Frosty's Meltdown (The Good Kind)",
-            "video_description": "Who knew snowmen could party? Watch Frosty discover his new favorite way to chill!",
-            "video": "",
-            "video_url": "",
-            "poster_image": ""
+            "video_title": "Funkle Jack",
+            "video_description": "Meet your favorite fun uncle! Jack brings the party wherever he goes. Groovy holiday vibes!",
+            "video_src": "https://cdn.shopify.com/videos/c/o/v/004925c51ace4ed6b00c55a07d73ccdd.mp4",
+            "video_url": ""
           }
         }
       },
@@ -576,8 +572,8 @@
         "video_4"
       ],
       "settings": {
-        "heading": "Holiday Spirits & Skits",
-        "subheading": "Watch Jack's hilarious holiday character videos",
+        "heading": "Hive for the Holidaze",
+        "subheading": "Watch Jack bring the holiday spirit to life!",
         "show_recipe_card": false,
         "recipe_title": "Holiday Vodka Cranberry",
         "recipe_description": "",
