@@ -1,1 +1,84 @@
-{"type":"header","name":"Header","sections":{"announcement-bar":{"type":"announcement-bar","blocks":{"announcement":{"type":"announcement","settings":{"announcement_text":"NOW AVAILABLE: PUBLIX LIQUORS + MEIJER GROCERY","announcement_bg_color":"#f2bd35","announcement_text_color":"#242424"}},"aebe68ef-8489-4ee8-86e6-12dc826943f1":{"type":"announcement","disabled":true,"settings":{"announcement_text":"Highlight promotions","announcement_bg_color":"#000000","announcement_text_color":"#f2bd35"}}},"block_order":["announcement","aebe68ef-8489-4ee8-86e6-12dc826943f1"],"settings":{"desktop_social_icons":false}},"header":{"type":"header","custom_css":["li.first-level-dropdown:nth-child(4) > a:nth-child(1) > div:nth-child(1) {color: #000 !important; background-color: #f2bd35; padding-left: 10px; padding-right: 10px;}"],"settings":{"sticky_header":true,"overlay_header_homepage":false,"overlay_header_collection":false,"overlay_header_list_collection":false,"overlay_header_contact":false,"logo":"shopify:\/\/shop_images\/Site_Header_Logo.png","logo-placement":"left","logo_max_width":235,"logo_max_width_mobile":100,"logo_padding":10,"main_linklist":"main-menu","dropdown_alignment":"left","mobile_social_icons":false,"show_currency_selector":true,"show_locale_selector":false,"show_icons":true,"enable_search":true,"cart-style":"shopping-cart","cart_count":true,"show_offers_drawer":false,"offers_drawer_icon":"fire","offers_drawer_icon_color":"#f2bd35","offers_drawer_show_tooltip":false,"offers_drawer_tooltip_test_mode":false,"offers_drawer_tooltip_text":"Don't miss today's offers!","offers_drawer_tooltip_text_color":"#ffffff","offers_drawer_tooltip_background_color":"#f2bd35","overlay_opacity":0}}},"order":["announcement-bar","header"]}
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "type": "header",
+  "name": "Header",
+  "sections": {
+    "announcement-bar": {
+      "type": "announcement-bar",
+      "blocks": {
+        "announcement": {
+          "type": "announcement",
+          "settings": {
+            "announcement_text": "NEW: Vodka Iced Tea + Honey — It's Tea Time",
+            "announcement_bg_color": "#E87A2E",
+            "announcement_text_color": "#ffffff"
+          }
+        },
+        "aebe68ef-8489-4ee8-86e6-12dc826943f1": {
+          "type": "announcement",
+          "disabled": true,
+          "settings": {
+            "announcement_text": "Highlight promotions",
+            "announcement_bg_color": "#000000",
+            "announcement_text_color": "#f2bd35"
+          }
+        }
+      },
+      "block_order": [
+        "announcement",
+        "aebe68ef-8489-4ee8-86e6-12dc826943f1"
+      ],
+      "settings": {
+        "desktop_social_icons": false
+      }
+    },
+    "header": {
+      "type": "header",
+      "custom_css": [
+        "li.first-level-dropdown:nth-child(4) > a:nth-child(1) > div:nth-child(1) {color: #000 !important; background-color: #f2bd35; padding-left: 10px; padding-right: 10px;}"
+      ],
+      "settings": {
+        "sticky_header": true,
+        "overlay_header_homepage": false,
+        "overlay_header_collection": false,
+        "overlay_header_list_collection": false,
+        "overlay_header_contact": false,
+        "logo": "shopify://shop_images/Site_Header_Logo.png",
+        "logo-placement": "left",
+        "logo_max_width": 235,
+        "logo_max_width_mobile": 100,
+        "logo_padding": 10,
+        "main_linklist": "main-menu",
+        "dropdown_alignment": "left",
+        "mobile_social_icons": false,
+        "show_currency_selector": true,
+        "show_locale_selector": false,
+        "show_icons": true,
+        "enable_search": true,
+        "cart-style": "shopping-cart",
+        "cart_count": true,
+        "show_offers_drawer": false,
+        "offers_drawer_icon": "fire",
+        "offers_drawer_icon_color": "#f2bd35",
+        "offers_drawer_show_tooltip": false,
+        "offers_drawer_tooltip_test_mode": false,
+        "offers_drawer_tooltip_text": "Don't miss today's offers!",
+        "offers_drawer_tooltip_text_color": "#ffffff",
+        "offers_drawer_tooltip_background_color": "#f2bd35",
+        "overlay_opacity": 0
+      }
+    }
+  },
+  "order": [
+    "announcement-bar",
+    "header"
+  ]
+}

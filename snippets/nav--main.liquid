@@ -1,8 +1,15 @@
-{% liquid 
+{% liquid
   assign menu = linklists[section.settings.main_linklist]
 %}
 
 {% for link in menu.links %}
+  {% liquid
+    assign link_title_lower = link.title | downcase
+    assign is_highlighted = false
+    if link_title_lower contains 'tea' or link_title_lower contains 'new'
+      assign is_highlighted = true
+    endif
+  %}
 
   {% if link.links != blank %}
     {% assign link-title = link.title | strip | downcase %}
@@ -20,14 +27,14 @@
 
     <li class="site-nav--has-dropdown first-level-dropdown {% if is-mega-menu %} mega-menu{% endif %}" aria-haspopup="true">
       <a href="{{ link.url }}" class="site-nav__link">
-        <div class="site-nav--link-wrapper">
+        <div class="site-nav--link-wrapper{% if is_highlighted %} nav-highlight{% endif %}">
           <span class="site-nav--link-text animated-underline">
             {{ link.title }}
           </span>
         </div>
       </a>
 
-      {% liquid 
+      {% liquid
         assign has_subdropdowns = false
         for sub_link in link.links
           if sub_link.levels > 0
@@ -110,7 +117,7 @@
 
     <li class="first-level-dropdown{% if is-mega-menu %} site-nav--has-dropdown mega-menu{% endif %}" {% if is-mega-menu %}aria-haspopup="true"{% endif %}>
       <a href="{{ link.url }}" class="site-nav__link">
-        <div class="site-nav--link-wrapper">
+        <div class="site-nav--link-wrapper{% if is_highlighted %} nav-highlight{% endif %}">
           <span class="site-nav--link-text animated-underline">
             {{ link.title }}
           </span>
@@ -135,3 +142,18 @@
     }
   {% endstyle %}
 {% endif %}
+
+{% style %}
+  .nav-highlight {
+    background-color: #E87A2E;
+    color: #ffffff !important;
+    padding: 6px 12px;
+    border-radius: 4px;
+  }
+  .nav-highlight .site-nav--link-text {
+    color: #ffffff !important;
+  }
+  .nav-highlight:hover {
+    background-color: #d06a1e;
+  }
+{% endstyle %}

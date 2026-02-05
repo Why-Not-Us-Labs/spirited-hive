@@ -1,1 +1,642 @@
-{"sections":{"image_with_text_slideshow_xWrVgU":{"type":"image-with-text-slideshow","blocks":{"image_and_text_t7nnWN":{"type":"image_and_text","settings":{"image":"shopify:\/\/shop_images\/spirited-hive-1762201971752.png","subheading":"","heading":"<strong>CHEERS, HIVE HERE!<\/strong>","text":"<p>Spiked. Your. Holiday.<\/p><p>Our signature vodka cranberry cocktail sweetened with 100% organic wildflower honey<\/p>","page":"","slide_link":"shopify:\/\/products\/spirited-hive-vodka-cranberry-lime","first_button_link":"shopify:\/\/products\/spirited-hive-vodka-cranberry-lime","first_button_label":"Get Your Spirit","second_button_link":"","second_button_label":"","buttons_style":"filled","override_button_colors":true,"color_button_background":"#000000","color_button_text":"#ffffff","media_position_desktop":"left","text_position_desktop":"center","text_alignment_desktop":"center","media_position_mobile":"top","text_alignment_mobile":"center","text_color":"#ffffff","background_color":"#DC143C"}}},"block_order":["image_and_text_t7nnWN"],"settings":{"title":"","description":"","heading_font_size_desktop":41,"text_font_size_desktop":21,"heading_font_size_mobile":28,"text_font_size_mobile":16,"image_size":"medium","image_shape":"wide","hover_navigation_desktop":"left-and-right","section_width":"full-width","section_padding_top":0,"section_padding_bottom":0,"colors":"white","override_navigation_button_colors":false,"button_background_color":"#e68819","button_text_color":"#ffffff"}},"holiday_video_carousel_HKdP3x":{"type":"holiday-video-carousel","blocks":{"video_1":{"type":"video","settings":{"video_title":"The Grinch Discovers Spirited Hive","video_description":"Watch what happens when the Grinch gets his hands on our honey-sweetened cocktails...","video":"","video_url":"","poster_image":""}},"video_2":{"type":"video","settings":{"video_title":"Santa's Workshop Goes Wild","video_description":"The elves found the secret ingredient to make Christmas merrier... spoiler: it's vodka cranberry!","video":"","video_url":"","poster_image":""}},"video_3":{"type":"video","settings":{"video_title":"Rudolph's Night Off","video_description":"Even reindeer need to unwind after practice runs. Turns out Rudolph's a vodka cranberry guy!","video":"","video_url":"","poster_image":""}},"video_4":{"type":"video","settings":{"video_title":"Frosty's Meltdown (The Good Kind)","video_description":"Who knew snowmen could party? Watch Frosty discover his new favorite way to chill!","video":"","video_url":"","poster_image":""}}},"block_order":["video_1","video_2","video_3","video_4"],"settings":{"heading":"Holiday Spirits & Skits","subheading":"Watch Jack's hilarious holiday character videos","show_recipe_card":false,"recipe_title":"Holiday Vodka Cranberry","recipe_description":"","recipe_ingredients":"","recipe_instructions":"","prep_time":"2 minutes","servings":"1 cocktail","video_aspect_ratio":"16 \/ 9","mute_by_default":true,"show_thumbnails":true,"background_color":"#DC143C","heading_color":"#ffffff","text_color":"#ffffff","accent_color":"#ffffff","video_border_radius":10,"section_padding_top":60,"section_padding_bottom":60,"colors":"default"}},"holiday_reviews_RjN9mQ":{"type":"holiday-reviews","blocks":{"review_1":{"type":"holiday_character","settings":{"character_name":"The Grinch","character_image":"","stars":1,"review_text":"<p>\"This stuff is TERRIBLE. Made my heart grow THREE sizes. Now I have to start liking Christmas. Thanks a lot.\"<\/p>","link":""}},"review_2":{"type":"holiday_character","settings":{"character_name":"The Grinch (30 minutes later)","character_image":"","stars":5,"review_text":"<p>\"Okay fine, I LIED. This honey-sweetened vodka cranberry is FIRE. Who Ville is getting CASES of this for Christmas!\"<\/p>","link":""}},"review_3":{"type":"holiday_character","settings":{"character_name":"Santa Claus","character_image":"","stars":5,"review_text":"<p>\"Ho ho WHOA! The elves have been 'taste testing' these all week. Production is down 40% but morale is up 300%!\"<\/p>","link":""}},"review_4":{"type":"holiday_character","settings":{"character_name":"Rudolph","character_image":"","stars":5,"review_text":"<p>\"Yo this Hive stuff SLAPS! My nose ain't the only thing that's red now! Santa's sleigh runs on vodka cranberry this year, no cap! 🦌🔥\"<\/p>","link":""}},"review_5":{"type":"holiday_character","settings":{"character_name":"Frosty the Snowman","character_image":"","stars":5,"review_text":"<p>\"Was worried about melting but turns out I just needed to CHILL with a Spirited Hive. Best decision of my frozen life!\"<\/p>","link":""}},"review_6":{"type":"holiday_character","settings":{"character_name":"Buddy the Elf","character_image":"","stars":5,"review_text":"<p>\"I tried putting this in spaghetti and OH MY GOD it's even better than maple syrup! Spreading Christmas cheer just got a whole lot easier!\"<\/p>","link":""}},"review_7":{"type":"holiday_character","settings":{"character_name":"Ebenezer Scrooge","character_image":"","stars":5,"review_text":"<p>\"BAH HUMBUG to cheap cocktails! This honey-sweetened vodka cranberry is worth every penny. Tiny Tim is getting a case!\"<\/p>","link":""}},"review_8":{"type":"holiday_character","settings":{"character_name":"Jack Frost","character_image":"","stars":5,"review_text":"<p>\"Nipping at your nose? Amateur hour. I'm nipping at THIS vodka cranberry all winter long. Ice cold meets ice cold! ❄️\"<\/p>","link":""}},"review_9":{"type":"holiday_character","settings":{"character_name":"The Abominable Snowman","character_image":"","stars":5,"review_text":"<p>\"ROAAAAR! *translation: This is the only thing that warms me up in the North Pole. Bumble approves!*\"<\/p>","link":""}},"review_10":{"type":"holiday_character","settings":{"character_name":"Mrs. Claus","character_image":"","stars":5,"review_text":"<p>\"Finally something to help me deal with Santa's snoring after Christmas Eve. This honey vodka cranberry is MY little helper!\"<\/p>","link":""}},"review_11":{"type":"holiday_character","settings":{"character_name":"Elf on the Shelf","character_image":"","stars":5,"review_text":"<p>\"Been watching you drink these all month. Reporting back to Santa: YOU'RE ON THE NICE LIST. This stuff is too good!\"<\/p>","link":""}},"review_12":{"type":"holiday_character","settings":{"character_name":"Krampus","character_image":"","stars":5,"review_text":"<p>\"Usually I punish naughty children but after a few of these I'm just vibing. Spirited Hive: Reforming demons since 2025!\"<\/p>","link":""}},"review_13":{"type":"holiday_character","settings":{"character_name":"Hermey the Elf","character_image":"","stars":5,"review_text":"<p>\"I wanted to be a dentist but after tasting this honey-sweetened perfection, I'm opening a BAR in the North Pole instead!\"<\/p>","link":""}},"review_14":{"type":"holiday_character","settings":{"character_name":"Yukon Cornelius","character_image":"","stars":5,"review_text":"<p>\"Bumbles bounce, silver and gold are okay, but THIS? This vodka cranberry is the real treasure I've been searching for!\"<\/p>","link":""}},"review_15":{"type":"holiday_character","settings":{"character_name":"The Nutcracker","character_image":"","stars":5,"review_text":"<p>\"Been cracking nuts for YEARS. Finally found something that cracks better than nuts: THIS HONEY VODKA CRANBERRY! *cracks another can*\"<\/p>","link":""}},"review_16":{"type":"holiday_character","settings":{"character_name":"Heat Miser","character_image":"","stars":5,"review_text":"<p>\"I'm Mr. Heat Miser, I'm too much! But even I need to cool down with a Spirited Hive. My brother Snow Miser is PISSED!\"<\/p>","link":""}},"review_17":{"type":"holiday_character","settings":{"character_name":"Snow Miser","character_image":"","stars":5,"review_text":"<p>\"Whatever Heat Miser said, I AGREE! This is ice cold perfection! We're finally on the same page about something!\"<\/p>","link":""}},"review_18":{"type":"holiday_character","settings":{"character_name":"Kevin McCallister","character_image":"","stars":5,"review_text":"<p>\"Home Alone? More like HOME WITH SPIRITED HIVE! Set up booby traps to protect my stash. The Wet Bandits can't have these!\"<\/p>","link":""}}},"block_order":["review_1","review_2","review_3","review_4","review_5","review_6","review_7","review_8","review_9","review_10","review_11","review_12","review_13","review_14","review_15","review_16","review_17","review_18"],"settings":{"holiday_start_date":"2025-11-01","holiday_end_date":"2025-12-31","force_holiday_mode":true,"force_real_reviews":false,"show_debug_info":false,"holiday_title":"What Holiday Characters Are Saying","holiday_description":"<p>Even the most magical characters can't resist our holiday cocktails!<\/p>","real_reviews_title":"What Our Customers Are Saying","real_reviews_description":"<p>Hear from real customers who love Spirited Hive!<\/p>","circle_images":true,"section_padding_top":60,"section_padding_bottom":60,"colors":"default"}},"collage_93cCG9":{"type":"collage","blocks":{"image_3M4AFC":{"type":"image","settings":{"desktop_image":"shopify:\/\/shop_images\/Spirited_Hive_-_RTD_-_Core_carton_web.png","desktop_position":"md-min-align-bottom md-min-justify-left","mobile_position":"md-max-align-bottom md-max-justify-right","heading":"DISCOVER THE DRINKS","heading_size":30,"url":"shopify:\/\/collections\/drinks","button_label":"SHOP THE DRINKS","buttons_style":"filled","override_button_colors":true,"button_background_color":"#f2bd35","button_color":"#242424","text_color":"#ffffff","overlay_color":"#000000"}},"background_video_YtCdKX":{"type":"background_video","settings":{"video":"shopify:\/\/files\/videos\/Hive - Tequila Ginger Animation_1.webm","video_url":"","video_alt_text":"","mobile_video_url":"","mobile_video_alt_text":"","heading":"READY TO ENJOY","heading_size":30,"url":"shopify:\/\/products\/spirited-hive-tequila-ginger","button_label":"SHOP TEQUILA GINGER & LIME","buttons_style":"filled","override_button_colors":true,"button_background_color":"#ffffff","button_color":"#3d3d3d","desktop_position":"md-min-align-bottom md-min-justify-right","mobile_position":"md-max-align-bottom md-max-justify-right","text_color":"#ffffff","overlay_color":"#000000"}},"text_LkQkWb":{"type":"text","settings":{"heading":"FIND YOUR HIVE.","heading_size":30,"text":"Skip the wait! Find Spirited Hive at a convenient location near you today!","url":"shopify:\/\/pages\/find-hive-near-you","button_label":"Store Locator","buttons_style":"filled","override_button_colors":false,"button_background_color":"#e68819","button_color":"#ffffff","desktop_position":"md-min-align-center md-min-justify-left","text_alignment":"left","background_color":"#f2bd35","text_color":"#000000"}},"image_mtJWEt":{"type":"image","settings":{"desktop_image":"shopify:\/\/shop_images\/Hive_House_Miami_108_web.png","desktop_position":"md-min-align-bottom md-min-justify-right","mobile_position":"md-max-align-bottom md-max-justify-right","heading":"READY TO ENJOY","heading_size":20,"url":"","button_label":"","buttons_style":"filled","override_button_colors":false,"button_background_color":"#e68819","button_color":"#ffffff","text_color":"#ffffff","overlay_color":"#242424"}},"image_iw3wqi":{"type":"image","settings":{"desktop_image":"shopify:\/\/shop_images\/15_b46180b4-9727-48b8-a90a-37a11201c9db.png","desktop_position":"md-min-align-bottom md-min-justify-right","mobile_position":"md-max-align-bottom md-max-justify-right","heading":"PREMIUM SPIRITS","heading_size":20,"url":"","button_label":"","buttons_style":"filled","override_button_colors":false,"button_background_color":"#e68819","button_color":"#ffffff","text_color":"#ffffff","overlay_color":"#3d3d3d"}},"image_hPeaTR":{"type":"image","settings":{"desktop_image":"shopify:\/\/shop_images\/Hive_BeeConservation_01.jpg","desktop_position":"md-min-align-bottom md-min-justify-right","mobile_position":"md-max-align-bottom md-max-justify-right","heading":"100% SWEETENED WITH HONEY","heading_size":20,"url":"","button_label":"","buttons_style":"filled","override_button_colors":false,"button_background_color":"#e68819","button_color":"#ffffff","text_color":"#ffffff","overlay_color":"#3d3d3d"}}},"block_order":["image_3M4AFC","background_video_YtCdKX","text_LkQkWb","image_mtJWEt","image_iw3wqi","image_hPeaTR"],"custom_css":["div.collage-builder__grid-item:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(3) {background: linear-gradient( to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.4) 80% );}","div.collage-builder__grid-item:nth-child(4) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(3) {background: linear-gradient( to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.4) 80% );}"],"settings":{"title":"","description":"","section_width":"full","remove_spacing":false,"block_alignment":"center","section_padding_top":30,"section_padding_bottom":30,"width_1":"2","height_1":"2","width_2":"2","height_2":"2","width_3":"4","height_3":"3","width_4":"4","height_4":"3","width_5":"4","height_5":"3","width_6":"4","height_6":"3","color_scheme":"white"}},"featured_collection_ywadtf":{"type":"featured-collection","settings":{"title":"THE BETTER-FOR-YOU CANNED COCKTAIL.","description":"","collection":"drinks","override_button_colors":false,"button_background_color":"#e68819","button_text_color":"#ffffff","show_view_all":false,"buttons_style":"filled","section_padding_top":30,"section_padding_bottom":30,"layout_style":"grid","products_to_show":3,"grid-desktop":3,"grid-mobile":"1","colors":"white"}},"image_with_text_slideshow_qLqkrx":{"type":"image-with-text-slideshow","blocks":{"image_and_text_mjHBaX":{"type":"image_and_text","settings":{"image":"shopify:\/\/shop_images\/13_3d4df3a7-d0c9-4da9-b5cf-96ba1d242357.png","subheading":"","heading":"ROTATING CAMPAIGN","text":"<p>Hive's rotating\/seasonal campaigns will live in this section. <\/p>","page":"","slide_link":"","first_button_link":"","first_button_label":"Learn More","second_button_link":"","second_button_label":"Shop Now","buttons_style":"filled","override_button_colors":false,"color_button_background":"#e68819","color_button_text":"#ffffff","media_position_desktop":"left","text_position_desktop":"center","text_alignment_desktop":"center","media_position_mobile":"top","text_alignment_mobile":"center","text_color":"rgba(0,0,0,0)","background_color":"rgba(0,0,0,0)"}},"image_and_text_PcwXaj":{"type":"image_and_text","settings":{"image":"shopify:\/\/shop_images\/Untitleddesign_1.jpg","subheading":"Subheading","heading":"Rotating campaign","text":"<p>Hive's rotating\/seasonal campaigns will live in this section. <\/p>","page":"","slide_link":"","first_button_link":"","first_button_label":"Learn More","second_button_link":"","second_button_label":"Shop Now","buttons_style":"filled","override_button_colors":false,"color_button_background":"#e68819","color_button_text":"#ffffff","media_position_desktop":"right","text_position_desktop":"center","text_alignment_desktop":"center","media_position_mobile":"top","text_alignment_mobile":"center","text_color":"rgba(0,0,0,0)","background_color":"rgba(0,0,0,0)"}}},"block_order":["image_and_text_mjHBaX","image_and_text_PcwXaj"],"disabled":true,"settings":{"title":"","description":"","heading_font_size_desktop":28,"text_font_size_desktop":16,"heading_font_size_mobile":28,"text_font_size_mobile":16,"image_size":"small","image_shape":"square","hover_navigation_desktop":"right","section_width":"content","section_padding_top":0,"section_padding_bottom":30,"colors":"white","override_navigation_button_colors":false,"button_background_color":"#e68819","button_text_color":"#ffffff"}},"image_with_text_overlay_zeGWxL":{"type":"image-with-text-overlay","blocks":{"heading_MhjtHY":{"type":"heading","settings":{"title":"Rotating campaign","font_size_desktop":28,"font_size_mobile":28,"heading_bottom_spacing":25}},"text_AqMQER":{"type":"text","settings":{"text":"<p>Rotating campaign text Rotating campaign text Rotating campaign text Rotating campaign text Rotating campaign text Rotating campaign text Rotating campaign text Rotating campaign text <\/p>","font_size_desktop":16,"font_size_mobile":16,"text_bottom_spacing":20}},"button_yBf9Kh":{"type":"button","settings":{"first_button_link":"","first_button_label":"Shop now","second_button_link":"","second_button_label":"","buttons_style":"filled","override_button_colors":false,"buttons_background":"#e68819","buttons_text":"#ffffff","buttons_bottom_spacing":0}}},"block_order":["heading_MhjtHY","text_AqMQER","button_yBf9Kh"],"disabled":true,"settings":{"height_desktop":"original","text_position_desktop":"center","text_alignment_desktop":"center","caption_width_desktop":50,"height_mobile":"original","text_position_mobile":"center","text_alignment_mobile":"center","section_link":"","animation_style":"none","section_margin_top":0,"section_margin_bottom":30,"text_color":"#ffffff","caption_bg_color":"rgba(0,0,0,0)","image_overlay_color":"#242424","image_overlay_opacity":0}},"scrolling_banner_6mWKLR":{"type":"scrolling-banner","blocks":{"text_cHLNKk":{"type":"text","settings":{"text":"FIND YOUR HIVE","font":"heading","style":"fill","font_size_desktop":30,"font_size_mobile":28}},"image_U9zMPt":{"type":"image","settings":{"image":"shopify:\/\/shop_images\/13_cbff3cb3-5897-4177-9242-510c41add4be.png","height_desktop":60,"height_mobile":60,"link":""}},"text_CWB9nt":{"type":"text","settings":{"text":"FIND YOUR HIVE","font":"heading","style":"fill","font_size_desktop":30,"font_size_mobile":28}},"image_7rknAA":{"type":"image","settings":{"image":"shopify:\/\/shop_images\/6_5134f750-e325-4f4a-accb-cfffa0af008f.png","height_desktop":60,"height_mobile":60,"link":""}}},"block_order":["text_cHLNKk","image_U9zMPt","text_CWB9nt","image_7rknAA"],"disabled":true,"settings":{"title":"","description":"","show_fade":false,"borders":false,"animation_direction":"normal","animation_speed":60,"section_padding_top":0,"section_padding_bottom":0,"space_between_blocks_desktop":80,"space_between_blocks_mobile":20,"rotate":"0","color_scheme":"white"}},"collage_BkfDbg":{"type":"collage","blocks":{"image_br8XMp":{"type":"image","settings":{"desktop_image":"shopify:\/\/shop_images\/Hive_House_Miami_60_web.png","desktop_position":"md-min-align-bottom md-min-justify-left","mobile_position":"md-max-align-bottom md-max-justify-right","heading":"IT'S HIVE O'CLOCK SOMEWHERE","heading_size":30,"url":"","button_label":"Shop now","buttons_style":"filled","override_button_colors":false,"button_background_color":"#e68819","button_color":"#ffffff","text_color":"#ffffff","overlay_color":"rgba(0,0,0,0)"}},"background_video_GJRBf6":{"type":"background_video","disabled":true,"settings":{"video":"shopify:\/\/files\/videos\/Hive - Tequila Ginger Animation_1.webm","video_url":"","video_alt_text":"","mobile_video_url":"","mobile_video_alt_text":"","heading":"CAMPAIGN VIDEO","heading_size":30,"url":"","button_label":"","buttons_style":"filled","override_button_colors":false,"button_background_color":"#e68819","button_color":"#ffffff","desktop_position":"md-min-align-bottom md-min-justify-right","mobile_position":"md-max-align-bottom md-max-justify-right","text_color":"#ffffff","overlay_color":"#000000"}}},"block_order":["image_br8XMp","background_video_GJRBf6"],"settings":{"title":"","description":"","section_width":"full","remove_spacing":true,"block_alignment":"center","section_padding_top":60,"section_padding_bottom":0,"width_1":"1","height_1":"2","width_2":"2","height_2":"2","width_3":"3","height_3":"3","width_4":"2","height_4":"2","width_5":"2","height_5":"2","width_6":"1","height_6":"4","color_scheme":"white"}},"accordion_xbEBKn":{"type":"accordion","blocks":{"tab_content_jmdR78":{"type":"tab_content","settings":{"question":"What is the ABV of Spirited Hive cocktails?","open_by_default":true,"text":"<p>Spirited Hive cocktails are <strong>7% ABV<\/strong>, giving you the perfect balance of strength and smoothness. Crafted with real spirits, they’re designed for a flavorful, elevated drinking experience.<\/p>","page":""}},"tab_content_GYBUcf":{"type":"tab_content","settings":{"question":"Are Spirited Hive cocktails all-natural?","open_by_default":false,"text":"<p>Yes! We only use <strong>natural and organic ingredients<\/strong> in every can. Our cocktails are <strong>100% sweetened with organic wildflower honey<\/strong>, with no artificial flavors, synthetic sweeteners, or preservatives—just clean, real ingredients.<\/p>","page":""}},"tab_content_fXbWBA":{"type":"tab_content","settings":{"question":"Why do you use organic wildflower honey?","open_by_default":false,"text":"<p>We use <strong>100% organic wildflower honey<\/strong> because we believe in real, high-quality ingredients—and because it’s our founder Jack’s favorite type of honey. Wildflower honey offers a naturally rich, complex flavor that enhances our cocktails, making them smooth, balanced, and uniquely delicious.<\/p>","page":""}},"tab_content_CXfPyJ":{"type":"tab_content","settings":{"question":"What makes Spirited Hive different?","open_by_default":false,"text":"<p>Spirited Hive is <strong>all-natural and sweetened with organic honey<\/strong>, setting us apart from other canned cocktails that rely on synthetic sweeteners and artificial ingredients. We believe in <strong>better-for-you<\/strong> drinks that don’t compromise on taste, so you can sip with confidence.<\/p>","page":""}}},"block_order":["tab_content_jmdR78","tab_content_GYBUcf","tab_content_fXbWBA","tab_content_CXfPyJ"],"settings":{"title":"Frequently asked questions","description":"","faq_icon":"plus_minus","section_width":"narrow","section_padding_top":60,"section_padding_bottom":60,"colors":"white"}},"scrolling_banner_b3RwKk":{"type":"scrolling-banner","blocks":{"text_jn9XQR":{"type":"text","settings":{"text":"BEE DIFFERENT","font":"heading","style":"fill","font_size_desktop":48,"font_size_mobile":28}},"image_ckY8Ty":{"type":"image","settings":{"image":"shopify:\/\/shop_images\/Home_Page_Image-square.png","height_desktop":84,"height_mobile":60,"link":""}},"text_imP8w6":{"type":"text","settings":{"text":"DRINK BETTER","font":"heading","style":"fill","font_size_desktop":48,"font_size_mobile":28}},"image_4AiAqW":{"type":"image","settings":{"image":"shopify:\/\/shop_images\/Tequila_Page-min.png","height_desktop":84,"height_mobile":60,"link":""}}},"block_order":["text_jn9XQR","image_ckY8Ty","text_imP8w6","image_4AiAqW"],"settings":{"title":"","description":"","show_fade":false,"borders":false,"animation_direction":"normal","animation_speed":60,"section_padding_top":60,"section_padding_bottom":60,"space_between_blocks_desktop":80,"space_between_blocks_mobile":20,"rotate":"0","color_scheme":"white"}}},"order":["image_with_text_slideshow_xWrVgU","holiday_video_carousel_HKdP3x","holiday_reviews_RjN9mQ","collage_93cCG9","featured_collection_ywadtf","image_with_text_slideshow_qLqkrx","image_with_text_overlay_zeGWxL","scrolling_banner_6mWKLR","collage_BkfDbg","accordion_xbEBKn","scrolling_banner_b3RwKk"]}
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "image_with_text_slideshow_xWrVgU": {
+      "type": "image-with-text-slideshow",
+      "blocks": {
+        "image_and_text_t7nnWN": {
+          "type": "image_and_text",
+          "settings": {
+            "image": "shopify://shop_images/Home_Page_Image-square.png",
+            "subheading": "",
+            "heading": "<strong>IT'S TEA TIME</strong>",
+            "text": "<p>Better-For-You Canned Cocktail</p><p>100% Sweetened with Organic Wildflower Honey</p>",
+            "page": "",
+            "slide_link": "shopify://pages/find-hive-near-you",
+            "first_button_link": "shopify://collections/all-products",
+            "first_button_label": "Shop Vodka Iced Tea",
+            "second_button_link": "",
+            "second_button_label": "",
+            "buttons_style": "filled",
+            "override_button_colors": true,
+            "color_button_background": "#ffffff",
+            "color_button_text": "#505050",
+            "media_position_desktop": "left",
+            "text_position_desktop": "center",
+            "text_alignment_desktop": "center",
+            "media_position_mobile": "top",
+            "text_alignment_mobile": "center",
+            "text_color": "#f2bd35",
+            "background_color": "#121212"
+          }
+        }
+      },
+      "block_order": [
+        "image_and_text_t7nnWN"
+      ],
+      "settings": {
+        "title": "",
+        "description": "",
+        "heading_font_size_desktop": 41,
+        "text_font_size_desktop": 21,
+        "heading_font_size_mobile": 28,
+        "text_font_size_mobile": 16,
+        "image_size": "medium",
+        "image_shape": "wide",
+        "hover_navigation_desktop": "left-and-right",
+        "section_width": "full-width",
+        "section_padding_top": 0,
+        "section_padding_bottom": 0,
+        "colors": "white",
+        "override_navigation_button_colors": false,
+        "button_background_color": "#e68819",
+        "button_text_color": "#ffffff"
+      }
+    },
+    "collage_93cCG9": {
+      "type": "collage",
+      "blocks": {
+        "image_3M4AFC": {
+          "type": "image",
+          "settings": {
+            "desktop_image": "shopify://shop_images/Spirited_Hive_-_RTD_-_Core_carton_web.png",
+            "desktop_position": "md-min-align-bottom md-min-justify-left",
+            "mobile_position": "md-max-align-bottom md-max-justify-right",
+            "heading": "DISCOVER THE DRINKS",
+            "heading_size": 30,
+            "url": "shopify://collections/drinks",
+            "button_label": "SHOP THE DRINKS",
+            "buttons_style": "filled",
+            "override_button_colors": true,
+            "button_background_color": "#f2bd35",
+            "button_color": "#242424",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000"
+          }
+        },
+        "background_video_YtCdKX": {
+          "type": "background_video",
+          "settings": {
+            "video": "shopify://files/videos/Hive - Tequila Ginger Animation_1.webm",
+            "video_url": "",
+            "video_alt_text": "",
+            "mobile_video_url": "",
+            "mobile_video_alt_text": "",
+            "heading": "READY TO ENJOY",
+            "heading_size": 30,
+            "url": "shopify://products/spirited-hive-tequila-ginger",
+            "button_label": "SHOP TEQUILA GINGER & LIME",
+            "buttons_style": "filled",
+            "override_button_colors": true,
+            "button_background_color": "#ffffff",
+            "button_color": "#3d3d3d",
+            "desktop_position": "md-min-align-bottom md-min-justify-right",
+            "mobile_position": "md-max-align-bottom md-max-justify-right",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000"
+          }
+        },
+        "text_LkQkWb": {
+          "type": "text",
+          "settings": {
+            "heading": "FIND YOUR HIVE.",
+            "heading_size": 30,
+            "text": "Skip the wait! Find Spirited Hive at a convenient location near you today!",
+            "url": "shopify://pages/find-hive-near-you",
+            "button_label": "Store Locator",
+            "buttons_style": "filled",
+            "override_button_colors": false,
+            "button_background_color": "#e68819",
+            "button_color": "#ffffff",
+            "desktop_position": "md-min-align-center md-min-justify-left",
+            "text_alignment": "left",
+            "background_color": "#f2bd35",
+            "text_color": "#000000"
+          }
+        },
+        "image_mtJWEt": {
+          "type": "image",
+          "settings": {
+            "desktop_image": "shopify://shop_images/Hive_House_Miami_108_web.png",
+            "desktop_position": "md-min-align-bottom md-min-justify-right",
+            "mobile_position": "md-max-align-bottom md-max-justify-right",
+            "heading": "READY TO ENJOY",
+            "heading_size": 20,
+            "url": "",
+            "button_label": "",
+            "buttons_style": "filled",
+            "override_button_colors": false,
+            "button_background_color": "#e68819",
+            "button_color": "#ffffff",
+            "text_color": "#ffffff",
+            "overlay_color": "#242424"
+          }
+        },
+        "image_iw3wqi": {
+          "type": "image",
+          "settings": {
+            "desktop_image": "shopify://shop_images/15_b46180b4-9727-48b8-a90a-37a11201c9db.png",
+            "desktop_position": "md-min-align-bottom md-min-justify-right",
+            "mobile_position": "md-max-align-bottom md-max-justify-right",
+            "heading": "PREMIUM SPIRITS",
+            "heading_size": 20,
+            "url": "",
+            "button_label": "",
+            "buttons_style": "filled",
+            "override_button_colors": false,
+            "button_background_color": "#e68819",
+            "button_color": "#ffffff",
+            "text_color": "#ffffff",
+            "overlay_color": "#3d3d3d"
+          }
+        },
+        "image_hPeaTR": {
+          "type": "image",
+          "settings": {
+            "desktop_image": "shopify://shop_images/Hive_BeeConservation_01.jpg",
+            "desktop_position": "md-min-align-bottom md-min-justify-right",
+            "mobile_position": "md-max-align-bottom md-max-justify-right",
+            "heading": "100% SWEETENED WITH HONEY",
+            "heading_size": 20,
+            "url": "",
+            "button_label": "",
+            "buttons_style": "filled",
+            "override_button_colors": false,
+            "button_background_color": "#e68819",
+            "button_color": "#ffffff",
+            "text_color": "#ffffff",
+            "overlay_color": "#3d3d3d"
+          }
+        }
+      },
+      "block_order": [
+        "image_3M4AFC",
+        "background_video_YtCdKX",
+        "text_LkQkWb",
+        "image_mtJWEt",
+        "image_iw3wqi",
+        "image_hPeaTR"
+      ],
+      "custom_css": [
+        "div.collage-builder__grid-item:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(3) {background: linear-gradient( to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.4) 80% );}",
+        "div.collage-builder__grid-item:nth-child(4) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(3) {background: linear-gradient( to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.4) 80% );}"
+      ],
+      "settings": {
+        "title": "",
+        "description": "",
+        "section_width": "full",
+        "remove_spacing": false,
+        "block_alignment": "center",
+        "section_padding_top": 30,
+        "section_padding_bottom": 30,
+        "width_1": "2",
+        "height_1": "2",
+        "width_2": "2",
+        "height_2": "2",
+        "width_3": "4",
+        "height_3": "3",
+        "width_4": "4",
+        "height_4": "3",
+        "width_5": "4",
+        "height_5": "3",
+        "width_6": "4",
+        "height_6": "3",
+        "color_scheme": "white"
+      }
+    },
+    "featured_collection_ywadtf": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "THE BETTER-FOR-YOU CANNED COCKTAIL.",
+        "description": "",
+        "collection": "drinks",
+        "override_button_colors": false,
+        "button_background_color": "#e68819",
+        "button_text_color": "#ffffff",
+        "show_view_all": false,
+        "buttons_style": "filled",
+        "section_padding_top": 30,
+        "section_padding_bottom": 30,
+        "layout_style": "grid",
+        "products_to_show": 3,
+        "grid-desktop": 3,
+        "grid-mobile": "1",
+        "colors": "white"
+      }
+    },
+    "image_with_text_slideshow_qLqkrx": {
+      "type": "image-with-text-slideshow",
+      "blocks": {
+        "image_and_text_mjHBaX": {
+          "type": "image_and_text",
+          "settings": {
+            "image": "shopify://shop_images/13_3d4df3a7-d0c9-4da9-b5cf-96ba1d242357.png",
+            "subheading": "",
+            "heading": "ROTATING CAMPAIGN",
+            "text": "<p>Hive's rotating/seasonal campaigns will live in this section. </p>",
+            "page": "",
+            "slide_link": "",
+            "first_button_link": "",
+            "first_button_label": "Learn More",
+            "second_button_link": "",
+            "second_button_label": "Shop Now",
+            "buttons_style": "filled",
+            "override_button_colors": false,
+            "color_button_background": "#e68819",
+            "color_button_text": "#ffffff",
+            "media_position_desktop": "left",
+            "text_position_desktop": "center",
+            "text_alignment_desktop": "center",
+            "media_position_mobile": "top",
+            "text_alignment_mobile": "center",
+            "text_color": "rgba(0,0,0,0)",
+            "background_color": "rgba(0,0,0,0)"
+          }
+        },
+        "image_and_text_PcwXaj": {
+          "type": "image_and_text",
+          "settings": {
+            "image": "shopify://shop_images/Untitleddesign_1.jpg",
+            "subheading": "Subheading",
+            "heading": "Rotating campaign",
+            "text": "<p>Hive's rotating/seasonal campaigns will live in this section. </p>",
+            "page": "",
+            "slide_link": "",
+            "first_button_link": "",
+            "first_button_label": "Learn More",
+            "second_button_link": "",
+            "second_button_label": "Shop Now",
+            "buttons_style": "filled",
+            "override_button_colors": false,
+            "color_button_background": "#e68819",
+            "color_button_text": "#ffffff",
+            "media_position_desktop": "right",
+            "text_position_desktop": "center",
+            "text_alignment_desktop": "center",
+            "media_position_mobile": "top",
+            "text_alignment_mobile": "center",
+            "text_color": "rgba(0,0,0,0)",
+            "background_color": "rgba(0,0,0,0)"
+          }
+        }
+      },
+      "block_order": [
+        "image_and_text_mjHBaX",
+        "image_and_text_PcwXaj"
+      ],
+      "disabled": true,
+      "settings": {
+        "title": "",
+        "description": "",
+        "heading_font_size_desktop": 28,
+        "text_font_size_desktop": 16,
+        "heading_font_size_mobile": 28,
+        "text_font_size_mobile": 16,
+        "image_size": "small",
+        "image_shape": "square",
+        "hover_navigation_desktop": "right",
+        "section_width": "content",
+        "section_padding_top": 0,
+        "section_padding_bottom": 30,
+        "colors": "white",
+        "override_navigation_button_colors": false,
+        "button_background_color": "#e68819",
+        "button_text_color": "#ffffff"
+      }
+    },
+    "image_with_text_overlay_zeGWxL": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "heading_MhjtHY": {
+          "type": "heading",
+          "settings": {
+            "title": "Rotating campaign",
+            "font_size_desktop": 28,
+            "font_size_mobile": 28,
+            "heading_bottom_spacing": 25
+          }
+        },
+        "text_AqMQER": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Rotating campaign text Rotating campaign text Rotating campaign text Rotating campaign text Rotating campaign text Rotating campaign text Rotating campaign text Rotating campaign text </p>",
+            "font_size_desktop": 16,
+            "font_size_mobile": 16,
+            "text_bottom_spacing": 20
+          }
+        },
+        "button_yBf9Kh": {
+          "type": "button",
+          "settings": {
+            "first_button_link": "",
+            "first_button_label": "Shop now",
+            "second_button_link": "",
+            "second_button_label": "",
+            "buttons_style": "filled",
+            "override_button_colors": false,
+            "buttons_background": "#e68819",
+            "buttons_text": "#ffffff",
+            "buttons_bottom_spacing": 0
+          }
+        }
+      },
+      "block_order": [
+        "heading_MhjtHY",
+        "text_AqMQER",
+        "button_yBf9Kh"
+      ],
+      "disabled": true,
+      "settings": {
+        "height_desktop": "original",
+        "text_position_desktop": "center",
+        "text_alignment_desktop": "center",
+        "caption_width_desktop": 50,
+        "height_mobile": "original",
+        "text_position_mobile": "center",
+        "text_alignment_mobile": "center",
+        "section_link": "",
+        "animation_style": "none",
+        "section_margin_top": 0,
+        "section_margin_bottom": 30,
+        "text_color": "#ffffff",
+        "caption_bg_color": "rgba(0,0,0,0)",
+        "image_overlay_color": "#242424",
+        "image_overlay_opacity": 0
+      }
+    },
+    "scrolling_banner_6mWKLR": {
+      "type": "scrolling-banner",
+      "blocks": {
+        "text_cHLNKk": {
+          "type": "text",
+          "settings": {
+            "text": "FIND YOUR HIVE",
+            "font": "heading",
+            "style": "fill",
+            "font_size_desktop": 30,
+            "font_size_mobile": 28
+          }
+        },
+        "image_U9zMPt": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/13_cbff3cb3-5897-4177-9242-510c41add4be.png",
+            "height_desktop": 60,
+            "height_mobile": 60,
+            "link": ""
+          }
+        },
+        "text_CWB9nt": {
+          "type": "text",
+          "settings": {
+            "text": "FIND YOUR HIVE",
+            "font": "heading",
+            "style": "fill",
+            "font_size_desktop": 30,
+            "font_size_mobile": 28
+          }
+        },
+        "image_7rknAA": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/6_5134f750-e325-4f4a-accb-cfffa0af008f.png",
+            "height_desktop": 60,
+            "height_mobile": 60,
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "text_cHLNKk",
+        "image_U9zMPt",
+        "text_CWB9nt",
+        "image_7rknAA"
+      ],
+      "disabled": true,
+      "settings": {
+        "title": "",
+        "description": "",
+        "show_fade": false,
+        "borders": false,
+        "animation_direction": "normal",
+        "animation_speed": 60,
+        "section_padding_top": 0,
+        "section_padding_bottom": 0,
+        "space_between_blocks_desktop": 80,
+        "space_between_blocks_mobile": 20,
+        "rotate": "0",
+        "color_scheme": "white"
+      }
+    },
+    "collage_BkfDbg": {
+      "type": "collage",
+      "blocks": {
+        "image_br8XMp": {
+          "type": "image",
+          "settings": {
+            "desktop_image": "shopify://shop_images/Hive_House_Miami_60_web.png",
+            "desktop_position": "md-min-align-bottom md-min-justify-left",
+            "mobile_position": "md-max-align-bottom md-max-justify-right",
+            "heading": "IT'S HIVE O'CLOCK SOMEWHERE",
+            "heading_size": 30,
+            "url": "",
+            "button_label": "Shop now",
+            "buttons_style": "filled",
+            "override_button_colors": false,
+            "button_background_color": "#e68819",
+            "button_color": "#ffffff",
+            "text_color": "#ffffff",
+            "overlay_color": "rgba(0,0,0,0)"
+          }
+        },
+        "background_video_GJRBf6": {
+          "type": "background_video",
+          "disabled": true,
+          "settings": {
+            "video": "shopify://files/videos/Hive - Tequila Ginger Animation_1.webm",
+            "video_url": "",
+            "video_alt_text": "",
+            "mobile_video_url": "",
+            "mobile_video_alt_text": "",
+            "heading": "CAMPAIGN VIDEO",
+            "heading_size": 30,
+            "url": "",
+            "button_label": "",
+            "buttons_style": "filled",
+            "override_button_colors": false,
+            "button_background_color": "#e68819",
+            "button_color": "#ffffff",
+            "desktop_position": "md-min-align-bottom md-min-justify-right",
+            "mobile_position": "md-max-align-bottom md-max-justify-right",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000"
+          }
+        }
+      },
+      "block_order": [
+        "image_br8XMp",
+        "background_video_GJRBf6"
+      ],
+      "settings": {
+        "title": "",
+        "description": "",
+        "section_width": "full",
+        "remove_spacing": true,
+        "block_alignment": "center",
+        "section_padding_top": 60,
+        "section_padding_bottom": 0,
+        "width_1": "1",
+        "height_1": "2",
+        "width_2": "2",
+        "height_2": "2",
+        "width_3": "3",
+        "height_3": "3",
+        "width_4": "2",
+        "height_4": "2",
+        "width_5": "2",
+        "height_5": "2",
+        "width_6": "1",
+        "height_6": "4",
+        "color_scheme": "white"
+      }
+    },
+    "accordion_xbEBKn": {
+      "type": "accordion",
+      "blocks": {
+        "tab_content_jmdR78": {
+          "type": "tab_content",
+          "settings": {
+            "question": "What is the ABV of Spirited Hive cocktails?",
+            "open_by_default": true,
+            "text": "<p>Spirited Hive cocktails are <strong>7% ABV</strong>, giving you the perfect balance of strength and smoothness. Crafted with real spirits, they’re designed for a flavorful, elevated drinking experience.</p>",
+            "page": ""
+          }
+        },
+        "tab_content_GYBUcf": {
+          "type": "tab_content",
+          "settings": {
+            "question": "Are Spirited Hive cocktails all-natural?",
+            "open_by_default": false,
+            "text": "<p>Yes! We only use <strong>natural and organic ingredients</strong> in every can. Our cocktails are <strong>100% sweetened with organic wildflower honey</strong>, with no artificial flavors, synthetic sweeteners, or preservatives—just clean, real ingredients.</p>",
+            "page": ""
+          }
+        },
+        "tab_content_fXbWBA": {
+          "type": "tab_content",
+          "settings": {
+            "question": "Why do you use organic wildflower honey?",
+            "open_by_default": false,
+            "text": "<p>We use <strong>100% organic wildflower honey</strong> because we believe in real, high-quality ingredients—and because it’s our founder Jack’s favorite type of honey. Wildflower honey offers a naturally rich, complex flavor that enhances our cocktails, making them smooth, balanced, and uniquely delicious.</p>",
+            "page": ""
+          }
+        },
+        "tab_content_CXfPyJ": {
+          "type": "tab_content",
+          "settings": {
+            "question": "What makes Spirited Hive different?",
+            "open_by_default": false,
+            "text": "<p>Spirited Hive is <strong>all-natural and sweetened with organic honey</strong>, setting us apart from other canned cocktails that rely on synthetic sweeteners and artificial ingredients. We believe in <strong>better-for-you</strong> drinks that don’t compromise on taste, so you can sip with confidence.</p>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "tab_content_jmdR78",
+        "tab_content_GYBUcf",
+        "tab_content_fXbWBA",
+        "tab_content_CXfPyJ"
+      ],
+      "settings": {
+        "title": "Frequently asked questions",
+        "description": "",
+        "faq_icon": "plus_minus",
+        "section_width": "narrow",
+        "section_padding_top": 60,
+        "section_padding_bottom": 60,
+        "colors": "white"
+      }
+    },
+    "scrolling_banner_b3RwKk": {
+      "type": "scrolling-banner",
+      "blocks": {
+        "text_jn9XQR": {
+          "type": "text",
+          "settings": {
+            "text": "BEE DIFFERENT",
+            "font": "heading",
+            "style": "fill",
+            "font_size_desktop": 48,
+            "font_size_mobile": 28
+          }
+        },
+        "image_ckY8Ty": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Home_Page_Image-square.png",
+            "height_desktop": 84,
+            "height_mobile": 60,
+            "link": ""
+          }
+        },
+        "text_imP8w6": {
+          "type": "text",
+          "settings": {
+            "text": "DRINK BETTER",
+            "font": "heading",
+            "style": "fill",
+            "font_size_desktop": 48,
+            "font_size_mobile": 28
+          }
+        },
+        "image_4AiAqW": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Tequila_Page-min.png",
+            "height_desktop": 84,
+            "height_mobile": 60,
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "text_jn9XQR",
+        "image_ckY8Ty",
+        "text_imP8w6",
+        "image_4AiAqW"
+      ],
+      "settings": {
+        "title": "",
+        "description": "",
+        "show_fade": false,
+        "borders": false,
+        "animation_direction": "normal",
+        "animation_speed": 60,
+        "section_padding_top": 60,
+        "section_padding_bottom": 60,
+        "space_between_blocks_desktop": 80,
+        "space_between_blocks_mobile": 20,
+        "rotate": "0",
+        "color_scheme": "white"
+      }
+    }
+  },
+  "order": [
+    "image_with_text_slideshow_xWrVgU",
+    "collage_93cCG9",
+    "featured_collection_ywadtf",
+    "image_with_text_slideshow_qLqkrx",
+    "image_with_text_overlay_zeGWxL",
+    "scrolling_banner_6mWKLR",
+    "collage_BkfDbg",
+    "accordion_xbEBKn",
+    "scrolling_banner_b3RwKk"
+  ]
+}
