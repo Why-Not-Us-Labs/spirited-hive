@@ -1,0 +1,391 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "product-form": {
+      "type": "template--product",
+      "blocks": {
+        "loox_reviews_loox_rating_UyRBx9": {
+          "type": "shopify://apps/loox-reviews/blocks/loox-rating/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e",
+          "disabled": true,
+          "settings": {
+            "contentSize": 16,
+            "pattern": "",
+            "hideText": false,
+            "alignment": "left",
+            "layout": "",
+            "textColor": "",
+            "starColor": "",
+            "showAllReviews": false,
+            "looxOpenFloatingWidget": false,
+            "emptyRatingWidget": false
+          }
+        },
+        "text_with_icon_abv": {
+          "type": "text-with-icon",
+          "settings": {
+            "icon": "star",
+            "text": "Vodka Iced Tea + Honey is 4.5% ABV",
+            "link": "",
+            "margin_bottom": 10,
+            "text_color": "#E87A2E"
+          }
+        },
+        "title": {
+          "type": "title",
+          "settings": {
+            "title_font": "h2",
+            "margin_bottom": 0
+          }
+        },
+        "star_rating_Xzpi9G": {
+          "type": "star_rating",
+          "settings": {
+            "show_rating_as": "count",
+            "star_size": 16,
+            "show_product_rating_if_no_reviews": false,
+            "no_reviews_label": "No reviews",
+            "margin_bottom": 5
+          }
+        },
+        "price": {
+          "type": "price",
+          "settings": {
+            "price_font": "h3",
+            "shipping_policy": false,
+            "tax_included": false,
+            "margin_bottom": 20
+          }
+        },
+        "product_description": {
+          "type": "product-description",
+          "settings": {
+            "collapsible_tab": true,
+            "icon": "none",
+            "heading": "About Vodka Iced Tea + Honey",
+            "open_close_icon": "plus_minus",
+            "open_by_default": true,
+            "margin_bottom": 0
+          }
+        },
+        "separator_1": {
+          "type": "separator",
+          "settings": {
+            "margin_bottom": 15
+          }
+        },
+        "options": {
+          "type": "options",
+          "settings": {
+            "variant_style": "swatches",
+            "hide_out_of_stock_variants": false,
+            "thumbnail_changes_variant": false,
+            "size_guide_label": "Size guide",
+            "size_guide_page": "",
+            "size_option_name": "Size",
+            "margin_bottom": 30
+          }
+        },
+        "appstle_subscription": {
+          "type": "shopify://apps/appstle-subscription/blocks/appstle-subscription-product-page-widget/fe257d39-6f88-4f35-ab08-bd437e3aa94e",
+          "settings": {}
+        },
+        "quantity": {
+          "type": "quantity",
+          "settings": {
+            "margin_bottom": 30
+          }
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_smart_checkout": true,
+            "enable_gift_card_recipient_form": true,
+            "margin_bottom": 30,
+            "override_button_colors": true,
+            "button_background_color": "#E87A2E",
+            "button_text_color": "#ffffff"
+          }
+        },
+        "ingredients_tab": {
+          "type": "collapsible-tab",
+          "settings": {
+            "heading": "Ingredients",
+            "open_close_icon": "caret",
+            "open_by_default": false,
+            "icon": "none",
+            "text": "<p>{{ product.metafields.custom.nutrition_ingredients | metafield_tag }}</p>",
+            "page": "",
+            "margin_bottom": 0
+          }
+        },
+        "nutrition_tab": {
+          "type": "collapsible-tab",
+          "settings": {
+            "heading": "Nutrition Facts",
+            "open_close_icon": "caret",
+            "open_by_default": false,
+            "icon": "none",
+            "text": "<p>{{ product.metafields.custom.supplement_facts | metafield_tag }}</p>",
+            "page": "",
+            "margin_bottom": 0
+          }
+        }
+      },
+      "block_order": [
+        "loox_reviews_loox_rating_UyRBx9",
+        "text_with_icon_abv",
+        "title",
+        "star_rating_Xzpi9G",
+        "price",
+        "product_description",
+        "separator_1",
+        "options",
+        "appstle_subscription",
+        "quantity",
+        "buy_buttons",
+        "ingredients_tab",
+        "nutrition_tab"
+      ],
+      "settings": {
+        "enable_sticky": true,
+        "media_position": "left",
+        "image_size": "medium",
+        "image_shape": "square",
+        "image-display": "thumbnails",
+        "thumbnail_position": "below",
+        "image_display_mobile": "slider",
+        "enable_video_loop": true,
+        "enable_autoplay": true,
+        "show_video_controls": false,
+        "app_margin_bottom": 20
+      }
+    },
+    "text_adverts": {
+      "type": "text-adverts",
+      "blocks": {
+        "text_1": {
+          "type": "text",
+          "settings": {
+            "heading": "IT'S TEA TIME",
+            "subheading": "",
+            "link": ""
+          }
+        },
+        "text_2": {
+          "type": "text",
+          "settings": {
+            "heading": "4.5% ABV - SESSIONABLE & SMOOTH",
+            "subheading": "",
+            "link": ""
+          }
+        },
+        "text_3": {
+          "type": "text",
+          "settings": {
+            "heading": "100% SWEETENED WITH HONEY",
+            "subheading": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "text_1",
+        "text_2",
+        "text_3"
+      ],
+      "settings": {
+        "section_padding_top": 0,
+        "section_padding_bottom": 0,
+        "colors": "dark"
+      }
+    },
+    "rich_text_details": {
+      "type": "rich-text",
+      "blocks": {
+        "heading": {
+          "type": "heading",
+          "settings": {
+            "heading": "THE DETAILS",
+            "heading--text-size": 30,
+            "heading_bottom_spacing": 0
+          }
+        }
+      },
+      "block_order": [
+        "heading"
+      ],
+      "settings": {
+        "section_width": "narrow",
+        "text_alignment_desktop": "left",
+        "text_alignment_mobile": "left",
+        "section_padding_top": 30,
+        "section_padding_bottom": 10,
+        "colors": "white"
+      }
+    },
+    "accordion_faq": {
+      "type": "accordion-with-image",
+      "blocks": {
+        "accordion_1": {
+          "type": "accordion",
+          "settings": {
+            "accordion_header": "What is the ABV of Vodka Iced Tea + Honey?",
+            "open_by_default": false,
+            "text": "<p>Vodka Iced Tea + Honey is <strong>4.5% ABV</strong>, making it a sessionable, easy-drinking option. It's perfect for those who want a lighter alcohol content while still enjoying a premium canned cocktail.</p>",
+            "page": ""
+          }
+        },
+        "accordion_2": {
+          "type": "accordion",
+          "settings": {
+            "accordion_header": "Why did you launch a tea flavor?",
+            "open_by_default": false,
+            "text": "<p>We wanted to bring the <strong>Honey Hill Club</strong> vibes to a refreshing tea. It's all about putting the country back in the country club—think golf courses, laid-back afternoons, and a drink that's <strong>better for you</strong>.</p>",
+            "page": ""
+          }
+        },
+        "accordion_3": {
+          "type": "accordion",
+          "settings": {
+            "accordion_header": "Is it sweetened with real honey?",
+            "open_by_default": false,
+            "text": "<p>Yes! Like all Spirited Hive products, Vodka Iced Tea + Honey is <strong>100% sweetened with organic wildflower honey</strong>. No artificial sweeteners, no synthetic ingredients—just clean, natural flavor.</p>",
+            "page": ""
+          }
+        },
+        "accordion_4": {
+          "type": "accordion",
+          "settings": {
+            "accordion_header": "What makes this different from other hard teas?",
+            "open_by_default": false,
+            "text": "<p>Most hard teas are loaded with artificial ingredients and synthetic sweeteners. Spirited Hive is <strong>all-natural</strong>, made with <strong>premium vodka</strong> and <strong>organic honey</strong>. It's a better-for-you canned cocktail that doesn't compromise on taste.</p>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "accordion_1",
+        "accordion_2",
+        "accordion_3",
+        "accordion_4"
+      ],
+      "settings": {
+        "section_title": "",
+        "section_description": "",
+        "faq_icon": "plus_minus",
+        "accordion_image": "shopify://shop_images/Artboard_1_d00dccfa-a030-47ff-9878-cf30cdc30282.png",
+        "title": "",
+        "text": "",
+        "link": "",
+        "button_text": "",
+        "image_position_desktop": "right",
+        "image_position_mobile": "top",
+        "section_width": "narrow",
+        "section_padding_top": 10,
+        "section_padding_bottom": 60,
+        "image--background-color": "rgba(0,0,0,0)",
+        "image--text-color": "#333333",
+        "button_background_color": "#E87A2E",
+        "button_text_color": "#ffffff",
+        "colors": "light"
+      }
+    },
+    "animated_text": {
+      "type": "animated-text",
+      "blocks": {
+        "text_static": {
+          "type": "text_static",
+          "settings": {
+            "text_static": "<p>BETTER-FOR-YOU</p>",
+            "max_width_desktop": 100,
+            "max_width_mobile": 100,
+            "text_color": "rgba(0,0,0,0)"
+          }
+        },
+        "text_dynamic": {
+          "type": "text_dynamic",
+          "settings": {
+            "text_dynamic": "hard tea,in every way",
+            "animation_timing": 500,
+            "rotation_interval": 5000,
+            "text_color": "rgba(0,0,0,0)"
+          }
+        }
+      },
+      "block_order": [
+        "text_static",
+        "text_dynamic"
+      ],
+      "settings": {
+        "image_desktop": "shopify://shop_images/Spirited_Hive_-_RTD_-_Core_carton_web.png",
+        "height_desktop": "s",
+        "text_position_desktop": "center",
+        "text_size_desktop": 60,
+        "height_mobile": "m",
+        "text_position_mobile": "left",
+        "text_size_mobile": 22,
+        "section_margin_top": 0,
+        "section_margin_bottom": 0,
+        "colors": "accent"
+      }
+    },
+    "product-recommendations": {
+      "type": "template--product--recommendations",
+      "settings": {
+        "title": "YOU'LL ALSO LOVE THESE...",
+        "description": "",
+        "layout_style": "slider",
+        "products_to_show": 6,
+        "grid-desktop": 3,
+        "grid-mobile": "2",
+        "section_padding_top": 60,
+        "section_padding_bottom": 60,
+        "colors": "light",
+        "override_button_colors": true,
+        "button_background_color": "#E87A2E",
+        "button_text_color": "#ffffff"
+      }
+    },
+    "reviews_section": {
+      "type": "apps",
+      "blocks": {
+        "loox_reviews": {
+          "type": "shopify://apps/loox-reviews/blocks/loox-dynamic-section/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e",
+          "settings": {
+            "only_photos": false,
+            "aggregated": false,
+            "limit": 20,
+            "hide_thumbnails": false,
+            "maxwidth": 1920,
+            "is_sample": true
+          }
+        }
+      },
+      "block_order": [
+        "loox_reviews"
+      ],
+      "settings": {
+        "section_padding_top": 0,
+        "section_padding_bottom": 0,
+        "include_margins": true
+      }
+    }
+  },
+  "order": [
+    "product-form",
+    "text_adverts",
+    "rich_text_details",
+    "accordion_faq",
+    "animated_text",
+    "product-recommendations",
+    "reviews_section"
+  ]
+}
