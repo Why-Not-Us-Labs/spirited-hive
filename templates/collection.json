@@ -1,1 +1,147 @@
-{"wrapper":"div.collection-wrapper.wrapper","sections":{"collection-header-spotlight":{"type":"collection-header","disabled":true,"settings":{"show_breadcrumbs":false,"show_title":true,"show_description":true,"show_image_desktop":true,"image_desktop":"shopify:\/\/shop_images\/close-up-honey-comb.jpg","min_height_desktop":"250","content_position":"left","caption_width_desktop":70,"show_image_mobile":true,"image_mobile":"shopify:\/\/shop_images\/close-up-honey-comb.jpg","min_height_mobile":"250","content_position_mobile":"center","enable_parallax":false,"enable_fade":true,"section_width":"full","section_margin_top":0,"section_margin_bottom":0,"colors":"dark","caption_bg_color":"rgba(0,0,0,0)","image_overlay_color":"#242424","image_overlay_opacity":0}},"product-grid":{"type":"template--collection","settings":{"products-per-page":10,"desktop-products-per-row":3,"mobile-products-per-row":"2","pagination_options":"pagination_infinite_scrolling","desktop_position":"topbar","enable_sorting":true,"enable_filtering":true,"enable_collection_title":false,"enable_collection_description":false,"show_swatch_filter_labels":true}},"collage-builder-00":{"type":"collage","blocks":{"collage-builder-block-00":{"type":"image","settings":{"desktop_position":"md-min-align-center md-min-justify-left","mobile_position":"md-max-align-center md-max-justify-left","heading":"Upload an image","heading_size":28,"url":"","button_label":"","buttons_style":"filled","override_button_colors":false,"button_background_color":"#e68819","button_color":"#ffffff","text_color":"#ffffff","overlay_color":"rgba(0,0,0,0)"}},"collage-builder-block-01":{"type":"image","settings":{"desktop_position":"md-min-align-center md-min-justify-left","mobile_position":"md-max-align-center md-max-justify-left","heading":"Upload an image","heading_size":28,"url":"","button_label":"","buttons_style":"filled","override_button_colors":false,"button_background_color":"#e68819","button_color":"#ffffff","text_color":"#ffffff","overlay_color":"rgba(0,0,0,0)"}}},"block_order":["collage-builder-block-00","collage-builder-block-01"],"disabled":true,"settings":{"title":"","description":"","section_width":"content","remove_spacing":false,"block_alignment":"center","section_padding_top":0,"section_padding_bottom":60,"width_1":"2","height_1":"4","width_2":"2","height_2":"4","width_3":"3","height_3":"3","width_4":"2","height_4":"2","width_5":"2","height_5":"2","width_6":"1","height_6":"4","color_scheme":"white"}},"navigation_banner_hM7878":{"type":"navigation-banner","disabled":true,"settings":{"title":"","description":"","banner_linklist":"main-menu","collection_list":[],"buttons_style":"outlined","override_button_colors":false,"nav_background_color":"#e68819","nav_text_color":"#ffffff","section_padding_top":0,"section_padding_bottom":60,"layout_style":"grid","navigation_position":"center","colors":"light"}}},"order":["collection-header-spotlight","product-grid","collage-builder-00","navigation_banner_hM7878"]}
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "wrapper": "div.collection-wrapper.wrapper",
+  "sections": {
+    "collection-header-spotlight": {
+      "type": "collection-header",
+      "disabled": true,
+      "settings": {
+        "show_breadcrumbs": false,
+        "show_title": true,
+        "show_description": true,
+        "show_image_desktop": true,
+        "image_desktop": "shopify://shop_images/close-up-honey-comb.jpg",
+        "min_height_desktop": "250",
+        "content_position": "left",
+        "caption_width_desktop": 70,
+        "show_image_mobile": true,
+        "image_mobile": "shopify://shop_images/close-up-honey-comb.jpg",
+        "min_height_mobile": "250",
+        "content_position_mobile": "center",
+        "enable_parallax": false,
+        "enable_fade": true,
+        "section_width": "full",
+        "section_margin_top": 0,
+        "section_margin_bottom": 0,
+        "colors": "dark",
+        "caption_bg_color": "rgba(0,0,0,0)",
+        "image_overlay_color": "#242424",
+        "image_overlay_opacity": 0
+      }
+    },
+    "product-grid": {
+      "type": "template--collection",
+      "settings": {
+        "products-per-page": 10,
+        "desktop-products-per-row": 3,
+        "mobile-products-per-row": "2",
+        "pagination_options": "pagination_infinite_scrolling",
+        "desktop_position": "topbar",
+        "enable_sorting": true,
+        "enable_filtering": true,
+        "enable_collection_title": false,
+        "enable_collection_description": false,
+        "show_swatch_filter_labels": true
+      }
+    },
+    "collage-builder-00": {
+      "type": "collage",
+      "blocks": {
+        "collage-builder-block-00": {
+          "type": "image",
+          "settings": {
+            "desktop_position": "md-min-align-center md-min-justify-left",
+            "mobile_position": "md-max-align-center md-max-justify-left",
+            "heading": "Upload an image",
+            "heading_size": 28,
+            "url": "",
+            "button_label": "",
+            "buttons_style": "filled",
+            "override_button_colors": false,
+            "button_background_color": "#e68819",
+            "button_color": "#ffffff",
+            "text_color": "#ffffff",
+            "overlay_color": "rgba(0,0,0,0)"
+          }
+        },
+        "collage-builder-block-01": {
+          "type": "image",
+          "settings": {
+            "desktop_position": "md-min-align-center md-min-justify-left",
+            "mobile_position": "md-max-align-center md-max-justify-left",
+            "heading": "Upload an image",
+            "heading_size": 28,
+            "url": "",
+            "button_label": "",
+            "buttons_style": "filled",
+            "override_button_colors": false,
+            "button_background_color": "#e68819",
+            "button_color": "#ffffff",
+            "text_color": "#ffffff",
+            "overlay_color": "rgba(0,0,0,0)"
+          }
+        }
+      },
+      "block_order": [
+        "collage-builder-block-00",
+        "collage-builder-block-01"
+      ],
+      "disabled": true,
+      "settings": {
+        "title": "",
+        "description": "",
+        "section_width": "content",
+        "remove_spacing": false,
+        "block_alignment": "center",
+        "section_padding_top": 0,
+        "section_padding_bottom": 60,
+        "width_1": "2",
+        "height_1": "4",
+        "width_2": "2",
+        "height_2": "4",
+        "width_3": "3",
+        "height_3": "3",
+        "width_4": "2",
+        "height_4": "2",
+        "width_5": "2",
+        "height_5": "2",
+        "width_6": "1",
+        "height_6": "4",
+        "color_scheme": "white"
+      }
+    },
+    "navigation_banner_hM7878": {
+      "type": "navigation-banner",
+      "disabled": true,
+      "settings": {
+        "title": "",
+        "description": "",
+        "banner_linklist": "main-menu",
+        "collection_list": [],
+        "buttons_style": "outlined",
+        "override_button_colors": false,
+        "nav_background_color": "#e68819",
+        "nav_text_color": "#ffffff",
+        "section_padding_top": 0,
+        "section_padding_bottom": 60,
+        "layout_style": "grid",
+        "navigation_position": "center",
+        "colors": "light"
+      }
+    }
+  },
+  "order": [
+    "collection-header-spotlight",
+    "product-grid",
+    "collage-builder-00",
+    "navigation_banner_hM7878"
+  ]
+}

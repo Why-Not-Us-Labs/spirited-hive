@@ -1,209 +1,23 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
-    "holiday_hero": {
-      "type": "holiday-hero",
+    "main": {
+      "type": "template--page",
       "settings": {
-        "headline": "Hive for the Holidays",
-        "subheadline": "Make the Spirits Bright",
-        "description": "<p>Celebrate the season with our signature vodka cranberry cocktail, sweetened with 100% organic wildflower honey. Watch Jack bring the holiday spirit to life in our festive character skits!</p>",
-        "cta_label": "Shop Vodka Cranberry",
-        "cta_link": "",
-        "product_image": "",
-        "show_christmas_lights": true,
-        "show_snow_effect": true,
-        "show_decorations": false,
-        "decoration_image_1": "",
-        "decoration_image_2": "",
-        "background_color": "#1a1a1a",
-        "headline_color": "#ffffff",
-        "text_color": "#ffffff",
-        "override_button_colors": true,
-        "button_background_color": "#d62828",
-        "button_text_color": "#ffffff",
-        "text_alignment": "left",
-        "min_height": 600,
-        "section_padding_top": 80,
-        "section_padding_bottom": 80,
-        "button_border_radius": 30,
-        "colors": "3"
-      }
-    },
-    "holiday_video_carousel": {
-      "type": "holiday-video-carousel",
-      "blocks": {
-        "video_1": {
-          "type": "video",
-          "settings": {
-            "video_title": "Funkle Jack's Holiday Cocktail",
-            "video_description": "Jack shows you how to make the perfect holiday vodka cranberry",
-            "video": "",
-            "video_url": "",
-            "poster_image": ""
-          }
-        },
-        "video_2": {
-          "type": "video",
-          "settings": {
-            "video_title": "I Love Lucy Holiday Take 12",
-            "video_description": "Jack's getting progressively merrier with each take!",
-            "video": "",
-            "video_url": "",
-            "poster_image": ""
-          }
-        },
-        "video_3": {
-          "type": "video",
-          "settings": {
-            "video_title": "Jack Frost",
-            "video_description": "What happens when Jack Frost discovers vodka cranberry?",
-            "video": "",
-            "video_url": "",
-            "poster_image": ""
-          }
-        }
-      },
-      "block_order": [
-        "video_1",
-        "video_2",
-        "video_3"
-      ],
-      "settings": {
-        "heading": "Holiday Character Skits",
-        "subheading": "Watch Jack bring the holiday spirit to life",
-        "show_recipe_card": true,
-        "recipe_title": "Holiday Vodka Cranberry",
-        "recipe_description": "Our signature festive cocktail sweetened with organic wildflower honey",
-        "recipe_ingredients": "<ul><li>2 oz Spirited Hive Vodka Cranberry</li><li>Ice cubes</li><li>Fresh cranberries for garnish</li><li>Lime wedge (optional)</li><li>Rosemary sprig for festive garnish (optional)</li></ul>",
-        "recipe_instructions": "<ol><li>Fill a highball glass with ice</li><li>Pour Spirited Hive Vodka Cranberry over ice</li><li>Garnish with fresh cranberries</li><li>Add lime wedge and rosemary sprig for extra holiday flair</li><li>Serve immediately and enjoy!</li></ol>",
-        "recipe_image": "",
-        "prep_time": "2 minutes",
-        "servings": "1 cocktail",
-        "video_aspect_ratio": "16 / 9",
-        "mute_by_default": true,
-        "show_thumbnails": true,
-        "background_color": "#f5f5f5",
-        "heading_color": "#1a1a1a",
-        "text_color": "#666666",
-        "accent_color": "#d62828",
-        "video_border_radius": 10,
-        "section_padding_top": 80,
-        "section_padding_bottom": 80,
-        "colors": "default"
-      }
-    },
-    "holiday_reviews": {
-      "type": "holiday-reviews",
-      "blocks": {
-        "grinch_1": {
-          "type": "holiday_character",
-          "settings": {
-            "character_name": "The Grinch",
-            "character_image": "",
-            "stars": 1,
-            "review_text": "<p>\"I had too many of these...\"</p>",
-            "link": ""
-          }
-        },
-        "grinch_2": {
-          "type": "holiday_character",
-          "settings": {
-            "character_name": "The Grinch (Later That Night)",
-            "character_image": "",
-            "stars": 5,
-            "review_text": "<p>\"Actually, these made my heart grow three sizes! Best holiday drink I've ever had. Who knew something this delicious could be sweetened with just organic wildflower honey? Even a Grinch can appreciate perfection!\"</p>",
-            "link": ""
-          }
-        },
-        "santa": {
-          "type": "holiday_character",
-          "settings": {
-            "character_name": "Santa Claus",
-            "character_image": "",
-            "stars": 5,
-            "review_text": "<p>\"Ho ho ho! The elves have been requesting these nonstop in the workshop! Mrs. Claus says it's the perfect way to unwind after a long night of toy-making. Better than milk and cookies, I tell ya!\"</p>",
-            "link": ""
-          }
-        },
-        "rudolph": {
-          "type": "holiday_character",
-          "settings": {
-            "character_name": "Rudolph",
-            "character_image": "",
-            "stars": 5,
-            "review_text": "<p>\"Yo, this Hive stuff is FIRE! 🔥 Way better than carrots, no cap! The whole reindeer squad is obsessed. Even Dasher can't stop talking about it and he usually only cares about racing. 🦌\"</p>",
-            "link": ""
-          }
-        },
-        "elf": {
-          "type": "holiday_character",
-          "settings": {
-            "character_name": "Buddy the Elf",
-            "character_image": "",
-            "stars": 5,
-            "review_text": "<p>\"This is the best! The BEST! I put it on my list of favorite things and it's right up there with smiling, syrup, and singing loud for all to hear! The organic honey makes it extra special - that's in the elf code of honor, you know!\"</p>",
-            "link": ""
-          }
-        },
-        "frosty": {
-          "type": "holiday_character",
-          "settings": {
-            "character_name": "Frosty the Snowman",
-            "character_image": "",
-            "stars": 5,
-            "review_text": "<p>\"Happy birthday to me! These keep me cool even when the sun comes out. Cranberry is my new favorite flavor - way better than that old corn cob pipe!\"</p>",
-            "link": ""
-          }
-        }
-      },
-      "block_order": [
-        "grinch_1",
-        "grinch_2",
-        "santa",
-        "rudolph",
-        "elf",
-        "frosty"
-      ],
-      "settings": {
-        "holiday_start_date": "2025-11-01",
-        "holiday_end_date": "2025-12-31",
-        "force_holiday_mode": false,
-        "force_real_reviews": false,
-        "show_debug_info": false,
-        "holiday_title": "What Holiday Characters Are Saying",
-        "holiday_description": "<p>Even the most magical characters can't resist our holiday cocktails!</p>",
-        "real_reviews_title": "What Our Customers Are Saying",
-        "real_reviews_description": "<p>Hear from real customers who love Spirited Hive!</p>",
-        "circle_images": true,
-        "section_padding_top": 80,
-        "section_padding_bottom": 80,
-        "colors": "1"
-      }
-    },
-    "holiday_cta": {
-      "type": "hero",
-      "settings": {
-        "homepage-hero-featured-content": "homepage-hero-image-selection",
-        "home-page-hero-image": "",
-        "homepage-hero-image-heading": "Ready to Celebrate?",
-        "homepage-hero-image-description": "Get your Spirited Hive Vodka Cranberry delivered in time for the holidays. Free shipping on orders over $50!",
-        "homepage-hero-image-button-label": "Shop Now",
-        "homepage-hero-image-link": "",
-        "buttons_style": "filled",
-        "override_button_colors": true,
-        "button_text_color": "#ffffff",
-        "button_background_color": "#d62828",
-        "text-color": "#ffffff",
-        "image_overlay_opacity": 30,
-        "section_padding_top": 60,
-        "section_padding_bottom": 60,
-        "colors": "3"
+        "page_title_enabled": true,
+        "page_width": "narrow"
       }
     }
   },
   "order": [
-    "holiday_hero",
-    "holiday_video_carousel",
-    "holiday_reviews",
-    "holiday_cta"
+    "main"
   ]
 }

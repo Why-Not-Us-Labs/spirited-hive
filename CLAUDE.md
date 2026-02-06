@@ -95,6 +95,12 @@ shopify theme pull
 
 Note: This repository does not include package.json or build tools. Theme assets are pre-compiled.
 
+**Important:** See `LOCAL-FIRST-WORKFLOW.md` for the complete local-first development workflow, including:
+- Template JSON structure for hiding/showing sections
+- Asset management patterns
+- Git workflow with Shopify push/pull
+- Rollback strategies
+
 ## Settings Schema
 
 The `config/settings_schema.json` defines extensive theme settings:
@@ -209,6 +215,22 @@ This project uses a specialized Shopify development team:
 - **Frontend Engineer** - Implementation, component development
 - **Shopify Architect** - Theme architecture, Shopify best practices, admin configuration
 
+### Subagents (Multi-Agent Collaboration)
+
+The `subagents/` folder contains detailed role definitions for specialized agents. See `subagents/README.md` for the complete team workflow.
+
+**Available Agents:**
+| Agent | Primary Role | When to Use |
+|-------|--------------|-------------|
+| Product Manager | Requirements & PRDs | Processing client meetings, writing user stories |
+| Designer | Visual design | Creating mockups, ensuring brand consistency |
+| Frontend Expert | Liquid/JS/CSS implementation | Building sections, implementing designs |
+| Shopify Architect | Technical decisions | Architecture, performance, code review |
+| QA Engineer | Testing & validation | Test plans, cross-device testing, sign-off |
+| DevOps Specialist | Deployment | Git workflow, theme push, rollback |
+
+**Typical Flow:** PM → Designer → Frontend Expert → Architect (review) → QA → DevOps
+
 ### Quality Standards (NON-NEGOTIABLE)
 
 1. **Never cut corners** - Quality over speed, but build efficiently
@@ -277,38 +299,24 @@ shopify theme pull
 
 ## Holiday Campaign Checkpoints
 
-The holiday campaign has multiple checkpoints for safe restoration:
+The holiday campaign has multiple checkpoints for safe restoration. Full documentation in `docs/CHECKPOINT-GROUND-TRUTH-v*.md`.
 
-### Checkpoint v4 (CURRENT - Navigation Complete)
-- **Tag:** `checkpoint-v4-navigation-complete`
-- **Commit:** `aa5e046`
-- **Status:** ✅ PERFECT - All navigation visible
-- **Doc:** `docs/CHECKPOINT-GROUND-TRUTH-v4.md`
-- **Restore:** `git checkout checkpoint-v4-navigation-complete`
+### Current Checkpoint: v6 (Christmas Lights Fixed)
+- **Tag:** `checkpoint-v6-lights-fixed`
+- **Commit:** `67d2fe6`
+- **Status:** ✅ PERFECT
+- **Restore:** `git checkout checkpoint-v6-lights-fixed && shopify theme push --theme="Hive for the Holidays"`
 
-**Includes:**
-- All navigation text black and visible
-- SVG icons properly displayed (search, login, cart)
-- Product variant buttons styled correctly
-- Hero CTA links to Cranberry product
-- All text visible on red background
+### Checkpoint History
+| Version | Tag | Key Features |
+|---------|-----|--------------|
+| v6 | `checkpoint-v6-lights-fixed` | Christmas lights positioned correctly (inside header.liquid) |
+| v5 | `checkpoint-v5-auto-scroll-complete` | Auto-scrolling reviews complete |
+| v4 | `checkpoint-v4-navigation-complete` | All navigation visible, SVG icons working |
+| v3 | `checkpoint-v3-product-reviews-complete` | Video carousel & character reviews |
 
-### Checkpoint v3 (Product Page + Reviews)
-- **Tag:** `checkpoint-v3-product-reviews-complete`
-- **Commit:** `91f9d9f`
-- **Doc:** `docs/CHECKPOINT-GROUND-TRUTH-v3.md`
-- **Restore:** `git checkout checkpoint-v3-product-reviews-complete`
-
-### Quick Restore Commands
-```bash
-# Restore to v4 (current perfect state)
-git checkout checkpoint-v4-navigation-complete
-shopify theme push --theme="Hive for the Holidays"
-
-# Restore to v3 (before navigation fixes)
-git checkout checkpoint-v3-product-reviews-complete
-shopify theme push --theme="Hive for the Holidays"
-```
+### Critical: Christmas Lights Implementation
+Lights MUST be rendered in `sections/header.liquid` (line 886) after `</nav>` with `position: relative`. NEVER use `position: fixed` or render in `layout/theme.liquid`. See `docs/CHECKPOINT-GROUND-TRUTH-v6.md` for details.
 
 ---
 
@@ -370,59 +378,60 @@ When Claude indicates a command needs to be run manually, copy the exact command
 
 ---
 
-## Ground Truth Checkpoints
-
-**Purpose:** Document stable, tested states of the project that can be restored if needed.
-
-**Location:** `docs/CHECKPOINT-GROUND-TRUTH-v*.md`
-
-### Current Checkpoint: v3 (2025-11-03)
-
-**Commit:** `91f9d9f` (CSS specificity fix for review text colors)
-**Shopify Theme:** "Hive for the Holidays" (#153001951460)
-**Documentation:** `docs/CHECKPOINT-GROUND-TRUTH-v3.md`
-
-**What's Included:**
-- Complete holiday campaign with crimson red background (#DC143C)
-- Black hero button with white text
-- Video carousel section (4 epic video placeholders)
-  - Tinder-style swipe on mobile
-  - Fully responsive (9:16 mobile, 16:9 desktop)
-- 18 hilarious Christmas character reviews
-  - Horizontal scroll on mobile with snap-to-center
-  - Grid layout on desktop
-  - Glassmorphism card effects
-- All text visibility issues resolved:
-  - Review text: Black (#000000) on white cards
-  - Character names: White text in black bubble badges
-  - Holiday badges: Black text on white badges
-  - Stars & headers: White on red background
-- Holiday effects: snowfall, snow mounds, Christmas lights
-- Date-based auto-switching (holiday reviews Nov 1 - Dec 31)
-
-**Quick Restore:**
-```bash
-git checkout 91f9d9f
-shopify theme push --theme="Hive for the Holidays"
-```
-
-**Full Documentation:** See `docs/CHECKPOINT-GROUND-TRUTH-v3.md` for complete restoration guide, verification checklist, and technical details.
-
-### Creating New Checkpoints
+## Creating New Checkpoints
 
 When major features are completed and tested:
 
-1. Create new checkpoint document: `docs/CHECKPOINT-GROUND-TRUTH-v[X].md`
-2. Include:
+1. Create checkpoint document: `docs/CHECKPOINT-GROUND-TRUTH-v[X].md`
+2. Create git tag: `git tag checkpoint-v[X]-brief-description`
+3. Include in documentation:
    - Commit hash and branch
    - Complete feature list
    - Restoration instructions
    - Verification checklist
    - What changed since previous checkpoint
-3. Update this section in CLAUDE.md with new checkpoint reference
-4. Commit checkpoint documentation to git
+4. Update the "Holiday Campaign Checkpoints" section above
+5. Commit documentation to git
 
-**Checkpoint History:**
-- **v3** (2025-11-03): Complete holiday campaign with video carousel & character reviews
-- **v2** (2025-11-03): Holiday theme with white text, black button, and snow effects
-- **v1** (2025-10-31): Initial holiday theme with red background and effects
+---
+
+## Holiday Campaign Architecture
+
+### Holiday Effects Files
+
+**Snippets (HTML/Liquid):**
+- `snippets/holiday-lights.liquid` - Christmas lights HTML structure
+- `snippets/holiday-snow.liquid` - Snowfall effect particles
+
+**Assets (CSS/JS):**
+- `assets/holiday-lights.css` - Lights positioning and styling
+- `assets/holiday-lights.js` - Lights animation/blinking logic
+- `assets/holiday-snow.css` - Snowfall animation styles
+
+### Holiday Sections
+
+Located in `sections/`:
+- `holiday-hero.liquid` - Holiday-themed hero banner
+- `holiday-video-carousel.liquid` - Character video carousel (Santa, Rudolph, etc.)
+- `holiday-reviews.liquid` - Fake reviews from holiday characters (auto-scrolling)
+
+### Holiday Theme Configuration
+
+**Active Theme:** "Hive for the Holidays" (Theme ID: 153001951460)
+
+**Preview URL:**
+```
+https://spirited-hive.myshopify.com?preview_theme_id=153001951460
+```
+
+**Holiday Colors:**
+- Primary background: Cherry red `#DC143C`
+- Card backgrounds: Christmas green (on mobile: white for readability)
+- Text: White on dark backgrounds, black on light backgrounds
+
+### Template Overrides
+
+Holiday sections are configured in:
+- `templates/index.json` - Homepage with holiday hero, effects
+- `templates/product.json` - Product pages with video carousel, reviews
+- `templates/page.holiday-landing.json` - Dedicated holiday landing page

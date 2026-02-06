@@ -467,11 +467,6 @@
                       {% assign content = content | append: block.settings.page.content %}
                     {% endif %}
 
-                    {% comment %} Override content for About section with product-specific text {% endcomment %}
-                    {% if block.settings.heading contains "About" %}
-                      {% capture content %}{% render 'product-about-text' %}{% endcapture %}
-                    {% endif %}
-
                     {%- if content != blank -%}
 
                       <div 

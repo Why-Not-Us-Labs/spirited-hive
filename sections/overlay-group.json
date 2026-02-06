@@ -1,1 +1,55 @@
-{"type":"custom.overlay","name":"Overlay","sections":{"offers-drawer":{"type":"offers-drawer","blocks":{"offer-0":{"type":"offer","settings":{"image_position":"above","title":"Offer","description":"<p>Provide additional details about the offer you're running.<\/p>","discount_code":"FLASHSALE","link":"","button_label":""}},"offer-1":{"type":"offer","settings":{"image_position":"above","title":"Offer","description":"<p>Provide additional details about the offer you're running.<\/p>","discount_code":"20OFFTODAY","link":"","button_label":""}}},"block_order":["offer-0","offer-1"],"disabled":true,"settings":{"title":"Today's offers","description":"","buttons_style":"filled"}}},"order":["offers-drawer"]}
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "type": "custom.overlay",
+  "name": "Overlay",
+  "sections": {
+    "offers-drawer": {
+      "type": "offers-drawer",
+      "blocks": {
+        "offer-0": {
+          "type": "offer",
+          "settings": {
+            "image_position": "above",
+            "title": "Offer",
+            "description": "<p>Provide additional details about the offer you're running.</p>",
+            "discount_code": "FLASHSALE",
+            "link": "",
+            "button_label": ""
+          }
+        },
+        "offer-1": {
+          "type": "offer",
+          "settings": {
+            "image_position": "above",
+            "title": "Offer",
+            "description": "<p>Provide additional details about the offer you're running.</p>",
+            "discount_code": "20OFFTODAY",
+            "link": "",
+            "button_label": ""
+          }
+        }
+      },
+      "block_order": [
+        "offer-0",
+        "offer-1"
+      ],
+      "disabled": true,
+      "settings": {
+        "title": "Today's offers",
+        "description": "",
+        "buttons_style": "filled"
+      }
+    }
+  },
+  "order": [
+    "offers-drawer"
+  ]
+}

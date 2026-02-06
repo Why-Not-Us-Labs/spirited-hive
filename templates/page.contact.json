@@ -1,1 +1,441 @@
-{"sections":{"collage_FhXVTb":{"type":"collage","blocks":{"text_BJLzXA":{"type":"text","settings":{"heading":"HOW DO I TRACK MY ORDER?","heading_size":40,"text":"You will receive an email with your tracking number once it has been fulfilled. If you have not received the email yet, please check your promotions, junk, and spam folders before reaching out as the email sometimes ends up there.","url":"","button_label":"","buttons_style":"filled","override_button_colors":false,"button_background_color":"#e68819","button_color":"#ffffff","desktop_position":"md-min-align-top md-min-justify-left","text_alignment":"left","background_color":"#f2bd35","text_color":"#353535"}},"text_Lze3Rb":{"type":"text","settings":{"heading":"Shipment and Fulfillment Estimated Times","heading_size":40,"text":"The fulfillment time in the warehouse from the order being created in the system to leave the warehouse is 1-3 business days.\nThe time to ship after the fulfillment time is:\n<br>\n● Northeast: 2-4 business days\n<br>\n● Midwest: 3-5 business days\n<br>\n● Southeast: 4-7 business days\n<br>\n● West: 6-9 business days","url":"shopify:\/\/collections\/drinks","button_label":"Shop now","buttons_style":"filled","override_button_colors":false,"button_background_color":"#e68819","button_color":"#ffffff","desktop_position":"md-min-align-top md-min-justify-left","text_alignment":"left","background_color":"#353535","text_color":"#ffffff"}},"text_xVBWdN":{"type":"text","settings":{"heading":"What states can you ship to?","heading_size":30,"text":"*Consult the guidelines that correspond to your category and fulfillment location.","url":"shopify:\/\/pages\/terms-of-service","button_label":"View Terms","buttons_style":"filled","override_button_colors":true,"button_background_color":"#f2bd35","button_color":"#ffffff","desktop_position":"md-min-align-top md-min-justify-left","text_alignment":"left","background_color":"#353535","text_color":"#ffffff"}},"text_F7qhcx":{"type":"text","settings":{"heading":"Do I need to be home to receive my package?","heading_size":20,"text":"Someone 21+ with a photo id must be present at the time of delivery to sign. If someone 21+ is not home, the carrier will make 2 more attempts to deliver. If the 3rd attempt is unsuccessful, the order is returned to the retailer who fulfilled your order.","url":"","button_label":"","buttons_style":"filled","override_button_colors":false,"button_background_color":"#e68819","button_color":"#ffffff","desktop_position":"md-min-align-top md-min-justify-left","text_alignment":"left","background_color":"#f2bd35","text_color":"#353535"}},"text_xRdFce":{"type":"text","settings":{"heading":"REFUND POLICY","heading_size":30,"text":"We are only able to process refunds when the item has been returned to us (failed delivery attempts). This process of returning the item to us can take up to 15 business days.","url":"","button_label":"","buttons_style":"filled","override_button_colors":false,"button_background_color":"#e68819","button_color":"#ffffff","desktop_position":"md-min-align-top md-min-justify-left","text_alignment":"left","background_color":"#353535","text_color":"#ffffff"}}},"block_order":["text_BJLzXA","text_Lze3Rb","text_xVBWdN","text_F7qhcx","text_xRdFce"],"settings":{"title":"","description":"","section_width":"content","remove_spacing":false,"block_alignment":"flex-start","section_padding_top":30,"section_padding_bottom":60,"width_1":"2","height_1":"3","width_2":"2","height_2":"3","width_3":"3","height_3":"4","width_4":"3","height_4":"4","width_5":"3","height_5":"4","width_6":"1","height_6":"4","color_scheme":"white"}},"1645633383c94b2bb2":{"type":"accordion","blocks":{"16456333831a200dc8-0":{"type":"tab_content","settings":{"question":"Can I ship to a P.O. Box?","open_by_default":false,"text":"<p>Orders cannot be shipped to an APO\/FPO\/DPO or P.O. Box, because all orders require an Adult Signature.<\/p>","page":""}},"16456333831a200dc8-1":{"type":"tab_content","settings":{"question":"How long does it take for an order to ship?","open_by_default":false,"text":"<p>Most orders ship within 1-2 business days but it can take up to 3-4 business days in some instances depending on product availability and when the carrier picks up. Our network of retailers fulfilling your order ship Monday - Friday 9-5 PM. Orders are not fulfilled on bank holidays and weekends. Depending on your location, orders will be delivered within 2-9 business days after shipment. From time to time, there may be some delays.<\/p>","page":""}},"16456333831a200dc8-2":{"type":"tab_content","settings":{"question":"Can I add or remove a product from my order?","open_by_default":false,"text":"<p>Unfortunately not at the moment.<\/p>","page":""}},"b8952142-22e1-4b16-b9bd-9e42747928c9":{"type":"tab_content","settings":{"question":"My product arrived damaged, can I return it?","open_by_default":false,"text":"<p>Unfortunately, we are currently unable to accept returns. Please reach out to our CS Team with a picture of the damage and they will assist you.<\/p>","page":""}},"a379cb7a-ba34-48da-b0af-2b0379b8db62":{"type":"tab_content","settings":{"question":"How old do you have to be to place an order?","open_by_default":false,"text":"<p>21 or older.<\/p>","page":""}},"tab_content_dktzhR":{"type":"tab_content","settings":{"question":"Can I return my product?","open_by_default":false,"text":"<p>Unfortunately, we are currently unable to accept returns.<\/p>","page":""}},"tab_content_kFVpLD":{"type":"tab_content","settings":{"question":"I ordered multiple products but I only received some of them. What happens next?","open_by_default":false,"text":"<p>Sometimes when multiple boxes are shipped, some can be lost or misplaced. Please reach out to customer service so we can look into it and help you.<\/p>","page":""}},"tab_content_aXbfyC":{"type":"tab_content","settings":{"question":"Do you ship internationally?","open_by_default":false,"text":"<p>Unfortunately, not at the moment.<\/p>","page":""}}},"block_order":["16456333831a200dc8-0","16456333831a200dc8-1","16456333831a200dc8-2","b8952142-22e1-4b16-b9bd-9e42747928c9","a379cb7a-ba34-48da-b0af-2b0379b8db62","tab_content_dktzhR","tab_content_kFVpLD","tab_content_aXbfyC"],"settings":{"title":"MORE COMMON QUESTIONS","description":"","faq_icon":"caret","section_width":"narrow","section_padding_top":60,"section_padding_bottom":60,"colors":"white"}},"image_with_text_overlay_h9kPCd":{"type":"image-with-text-overlay","blocks":{"heading_ciw3R9":{"type":"heading","settings":{"title":"Contact Hive","font_size_desktop":28,"font_size_mobile":28,"heading_bottom_spacing":25}},"text_iKYjgP":{"type":"text","settings":{"text":"<p>If you are looking to get information about a recent order with details about order whereabouts, how long an order will take to get to you, or you have already placed an existing order and have questions please fill out the form below.<\/p>","font_size_desktop":16,"font_size_mobile":16,"text_bottom_spacing":20}},"heading_knMpLC":{"type":"heading","disabled":true,"settings":{"title":"All Other Inquiries:","font_size_desktop":28,"font_size_mobile":28,"heading_bottom_spacing":25}},"text_QCNwBf":{"type":"text","disabled":true,"settings":{"text":"<p>Questions in regards to details about our product, where to find our product, sponsorships, wholesale, merchandise or anything NON-order related please send us an email.<\/p><p>We are also aware that our product is not available in all states as of yet. We are working hard to ensure our product is available in every state possible. If you would like to request your state please send us an email with the drink you would like your area you are in, plus your zip code.<\/p><p>Please email: <a href=\"mailto:email:ADMIN@spiritedhive.com\">ADMIN@spiritedhive.com<\/a><\/p>","font_size_desktop":16,"font_size_mobile":16,"text_bottom_spacing":20}}},"block_order":["heading_ciw3R9","text_iKYjgP","heading_knMpLC","text_QCNwBf"],"disabled":true,"settings":{"image_desktop":"shopify:\/\/shop_images\/close-up-honey-comb.jpg","height_desktop":"450px","text_position_desktop":"center","text_alignment_desktop":"center","caption_width_desktop":50,"height_mobile":"original","text_position_mobile":"center","text_alignment_mobile":"center","section_link":"","animation_style":"none","section_margin_top":0,"section_margin_bottom":0,"text_color":"#ffffff","caption_bg_color":"rgba(0,0,0,0)","image_overlay_color":"#242424","image_overlay_opacity":75}},"rich_text_xCwhbY":{"type":"rich-text","blocks":{"heading_BAHHHa":{"type":"heading","settings":{"heading":"All Other Inquiries","heading--text-size":30,"heading_bottom_spacing":20}},"richtext_8qmQxL":{"type":"richtext","settings":{"text":"<p>Questions in regards to details about our product, where to find our product, sponsorships, wholesale, merchandise or anything NON-order related please send us an email.<\/p><p><\/p><p><\/p><p><\/p><p><\/p><p><\/p>","text_size":14,"text_bottom_spacing":20}},"richtext_p3wHEk":{"type":"richtext","settings":{"text":"<p>We are also aware that our product is not available in all states as of yet. We are working hard to ensure our product is available in every state possible. If you would like to request your state please send us an email with the drink you would like your area you are in, plus your zip code.<\/p><p>Please email: <a href=\"mailto:email:ADMIN@spiritedhive.com\">ADMIN@spiritedhive.com<\/a><\/p>","text_size":14,"text_bottom_spacing":20}},"richtext_8jK3hz":{"type":"richtext","settings":{"text":"<p><strong>Please allow 24-48 business hours for response time.<\/strong><\/p><p><\/p><p><strong>Our customer service hours are Monday- Friday from 9:00am to 6:00pm (EST)<\/strong><\/p>","text_size":14,"text_bottom_spacing":20}},"richtext_QXE9t8":{"type":"richtext","settings":{"text":"<p>We appreciate your business and look forward to seeing you enjoy the better for you canned cocktail.<\/p><p><strong>-The Spirited Hive Team<\/strong><\/p>","text_size":14,"text_bottom_spacing":20}},"button_JLb4AG":{"type":"button","settings":{"button_link":"mailto:admin@spiritedhive.com","button_text":"Email the team","buttons_style":"filled","override_button_colors":false,"button_background_color":"#e68819","button_text_color":"#ffffff","button_bottom_spacing":20}}},"block_order":["heading_BAHHHa","richtext_8qmQxL","richtext_p3wHEk","richtext_8jK3hz","richtext_QXE9t8","button_JLb4AG"],"disabled":true,"settings":{"section_width":"narrow","text_alignment_desktop":"left","text_alignment_mobile":"left","section_padding_top":60,"section_padding_bottom":60,"colors":"white"}},"057a50d5-3fee-4ea2-a832-2d38f47b959a":{"type":"contact-form","blocks":{"template--14753984643142__057a50d5-3fee-4ea2-a832-2d38f47b959a-16788945317184afd8-0":{"type":"name_input","settings":{"required":true,"input_width":"full"}},"template--14753984643142__057a50d5-3fee-4ea2-a832-2d38f47b959a-16788945317184afd8-1":{"type":"email_input","settings":{"required":true,"input_width":"partial"}},"f03adfd7-1474-4f7a-a28a-c0c1430bd42d":{"type":"tel_input","settings":{"required":false,"input_width":"partial"}},"fbb2a872-0770-4f56-913c-b7853e33a9c0":{"type":"custom_input","settings":{"placeholder":"Order number","required":false,"input_width":"full"}},"template--14753984643142__057a50d5-3fee-4ea2-a832-2d38f47b959a-16788945317184afd8-3":{"type":"message_input","settings":{"required":false,"input_width":"full"}}},"block_order":["template--14753984643142__057a50d5-3fee-4ea2-a832-2d38f47b959a-16788945317184afd8-0","template--14753984643142__057a50d5-3fee-4ea2-a832-2d38f47b959a-16788945317184afd8-1","f03adfd7-1474-4f7a-a28a-c0c1430bd42d","fbb2a872-0770-4f56-913c-b7853e33a9c0","template--14753984643142__057a50d5-3fee-4ea2-a832-2d38f47b959a-16788945317184afd8-3"],"settings":{"title":"Contact us","description":"<p>Don't have the answer you're looking for? Drop us a message, we'll respond as soon as possible. <\/p><p><\/p><p><strong>Please allow 24-48 business hours for response time.<\/strong><\/p><p><strong>Our customer service hours are Monday- Friday from 9:00am to 6:00pm (EST)<\/strong><\/p><p>We appreciate your business and look forward to seeing you enjoy the better for you canned cocktail.<\/p>","form_width":"narrow","section_padding_top":60,"section_padding_bottom":60,"section_color_scheme":"white","override_button_colors":false,"button_background_color":"#e68819","button_text_color":"#ffffff"}}},"order":["collage_FhXVTb","1645633383c94b2bb2","image_with_text_overlay_h9kPCd","rich_text_xCwhbY","057a50d5-3fee-4ea2-a832-2d38f47b959a"]}
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "collage_FhXVTb": {
+      "type": "collage",
+      "blocks": {
+        "text_BJLzXA": {
+          "type": "text",
+          "settings": {
+            "heading": "HOW DO I TRACK MY ORDER?",
+            "heading_size": 40,
+            "text": "You will receive an email with your tracking number once it has been fulfilled. If you have not received the email yet, please check your promotions, junk, and spam folders before reaching out as the email sometimes ends up there.",
+            "url": "",
+            "button_label": "",
+            "buttons_style": "filled",
+            "override_button_colors": false,
+            "button_background_color": "#e68819",
+            "button_color": "#ffffff",
+            "desktop_position": "md-min-align-top md-min-justify-left",
+            "text_alignment": "left",
+            "background_color": "#f2bd35",
+            "text_color": "#353535"
+          }
+        },
+        "text_Lze3Rb": {
+          "type": "text",
+          "settings": {
+            "heading": "Shipment and Fulfillment Estimated Times",
+            "heading_size": 40,
+            "text": "The fulfillment time in the warehouse from the order being created in the system to leave the warehouse is 1-3 business days.\nThe time to ship after the fulfillment time is:\n<br>\n● Northeast: 2-4 business days\n<br>\n● Midwest: 3-5 business days\n<br>\n● Southeast: 4-7 business days\n<br>\n● West: 6-9 business days",
+            "url": "shopify://collections/drinks",
+            "button_label": "Shop now",
+            "buttons_style": "filled",
+            "override_button_colors": false,
+            "button_background_color": "#e68819",
+            "button_color": "#ffffff",
+            "desktop_position": "md-min-align-top md-min-justify-left",
+            "text_alignment": "left",
+            "background_color": "#353535",
+            "text_color": "#ffffff"
+          }
+        },
+        "text_xVBWdN": {
+          "type": "text",
+          "settings": {
+            "heading": "What states can you ship to?",
+            "heading_size": 30,
+            "text": "*Consult the guidelines that correspond to your category and fulfillment location.",
+            "url": "shopify://pages/terms-of-service",
+            "button_label": "View Terms",
+            "buttons_style": "filled",
+            "override_button_colors": true,
+            "button_background_color": "#f2bd35",
+            "button_color": "#ffffff",
+            "desktop_position": "md-min-align-top md-min-justify-left",
+            "text_alignment": "left",
+            "background_color": "#353535",
+            "text_color": "#ffffff"
+          }
+        },
+        "text_F7qhcx": {
+          "type": "text",
+          "settings": {
+            "heading": "Do I need to be home to receive my package?",
+            "heading_size": 20,
+            "text": "Someone 21+ with a photo id must be present at the time of delivery to sign. If someone 21+ is not home, the carrier will make 2 more attempts to deliver. If the 3rd attempt is unsuccessful, the order is returned to the retailer who fulfilled your order.",
+            "url": "",
+            "button_label": "",
+            "buttons_style": "filled",
+            "override_button_colors": false,
+            "button_background_color": "#e68819",
+            "button_color": "#ffffff",
+            "desktop_position": "md-min-align-top md-min-justify-left",
+            "text_alignment": "left",
+            "background_color": "#f2bd35",
+            "text_color": "#353535"
+          }
+        },
+        "text_xRdFce": {
+          "type": "text",
+          "settings": {
+            "heading": "REFUND POLICY",
+            "heading_size": 30,
+            "text": "We are only able to process refunds when the item has been returned to us (failed delivery attempts). This process of returning the item to us can take up to 15 business days.",
+            "url": "",
+            "button_label": "",
+            "buttons_style": "filled",
+            "override_button_colors": false,
+            "button_background_color": "#e68819",
+            "button_color": "#ffffff",
+            "desktop_position": "md-min-align-top md-min-justify-left",
+            "text_alignment": "left",
+            "background_color": "#353535",
+            "text_color": "#ffffff"
+          }
+        }
+      },
+      "block_order": [
+        "text_BJLzXA",
+        "text_Lze3Rb",
+        "text_xVBWdN",
+        "text_F7qhcx",
+        "text_xRdFce"
+      ],
+      "settings": {
+        "title": "",
+        "description": "",
+        "section_width": "content",
+        "remove_spacing": false,
+        "block_alignment": "flex-start",
+        "section_padding_top": 30,
+        "section_padding_bottom": 60,
+        "width_1": "2",
+        "height_1": "3",
+        "width_2": "2",
+        "height_2": "3",
+        "width_3": "3",
+        "height_3": "4",
+        "width_4": "3",
+        "height_4": "4",
+        "width_5": "3",
+        "height_5": "4",
+        "width_6": "1",
+        "height_6": "4",
+        "color_scheme": "white"
+      }
+    },
+    "1645633383c94b2bb2": {
+      "type": "accordion",
+      "blocks": {
+        "16456333831a200dc8-0": {
+          "type": "tab_content",
+          "settings": {
+            "question": "Can I ship to a P.O. Box?",
+            "open_by_default": false,
+            "text": "<p>Orders cannot be shipped to an APO/FPO/DPO or P.O. Box, because all orders require an Adult Signature.</p>",
+            "page": ""
+          }
+        },
+        "16456333831a200dc8-1": {
+          "type": "tab_content",
+          "settings": {
+            "question": "How long does it take for an order to ship?",
+            "open_by_default": false,
+            "text": "<p>Most orders ship within 1-2 business days but it can take up to 3-4 business days in some instances depending on product availability and when the carrier picks up. Our network of retailers fulfilling your order ship Monday - Friday 9-5 PM. Orders are not fulfilled on bank holidays and weekends. Depending on your location, orders will be delivered within 2-9 business days after shipment. From time to time, there may be some delays.</p>",
+            "page": ""
+          }
+        },
+        "16456333831a200dc8-2": {
+          "type": "tab_content",
+          "settings": {
+            "question": "Can I add or remove a product from my order?",
+            "open_by_default": false,
+            "text": "<p>Unfortunately not at the moment.</p>",
+            "page": ""
+          }
+        },
+        "b8952142-22e1-4b16-b9bd-9e42747928c9": {
+          "type": "tab_content",
+          "settings": {
+            "question": "My product arrived damaged, can I return it?",
+            "open_by_default": false,
+            "text": "<p>Unfortunately, we are currently unable to accept returns. Please reach out to our CS Team with a picture of the damage and they will assist you.</p>",
+            "page": ""
+          }
+        },
+        "a379cb7a-ba34-48da-b0af-2b0379b8db62": {
+          "type": "tab_content",
+          "settings": {
+            "question": "How old do you have to be to place an order?",
+            "open_by_default": false,
+            "text": "<p>21 or older.</p>",
+            "page": ""
+          }
+        },
+        "tab_content_dktzhR": {
+          "type": "tab_content",
+          "settings": {
+            "question": "Can I return my product?",
+            "open_by_default": false,
+            "text": "<p>Unfortunately, we are currently unable to accept returns.</p>",
+            "page": ""
+          }
+        },
+        "tab_content_kFVpLD": {
+          "type": "tab_content",
+          "settings": {
+            "question": "I ordered multiple products but I only received some of them. What happens next?",
+            "open_by_default": false,
+            "text": "<p>Sometimes when multiple boxes are shipped, some can be lost or misplaced. Please reach out to customer service so we can look into it and help you.</p>",
+            "page": ""
+          }
+        },
+        "tab_content_aXbfyC": {
+          "type": "tab_content",
+          "settings": {
+            "question": "Do you ship internationally?",
+            "open_by_default": false,
+            "text": "<p>Unfortunately, not at the moment.</p>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "16456333831a200dc8-0",
+        "16456333831a200dc8-1",
+        "16456333831a200dc8-2",
+        "b8952142-22e1-4b16-b9bd-9e42747928c9",
+        "a379cb7a-ba34-48da-b0af-2b0379b8db62",
+        "tab_content_dktzhR",
+        "tab_content_kFVpLD",
+        "tab_content_aXbfyC"
+      ],
+      "settings": {
+        "title": "MORE COMMON QUESTIONS",
+        "description": "",
+        "faq_icon": "caret",
+        "section_width": "narrow",
+        "section_padding_top": 60,
+        "section_padding_bottom": 60,
+        "colors": "white"
+      }
+    },
+    "image_with_text_overlay_h9kPCd": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "heading_ciw3R9": {
+          "type": "heading",
+          "settings": {
+            "title": "Contact Hive",
+            "font_size_desktop": 28,
+            "font_size_mobile": 28,
+            "heading_bottom_spacing": 25
+          }
+        },
+        "text_iKYjgP": {
+          "type": "text",
+          "settings": {
+            "text": "<p>If you are looking to get information about a recent order with details about order whereabouts, how long an order will take to get to you, or you have already placed an existing order and have questions please fill out the form below.</p>",
+            "font_size_desktop": 16,
+            "font_size_mobile": 16,
+            "text_bottom_spacing": 20
+          }
+        },
+        "heading_knMpLC": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "title": "All Other Inquiries:",
+            "font_size_desktop": 28,
+            "font_size_mobile": 28,
+            "heading_bottom_spacing": 25
+          }
+        },
+        "text_QCNwBf": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "<p>Questions in regards to details about our product, where to find our product, sponsorships, wholesale, merchandise or anything NON-order related please send us an email.</p><p>We are also aware that our product is not available in all states as of yet. We are working hard to ensure our product is available in every state possible. If you would like to request your state please send us an email with the drink you would like your area you are in, plus your zip code.</p><p>Please email: <a href=\"mailto:email:ADMIN@spiritedhive.com\">ADMIN@spiritedhive.com</a></p>",
+            "font_size_desktop": 16,
+            "font_size_mobile": 16,
+            "text_bottom_spacing": 20
+          }
+        }
+      },
+      "block_order": [
+        "heading_ciw3R9",
+        "text_iKYjgP",
+        "heading_knMpLC",
+        "text_QCNwBf"
+      ],
+      "disabled": true,
+      "settings": {
+        "image_desktop": "shopify://shop_images/close-up-honey-comb.jpg",
+        "height_desktop": "450px",
+        "text_position_desktop": "center",
+        "text_alignment_desktop": "center",
+        "caption_width_desktop": 50,
+        "height_mobile": "original",
+        "text_position_mobile": "center",
+        "text_alignment_mobile": "center",
+        "section_link": "",
+        "animation_style": "none",
+        "section_margin_top": 0,
+        "section_margin_bottom": 0,
+        "text_color": "#ffffff",
+        "caption_bg_color": "rgba(0,0,0,0)",
+        "image_overlay_color": "#242424",
+        "image_overlay_opacity": 75
+      }
+    },
+    "rich_text_xCwhbY": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_BAHHHa": {
+          "type": "heading",
+          "settings": {
+            "heading": "All Other Inquiries",
+            "heading--text-size": 30,
+            "heading_bottom_spacing": 20
+          }
+        },
+        "richtext_8qmQxL": {
+          "type": "richtext",
+          "settings": {
+            "text": "<p>Questions in regards to details about our product, where to find our product, sponsorships, wholesale, merchandise or anything NON-order related please send us an email.</p><p></p><p></p><p></p><p></p><p></p>",
+            "text_size": 14,
+            "text_bottom_spacing": 20
+          }
+        },
+        "richtext_p3wHEk": {
+          "type": "richtext",
+          "settings": {
+            "text": "<p>We are also aware that our product is not available in all states as of yet. We are working hard to ensure our product is available in every state possible. If you would like to request your state please send us an email with the drink you would like your area you are in, plus your zip code.</p><p>Please email: <a href=\"mailto:email:ADMIN@spiritedhive.com\">ADMIN@spiritedhive.com</a></p>",
+            "text_size": 14,
+            "text_bottom_spacing": 20
+          }
+        },
+        "richtext_8jK3hz": {
+          "type": "richtext",
+          "settings": {
+            "text": "<p><strong>Please allow 24-48 business hours for response time.</strong></p><p></p><p><strong>Our customer service hours are Monday- Friday from 9:00am to 6:00pm (EST)</strong></p>",
+            "text_size": 14,
+            "text_bottom_spacing": 20
+          }
+        },
+        "richtext_QXE9t8": {
+          "type": "richtext",
+          "settings": {
+            "text": "<p>We appreciate your business and look forward to seeing you enjoy the better for you canned cocktail.</p><p><strong>-The Spirited Hive Team</strong></p>",
+            "text_size": 14,
+            "text_bottom_spacing": 20
+          }
+        },
+        "button_JLb4AG": {
+          "type": "button",
+          "settings": {
+            "button_link": "mailto:admin@spiritedhive.com",
+            "button_text": "Email the team",
+            "buttons_style": "filled",
+            "override_button_colors": false,
+            "button_background_color": "#e68819",
+            "button_text_color": "#ffffff",
+            "button_bottom_spacing": 20
+          }
+        }
+      },
+      "block_order": [
+        "heading_BAHHHa",
+        "richtext_8qmQxL",
+        "richtext_p3wHEk",
+        "richtext_8jK3hz",
+        "richtext_QXE9t8",
+        "button_JLb4AG"
+      ],
+      "disabled": true,
+      "settings": {
+        "section_width": "narrow",
+        "text_alignment_desktop": "left",
+        "text_alignment_mobile": "left",
+        "section_padding_top": 60,
+        "section_padding_bottom": 60,
+        "colors": "white"
+      }
+    },
+    "057a50d5-3fee-4ea2-a832-2d38f47b959a": {
+      "type": "contact-form",
+      "blocks": {
+        "template--14753984643142__057a50d5-3fee-4ea2-a832-2d38f47b959a-16788945317184afd8-0": {
+          "type": "name_input",
+          "settings": {
+            "required": true,
+            "input_width": "full"
+          }
+        },
+        "template--14753984643142__057a50d5-3fee-4ea2-a832-2d38f47b959a-16788945317184afd8-1": {
+          "type": "email_input",
+          "settings": {
+            "required": true,
+            "input_width": "partial"
+          }
+        },
+        "f03adfd7-1474-4f7a-a28a-c0c1430bd42d": {
+          "type": "tel_input",
+          "settings": {
+            "required": false,
+            "input_width": "partial"
+          }
+        },
+        "fbb2a872-0770-4f56-913c-b7853e33a9c0": {
+          "type": "custom_input",
+          "settings": {
+            "placeholder": "Order number",
+            "required": false,
+            "input_width": "full"
+          }
+        },
+        "template--14753984643142__057a50d5-3fee-4ea2-a832-2d38f47b959a-16788945317184afd8-3": {
+          "type": "message_input",
+          "settings": {
+            "required": false,
+            "input_width": "full"
+          }
+        }
+      },
+      "block_order": [
+        "template--14753984643142__057a50d5-3fee-4ea2-a832-2d38f47b959a-16788945317184afd8-0",
+        "template--14753984643142__057a50d5-3fee-4ea2-a832-2d38f47b959a-16788945317184afd8-1",
+        "f03adfd7-1474-4f7a-a28a-c0c1430bd42d",
+        "fbb2a872-0770-4f56-913c-b7853e33a9c0",
+        "template--14753984643142__057a50d5-3fee-4ea2-a832-2d38f47b959a-16788945317184afd8-3"
+      ],
+      "settings": {
+        "title": "Contact us",
+        "description": "<p>Don't have the answer you're looking for? Drop us a message, we'll respond as soon as possible. </p><p></p><p><strong>Please allow 24-48 business hours for response time.</strong></p><p><strong>Our customer service hours are Monday- Friday from 9:00am to 6:00pm (EST)</strong></p><p>We appreciate your business and look forward to seeing you enjoy the better for you canned cocktail.</p>",
+        "form_width": "narrow",
+        "section_padding_top": 60,
+        "section_padding_bottom": 60,
+        "section_color_scheme": "white",
+        "override_button_colors": false,
+        "button_background_color": "#e68819",
+        "button_text_color": "#ffffff"
+      }
+    }
+  },
+  "order": [
+    "collage_FhXVTb",
+    "1645633383c94b2bb2",
+    "image_with_text_overlay_h9kPCd",
+    "rich_text_xCwhbY",
+    "057a50d5-3fee-4ea2-a832-2d38f47b959a"
+  ]
+}

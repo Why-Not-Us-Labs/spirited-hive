@@ -1,1 +1,58 @@
-{"sections":{"gp_section_496738437408228233":{"type":"gp-section-496738437408228233","settings":{"section_preload":"true","checksum":"_1_1"}},"gp_section_503995484432499591":{"type":"gp-section-503995484432499591","settings":{"checksum":"_1_1"}},"gp_section_503995543437968490":{"type":"gp-section-503995543437968490","settings":{"checksum":"_1_1"}},"gp_section_497753831849854088":{"type":"gp-section-497753831849854088","settings":{"checksum":"_1_1"}},"gp_section_496741423551349896":{"type":"gp-section-496741423551349896","settings":{"checksum":"_1_1"}},"gp_section_496739247781315465":{"type":"gp-section-496739247781315465","settings":{"checksum":"_1_1"}}},"order":["gp_section_496738437408228233","gp_section_503995484432499591","gp_section_503995543437968490","gp_section_497753831849854088","gp_section_496741423551349896","gp_section_496739247781315465"]}
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "gp_section_496738437408228233": {
+      "type": "gp-section-496738437408228233",
+      "settings": {
+        "section_preload": "true",
+        "checksum": "_1_1"
+      }
+    },
+    "gp_section_503995484432499591": {
+      "type": "gp-section-503995484432499591",
+      "settings": {
+        "checksum": "_1_1"
+      }
+    },
+    "gp_section_503995543437968490": {
+      "type": "gp-section-503995543437968490",
+      "settings": {
+        "checksum": "_1_1"
+      }
+    },
+    "gp_section_497753831849854088": {
+      "type": "gp-section-497753831849854088",
+      "settings": {
+        "checksum": "_1_1"
+      }
+    },
+    "gp_section_496741423551349896": {
+      "type": "gp-section-496741423551349896",
+      "settings": {
+        "checksum": "_1_1"
+      }
+    },
+    "gp_section_496739247781315465": {
+      "type": "gp-section-496739247781315465",
+      "settings": {
+        "checksum": "_1_1"
+      }
+    }
+  },
+  "order": [
+    "gp_section_496738437408228233",
+    "gp_section_503995484432499591",
+    "gp_section_503995543437968490",
+    "gp_section_497753831849854088",
+    "gp_section_496741423551349896",
+    "gp_section_496739247781315465"
+  ]
+}

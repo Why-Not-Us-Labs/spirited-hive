@@ -1,1 +1,336 @@
-{"sections":{"94a50e02-c7cb-4f8e-8809-f281c98044d2":{"type":"image-with-text-overlay","blocks":{"heading_dHiCp8":{"type":"heading","settings":{"title":"THE HIVE'S MISSION","font_size_desktop":28,"font_size_mobile":28,"heading_bottom_spacing":25}},"text_VPAxBn":{"type":"text","settings":{"text":"<p>At Spirited Hive, we believe in more than just crafting better cocktails—we believe in making a difference. That’s why we’ve partnered with Project Apis m., one of the leading non-profits dedicated to bee conservation and education. Bees are essential to our planet and to our signature ingredient, organic wildflower honey. By supporting efforts to protect and sustain healthy bee populations, we’re ensuring a <em>sweet tomorrow<\/em> for both our Hive and the world around us.<\/p><p><strong>Drink with purpose. Protect the bees. Bee the difference.<\/strong><\/p>","font_size_desktop":16,"font_size_mobile":16,"text_bottom_spacing":20}},"button_F8cCpJ":{"type":"button","disabled":true,"settings":{"first_button_link":"","first_button_label":"Shop now","second_button_link":"","second_button_label":"","buttons_style":"filled","override_button_colors":false,"buttons_background":"#e68819","buttons_text":"#ffffff","buttons_bottom_spacing":20}}},"block_order":["heading_dHiCp8","text_VPAxBn","button_F8cCpJ"],"settings":{"image_desktop":"shopify:\/\/shop_images\/Animated_Text_Section_362d6a25-5c56-4b65-a85c-b6d1cd95865a.png","height_desktop":"550px","text_position_desktop":"center","text_alignment_desktop":"center","caption_width_desktop":50,"height_mobile":"300px","text_position_mobile":"center","text_alignment_mobile":"center","section_link":"","animation_style":"none","section_margin_top":0,"section_margin_bottom":0,"text_color":"#ffffff","caption_bg_color":"rgba(0,0,0,0)","image_overlay_color":"#000000","image_overlay_opacity":20}},"collage_AbHbPb":{"type":"collage","blocks":{"text_EcBAk9":{"type":"text","settings":{"heading":"ABOUT SPIRITED HIVE","heading_size":38,"text":"Spirited Hive isn’t just a cocktail—it’s a community. A movement. A mindset\n\nFor founder Jack Espy, it all started with a happy accident. One night, while mixing drinks for friends, he mistakenly thought Moscow Mules and Mexican Mules were sweetened with honey. They weren’t—but the idea sparked something bigger. Jack saw an opportunity to break away from the norm and create something original: a better-for-you canned cocktail, made with real, organic wildflower honey instead of the synthetic sweeteners and artificial ingredients that dominate the market.\nThat spirit of originality—of Bee-ing Different—is what defines Spirited Hive. It’s about rejecting the standard, trying something new, and embracing the unexpected. But most importantly, it’s about doing it together. Jack has always believed in the power of a strong community, a Hive of like-minded people who care about what they put in their bodies and who they surround themselves with. He wanted to create a drink that his friends—his Hive—could enjoy without compromise.\nFrom day one, Spirited Hive has been about bringing people together over something better. Whether you’re raising a can at a rooftop party, toasting with friends at the beach, or kicking back around a fire, you’re part of something bigger—a movement toward real ingredients, real connections, and real good times.\nWelcome to the Hive. Bee Different. Drink Better.","url":"","button_label":"","buttons_style":"filled","override_button_colors":false,"button_background_color":"#e68819","button_color":"#ffffff","desktop_position":"md-min-align-center md-min-justify-left","text_alignment":"left","background_color":"#ffffff","text_color":"#0b0b0b"}},"video_V8r8mU":{"type":"video","settings":{"video_url":"https:\/\/vimeo.com\/896699578","image":"shopify:\/\/shop_images\/HIVE_Founder_Jack_Espy_bio1.png","video_alt_text":"","mobile_video_url":"","mobile_video_alt_text":"","loop":false,"autoplay":false,"mute":false,"show_controls":true,"override_button_colors":false,"button_background_color":"#e68819","button_icon_color":"#ffffff"}}},"block_order":["text_EcBAk9","video_V8r8mU"],"settings":{"title":"","description":"","section_width":"full","remove_spacing":true,"block_alignment":"center","section_padding_top":60,"section_padding_bottom":0,"width_1":"2","height_1":"2","width_2":"2","height_2":"2","width_3":"3","height_3":"3","width_4":"2","height_4":"2","width_5":"2","height_5":"2","width_6":"1","height_6":"4","color_scheme":"white"}},"410e0db0-6d01-4d70-8356-6c6849fcdadc":{"type":"template--product--info-columns","blocks":{"template--14773137178694__410e0db0-6d01-4d70-8356-6c6849fcdadc-1686321924a56b1582-0":{"type":"image_and_text","settings":{"image":"shopify:\/\/shop_images\/Tequila_1-min.jpg","grid_image_size":"square","heading":"PREMIUM SPIRITS","text":"<p>We believe a great cocktail starts with a great foundation. That’s why we use real, premium spirits—never malt liquor or artificial substitutes. Every sip is crafted to deliver a smooth, elevated drinking experience.<\/p>","button_link":"","button_text":""}},"template--14773137178694__410e0db0-6d01-4d70-8356-6c6849fcdadc-1686321924a56b1582-1":{"type":"image_and_text","settings":{"image":"shopify:\/\/shop_images\/close-up-honey-comb.jpg","grid_image_size":"square","heading":"ORGANIC WILD-FLOWER HONEY","text":"<p>Our signature sweetener isn’t just an ingredient—it’s what sets us apart. We use organic wildflower honey for a natural, balanced sweetness that enhances flavor without the need for synthetic sugars or artificial sweeteners.<\/p>","button_link":"","button_text":""}},"b8b1f231-a59c-4b75-9a90-a5badf60b192":{"type":"image_and_text","settings":{"image":"shopify:\/\/shop_images\/Tequila_Page-min.png","grid_image_size":"square","heading":"READY TO ENJOY","text":"<p>Taste the difference with real, high-quality ingredients. We use only natural flavors, crafted to highlight the essence of fresh botanicals, fruits, and herbs—because what’s in your drink matters.<\/p>","button_link":"","button_text":""}}},"block_order":["template--14773137178694__410e0db0-6d01-4d70-8356-6c6849fcdadc-1686321924a56b1582-0","template--14773137178694__410e0db0-6d01-4d70-8356-6c6849fcdadc-1686321924a56b1582-1","b8b1f231-a59c-4b75-9a90-a5badf60b192"],"settings":{"title":"WHAT'S THE DIFFERENCE?","description":"","maximum_width":500,"buttons_style":"underlined","override_button_colors":false,"button_background_color":"#e68819","button_text_color":"#ffffff","hover_navigation_desktop":"left-and-right","columns_per_row":3,"vertical_alignment":"top","text_alignment":"center","text_alignment_mobile":"center","section_width":"full","section_padding_top":60,"section_padding_bottom":60,"colors":"white"}},"main":{"type":"template--page","disabled":true,"settings":{"page_title_enabled":true,"page_width":"narrow"}},"accordion_DDDqpN":{"type":"accordion","blocks":{"tab_content_HPENTi":{"type":"tab_content","settings":{"question":"What is the ABV of Spirited Hive cocktails?","open_by_default":false,"text":"<p>Spirited Hive cocktails are <strong>7% ABV<\/strong>, giving you the perfect balance of strength and smoothness. Crafted with real spirits, they’re designed for a flavorful, elevated drinking experience.<\/p>","page":""}},"tab_content_RYGtPh":{"type":"tab_content","settings":{"question":"Are Spirited Hive cocktails all-natural?","open_by_default":false,"text":"<p>Yes! We only use <strong>natural and organic ingredients<\/strong> in every can. Our cocktails are <strong>100% sweetened with organic wildflower honey<\/strong>, with no artificial flavors, synthetic sweeteners, or preservatives—just clean, real ingredients.<\/p>","page":""}},"tab_content_BPeNrP":{"type":"tab_content","settings":{"question":"Why do you use organic wildflower honey?","open_by_default":false,"text":"<p>We use <strong>100% organic wildflower honey<\/strong> because we believe in real, high-quality ingredients—and because it’s our founder Jack’s favorite type of honey. Wildflower honey offers a naturally rich, complex flavor that enhances our cocktails, making them smooth, balanced, and uniquely delicious.<\/p>","page":""}},"tab_content_nU6bgD":{"type":"tab_content","settings":{"question":"What makes Spirited Hive different?","open_by_default":false,"text":"<p>Spirited Hive is <strong>all-natural and sweetened with organic honey<\/strong>, setting us apart from other canned cocktails that rely on synthetic sweeteners and artificial ingredients. We believe in <strong>better-for-you<\/strong> drinks that don’t compromise on taste, so you can sip with confidence.<\/p>","page":""}}},"block_order":["tab_content_HPENTi","tab_content_RYGtPh","tab_content_BPeNrP","tab_content_nU6bgD"],"settings":{"title":"Frequently asked questions","description":"","faq_icon":"plus_minus","section_width":"narrow","section_padding_top":60,"section_padding_bottom":60,"colors":"white"}},"scrolling_banner_RFJw6L":{"type":"scrolling-banner","blocks":{"text_AcP7my":{"type":"text","settings":{"text":"BEE DIFFERENT","font":"heading","style":"fill","font_size_desktop":48,"font_size_mobile":28}},"image_PAFtKa":{"type":"image","settings":{"image":"shopify:\/\/shop_images\/Tequila_Page-min.png","height_desktop":60,"height_mobile":60,"link":""}},"text_7mWQ7a":{"type":"text","settings":{"text":"DRINK BETTER","font":"heading","style":"fill","font_size_desktop":48,"font_size_mobile":28}},"image_tyCUeW":{"type":"image","settings":{"image":"shopify:\/\/shop_images\/15_b46180b4-9727-48b8-a90a-37a11201c9db.png","height_desktop":60,"height_mobile":60,"link":""}}},"block_order":["text_AcP7my","image_PAFtKa","text_7mWQ7a","image_tyCUeW"],"settings":{"title":"","description":"","show_fade":false,"borders":false,"animation_direction":"normal","animation_speed":60,"section_padding_top":60,"section_padding_bottom":60,"space_between_blocks_desktop":80,"space_between_blocks_mobile":20,"rotate":"0","color_scheme":"dark"}}},"order":["94a50e02-c7cb-4f8e-8809-f281c98044d2","collage_AbHbPb","410e0db0-6d01-4d70-8356-6c6849fcdadc","main","accordion_DDDqpN","scrolling_banner_RFJw6L"]}
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "94a50e02-c7cb-4f8e-8809-f281c98044d2": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "heading_dHiCp8": {
+          "type": "heading",
+          "settings": {
+            "title": "THE HIVE'S MISSION",
+            "font_size_desktop": 28,
+            "font_size_mobile": 28,
+            "heading_bottom_spacing": 25
+          }
+        },
+        "text_VPAxBn": {
+          "type": "text",
+          "settings": {
+            "text": "<p>At Spirited Hive, we believe in more than just crafting better cocktails—we believe in making a difference. That’s why we’ve partnered with Project Apis m., one of the leading non-profits dedicated to bee conservation and education. Bees are essential to our planet and to our signature ingredient, organic wildflower honey. By supporting efforts to protect and sustain healthy bee populations, we’re ensuring a <em>sweet tomorrow</em> for both our Hive and the world around us.</p><p><strong>Drink with purpose. Protect the bees. Bee the difference.</strong></p>",
+            "font_size_desktop": 16,
+            "font_size_mobile": 16,
+            "text_bottom_spacing": 20
+          }
+        },
+        "button_F8cCpJ": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "first_button_link": "",
+            "first_button_label": "Shop now",
+            "second_button_link": "",
+            "second_button_label": "",
+            "buttons_style": "filled",
+            "override_button_colors": false,
+            "buttons_background": "#e68819",
+            "buttons_text": "#ffffff",
+            "buttons_bottom_spacing": 20
+          }
+        }
+      },
+      "block_order": [
+        "heading_dHiCp8",
+        "text_VPAxBn",
+        "button_F8cCpJ"
+      ],
+      "settings": {
+        "image_desktop": "shopify://shop_images/Animated_Text_Section_362d6a25-5c56-4b65-a85c-b6d1cd95865a.png",
+        "height_desktop": "550px",
+        "text_position_desktop": "center",
+        "text_alignment_desktop": "center",
+        "caption_width_desktop": 50,
+        "height_mobile": "300px",
+        "text_position_mobile": "center",
+        "text_alignment_mobile": "center",
+        "section_link": "",
+        "animation_style": "none",
+        "section_margin_top": 0,
+        "section_margin_bottom": 0,
+        "text_color": "#ffffff",
+        "caption_bg_color": "rgba(0,0,0,0)",
+        "image_overlay_color": "#000000",
+        "image_overlay_opacity": 20
+      }
+    },
+    "collage_AbHbPb": {
+      "type": "collage",
+      "blocks": {
+        "text_EcBAk9": {
+          "type": "text",
+          "settings": {
+            "heading": "ABOUT SPIRITED HIVE",
+            "heading_size": 38,
+            "text": "Spirited Hive isn’t just a cocktail—it’s a community. A movement. A mindset\n\nFor founder Jack Espy, it all started with a happy accident. One night, while mixing drinks for friends, he mistakenly thought Moscow Mules and Mexican Mules were sweetened with honey. They weren’t—but the idea sparked something bigger. Jack saw an opportunity to break away from the norm and create something original: a better-for-you canned cocktail, made with real, organic wildflower honey instead of the synthetic sweeteners and artificial ingredients that dominate the market.\nThat spirit of originality—of Bee-ing Different—is what defines Spirited Hive. It’s about rejecting the standard, trying something new, and embracing the unexpected. But most importantly, it’s about doing it together. Jack has always believed in the power of a strong community, a Hive of like-minded people who care about what they put in their bodies and who they surround themselves with. He wanted to create a drink that his friends—his Hive—could enjoy without compromise.\nFrom day one, Spirited Hive has been about bringing people together over something better. Whether you’re raising a can at a rooftop party, toasting with friends at the beach, or kicking back around a fire, you’re part of something bigger—a movement toward real ingredients, real connections, and real good times.\nWelcome to the Hive. Bee Different. Drink Better.",
+            "url": "",
+            "button_label": "",
+            "buttons_style": "filled",
+            "override_button_colors": false,
+            "button_background_color": "#e68819",
+            "button_color": "#ffffff",
+            "desktop_position": "md-min-align-center md-min-justify-left",
+            "text_alignment": "left",
+            "background_color": "#ffffff",
+            "text_color": "#0b0b0b"
+          }
+        },
+        "video_V8r8mU": {
+          "type": "video",
+          "settings": {
+            "video_url": "https://vimeo.com/896699578",
+            "image": "shopify://shop_images/HIVE_Founder_Jack_Espy_bio1.png",
+            "video_alt_text": "",
+            "mobile_video_url": "",
+            "mobile_video_alt_text": "",
+            "loop": false,
+            "autoplay": false,
+            "mute": false,
+            "show_controls": true,
+            "override_button_colors": false,
+            "button_background_color": "#e68819",
+            "button_icon_color": "#ffffff"
+          }
+        }
+      },
+      "block_order": [
+        "text_EcBAk9",
+        "video_V8r8mU"
+      ],
+      "settings": {
+        "title": "",
+        "description": "",
+        "section_width": "full",
+        "remove_spacing": true,
+        "block_alignment": "center",
+        "section_padding_top": 60,
+        "section_padding_bottom": 0,
+        "width_1": "2",
+        "height_1": "2",
+        "width_2": "2",
+        "height_2": "2",
+        "width_3": "3",
+        "height_3": "3",
+        "width_4": "2",
+        "height_4": "2",
+        "width_5": "2",
+        "height_5": "2",
+        "width_6": "1",
+        "height_6": "4",
+        "color_scheme": "white"
+      }
+    },
+    "410e0db0-6d01-4d70-8356-6c6849fcdadc": {
+      "type": "template--product--info-columns",
+      "blocks": {
+        "template--14773137178694__410e0db0-6d01-4d70-8356-6c6849fcdadc-1686321924a56b1582-0": {
+          "type": "image_and_text",
+          "settings": {
+            "image": "shopify://shop_images/Tequila_1-min.jpg",
+            "grid_image_size": "square",
+            "heading": "PREMIUM SPIRITS",
+            "text": "<p>We believe a great cocktail starts with a great foundation. That’s why we use real, premium spirits—never malt liquor or artificial substitutes. Every sip is crafted to deliver a smooth, elevated drinking experience.</p>",
+            "button_link": "",
+            "button_text": ""
+          }
+        },
+        "template--14773137178694__410e0db0-6d01-4d70-8356-6c6849fcdadc-1686321924a56b1582-1": {
+          "type": "image_and_text",
+          "settings": {
+            "image": "shopify://shop_images/close-up-honey-comb.jpg",
+            "grid_image_size": "square",
+            "heading": "ORGANIC WILD-FLOWER HONEY",
+            "text": "<p>Our signature sweetener isn’t just an ingredient—it’s what sets us apart. We use organic wildflower honey for a natural, balanced sweetness that enhances flavor without the need for synthetic sugars or artificial sweeteners.</p>",
+            "button_link": "",
+            "button_text": ""
+          }
+        },
+        "b8b1f231-a59c-4b75-9a90-a5badf60b192": {
+          "type": "image_and_text",
+          "settings": {
+            "image": "shopify://shop_images/Tequila_Page-min.png",
+            "grid_image_size": "square",
+            "heading": "READY TO ENJOY",
+            "text": "<p>Taste the difference with real, high-quality ingredients. We use only natural flavors, crafted to highlight the essence of fresh botanicals, fruits, and herbs—because what’s in your drink matters.</p>",
+            "button_link": "",
+            "button_text": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--14773137178694__410e0db0-6d01-4d70-8356-6c6849fcdadc-1686321924a56b1582-0",
+        "template--14773137178694__410e0db0-6d01-4d70-8356-6c6849fcdadc-1686321924a56b1582-1",
+        "b8b1f231-a59c-4b75-9a90-a5badf60b192"
+      ],
+      "settings": {
+        "title": "WHAT'S THE DIFFERENCE?",
+        "description": "",
+        "maximum_width": 500,
+        "buttons_style": "underlined",
+        "override_button_colors": false,
+        "button_background_color": "#e68819",
+        "button_text_color": "#ffffff",
+        "hover_navigation_desktop": "left-and-right",
+        "columns_per_row": 3,
+        "vertical_alignment": "top",
+        "text_alignment": "center",
+        "text_alignment_mobile": "center",
+        "section_width": "full",
+        "section_padding_top": 60,
+        "section_padding_bottom": 60,
+        "colors": "white"
+      }
+    },
+    "main": {
+      "type": "template--page",
+      "disabled": true,
+      "settings": {
+        "page_title_enabled": true,
+        "page_width": "narrow"
+      }
+    },
+    "accordion_DDDqpN": {
+      "type": "accordion",
+      "blocks": {
+        "tab_content_HPENTi": {
+          "type": "tab_content",
+          "settings": {
+            "question": "What is the ABV of Spirited Hive cocktails?",
+            "open_by_default": false,
+            "text": "<p>Spirited Hive cocktails are <strong>7% ABV</strong>, giving you the perfect balance of strength and smoothness. Crafted with real spirits, they’re designed for a flavorful, elevated drinking experience.</p>",
+            "page": ""
+          }
+        },
+        "tab_content_RYGtPh": {
+          "type": "tab_content",
+          "settings": {
+            "question": "Are Spirited Hive cocktails all-natural?",
+            "open_by_default": false,
+            "text": "<p>Yes! We only use <strong>natural and organic ingredients</strong> in every can. Our cocktails are <strong>100% sweetened with organic wildflower honey</strong>, with no artificial flavors, synthetic sweeteners, or preservatives—just clean, real ingredients.</p>",
+            "page": ""
+          }
+        },
+        "tab_content_BPeNrP": {
+          "type": "tab_content",
+          "settings": {
+            "question": "Why do you use organic wildflower honey?",
+            "open_by_default": false,
+            "text": "<p>We use <strong>100% organic wildflower honey</strong> because we believe in real, high-quality ingredients—and because it’s our founder Jack’s favorite type of honey. Wildflower honey offers a naturally rich, complex flavor that enhances our cocktails, making them smooth, balanced, and uniquely delicious.</p>",
+            "page": ""
+          }
+        },
+        "tab_content_nU6bgD": {
+          "type": "tab_content",
+          "settings": {
+            "question": "What makes Spirited Hive different?",
+            "open_by_default": false,
+            "text": "<p>Spirited Hive is <strong>all-natural and sweetened with organic honey</strong>, setting us apart from other canned cocktails that rely on synthetic sweeteners and artificial ingredients. We believe in <strong>better-for-you</strong> drinks that don’t compromise on taste, so you can sip with confidence.</p>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "tab_content_HPENTi",
+        "tab_content_RYGtPh",
+        "tab_content_BPeNrP",
+        "tab_content_nU6bgD"
+      ],
+      "settings": {
+        "title": "Frequently asked questions",
+        "description": "",
+        "faq_icon": "plus_minus",
+        "section_width": "narrow",
+        "section_padding_top": 60,
+        "section_padding_bottom": 60,
+        "colors": "white"
+      }
+    },
+    "scrolling_banner_RFJw6L": {
+      "type": "scrolling-banner",
+      "blocks": {
+        "text_AcP7my": {
+          "type": "text",
+          "settings": {
+            "text": "BEE DIFFERENT",
+            "font": "heading",
+            "style": "fill",
+            "font_size_desktop": 48,
+            "font_size_mobile": 28
+          }
+        },
+        "image_PAFtKa": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Tequila_Page-min.png",
+            "height_desktop": 60,
+            "height_mobile": 60,
+            "link": ""
+          }
+        },
+        "text_7mWQ7a": {
+          "type": "text",
+          "settings": {
+            "text": "DRINK BETTER",
+            "font": "heading",
+            "style": "fill",
+            "font_size_desktop": 48,
+            "font_size_mobile": 28
+          }
+        },
+        "image_tyCUeW": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/15_b46180b4-9727-48b8-a90a-37a11201c9db.png",
+            "height_desktop": 60,
+            "height_mobile": 60,
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "text_AcP7my",
+        "image_PAFtKa",
+        "text_7mWQ7a",
+        "image_tyCUeW"
+      ],
+      "settings": {
+        "title": "",
+        "description": "",
+        "show_fade": false,
+        "borders": false,
+        "animation_direction": "normal",
+        "animation_speed": 60,
+        "section_padding_top": 60,
+        "section_padding_bottom": 60,
+        "space_between_blocks_desktop": 80,
+        "space_between_blocks_mobile": 20,
+        "rotate": "0",
+        "color_scheme": "dark"
+      }
+    }
+  },
+  "order": [
+    "94a50e02-c7cb-4f8e-8809-f281c98044d2",
+    "collage_AbHbPb",
+    "410e0db0-6d01-4d70-8356-6c6849fcdadc",
+    "main",
+    "accordion_DDDqpN",
+    "scrolling_banner_RFJw6L"
+  ]
+}
