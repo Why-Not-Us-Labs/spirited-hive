@@ -127,14 +127,14 @@
         if enable_badges
           if product.available
             if preorder_product
-              render 'badge' with badge: 'preorder', preorder_badge: preorder_string, attributes: badge_attributes
+              render 'badge' with badge, badge: 'preorder', preorder_badge: preorder_string, attributes: badge_attributes
             elsif custom_badge
-              render 'badge' with badge: 'custom', custom_badge: custom_badge, attributes: badge_attributes
+              render 'badge' with badge, badge: 'custom', custom_badge: custom_badge, attributes: badge_attributes
             else
-              render 'badge' with badge: 'sale', badge_product: product, attributes: badge_attributes
+              render 'badge' with badge, badge: 'sale', badge_product: product, attributes: badge_attributes
             endif
           else
-            render 'badge' with badge: 'sold-out', attributes: badge_attributes
+            render 'badge' with badge, badge: 'sold-out', attributes: badge_attributes
           endif
         endif
 
@@ -204,7 +204,7 @@
                   {% endif %}
 
                   {% if quick_shop_mobile_enabled %}
-                    <button aria-label="{{ live_region_text }}" class="quick-add-button quick-add-button-mobile btn-hover-default-inner icon-btn-focus-inner" type="submit" tabindex="0"><span class="btn-colors-primary round-icon-btn-sm">{% render 'theme-icon' with icon: 'shopping-bag', iconClasses: 'quick-view-mobile-icon', iconSize: 16 %}</span></button>
+                    <button aria-label="{{ live_region_text }}" class="quick-add-button quick-add-button-mobile btn-hover-default-inner icon-btn-focus-inner" type="submit" tabindex="0"><span class="btn-colors-primary round-icon-btn-sm">{% render 'theme-icon' with icon, icon: 'shopping-bag', iconClasses: 'quick-view-mobile-icon', iconSize: 16 %}</span></button>
                   {% endif %}
 
                   <div aria-live="polite" class="sr-only">{{ live_region_text }}</div>
@@ -215,7 +215,7 @@
                 {% endif %}
 
                 {% if quick_shop_mobile_enabled %}
-                  <a aria-label="{{ product.title }} - {{ 'products.product.sold_out' | t }}" class="sold-out-button sold-out-button-mobile icon-btn-focus-inner-muted" tabindex="0" href="{{ product.url | within: collection }}"><span class="round-icon-btn-sm">{% render 'theme-icon' with icon: 'shopping-bag', iconClasses: 'quick-view-mobile-icon', iconSize: 16 %}</span></a>
+                  <a aria-label="{{ product.title }} - {{ 'products.product.sold_out' | t }}" class="sold-out-button sold-out-button-mobile icon-btn-focus-inner-muted" tabindex="0" href="{{ product.url | within: collection }}"><span class="round-icon-btn-sm">{% render 'theme-icon' with icon, icon: 'shopping-bag', iconClasses: 'quick-view-mobile-icon', iconSize: 16 %}</span></a>
                 {% endif %}
               {% endif %}
             </div>
@@ -242,22 +242,12 @@
     {% endif %}
 
     {% if settings.show_product_rating %}
-      {% render 'reviews-star-rating' with
-        rating_product: product,
-        star_color: settings.star_rating_color,
-        classes: alignment_class,
-        star_size: settings.star_size,
-        no_reviews_label: settings.no_reviews_label,
-        show_rating_as: settings.show_rating_as,
-        show_product_rating_if_no_reviews: settings.show_product_rating_if_no_reviews,
-        color_scheme: section_color_scheme,
-        wrapper_class: 'product-grid--rating'
-      %}
+      {% render 'reviews-star-rating' with rating_product, rating_product: product, star_color: settings.star_rating_color, classes: alignment_class, star_size: settings.star_size, no_reviews_label: settings.no_reviews_label, show_rating_as: settings.show_rating_as, show_product_rating_if_no_reviews: settings.show_product_rating_if_no_reviews, color_scheme: section_color_scheme, wrapper_class: 'product-grid--rating' %}
     {% endif %}
 
     {% if settings.show_card_color_swatches %}
       {% for option in product.options_with_values %}
-        {% render 'card-color-swatch' with swatch_product: product, swatch_option: option, hide_out_of_stock_variants: false, show_color_label: show_color_label, option_index: forloop.index %}
+        {% render 'card-color-swatch' with swatch_product, swatch_product: product, swatch_option: option, hide_out_of_stock_variants: false, show_color_label: show_color_label, option_index: forloop.index %}
       {% endfor %}
     {% endif %}
   </div>
@@ -298,3 +288,63 @@
     {% endif %}
   {% endif %}
 </product-card>
+{% comment %}
+
+This file has been rewritten to preserve the original behavior.
+
+---
+Changes:
+- from: "              render 'badge' with badge: 'preorder', preorder_badge: preorder_string,
+    attributes: badge_attributes"
+  to: "              render 'badge' with badge, badge: 'preorder', preorder_badge:
+    preorder_string, attributes: badge_attributes"
+  position: 4339..4460
+- from: "              render 'badge' with badge: 'custom', custom_badge: custom_badge,
+    attributes: badge_attributes"
+  to: "              render 'badge' with badge, badge: 'custom', custom_badge: custom_badge,
+    attributes: badge_attributes"
+  position: 4492..4606
+- from: "              render 'badge' with badge: 'sale', badge_product: product,
+    attributes: badge_attributes"
+  to: "              render 'badge' with badge, badge: 'sale', badge_product: product,
+    attributes: badge_attributes"
+  position: 4624..4732
+- from: "            render 'badge' with badge: 'sold-out', attributes: badge_attributes"
+  to: "            render 'badge' with badge, badge: 'sold-out', attributes: badge_attributes"
+  position: 4766..4852
+- from: "{% render 'theme-icon' with icon: 'shopping-bag', iconClasses: 'quick-view-mobile-icon',
+    iconSize: 16 %}"
+  to: "{% render 'theme-icon' with icon, icon: 'shopping-bag', iconClasses: 'quick-view-mobile-icon',
+    iconSize: 16 %}"
+  position: 9243..9353
+- from: "{% render 'theme-icon' with icon: 'shopping-bag', iconClasses: 'quick-view-mobile-icon',
+    iconSize: 16 %}"
+  to: "{% render 'theme-icon' with icon, icon: 'shopping-bag', iconClasses: 'quick-view-mobile-icon',
+    iconSize: 16 %}"
+  position: 10190..10300
+- from: |-
+    {% render 'reviews-star-rating' with
+            rating_product: product,
+            star_color: settings.star_rating_color,
+            classes: alignment_class,
+            star_size: settings.star_size,
+            no_reviews_label: settings.no_reviews_label,
+            show_rating_as: settings.show_rating_as,
+            show_product_rating_if_no_reviews: settings.show_product_rating_if_no_reviews,
+            color_scheme: section_color_scheme,
+            wrapper_class: 'product-grid--rating'
+          %}
+  to: "{% render 'reviews-star-rating' with rating_product, rating_product: product,
+    star_color: settings.star_rating_color, classes: alignment_class, star_size: settings.star_size,
+    no_reviews_label: settings.no_reviews_label, show_rating_as: settings.show_rating_as,
+    show_product_rating_if_no_reviews: settings.show_product_rating_if_no_reviews,
+    color_scheme: section_color_scheme, wrapper_class: 'product-grid--rating' %}"
+  position: 11383..11799
+- from: "{% render 'card-color-swatch' with swatch_product: product, swatch_option:
+    option, hide_out_of_stock_variants: false, show_color_label: show_color_label,
+    option_index: forloop.index %}"
+  to: "{% render 'card-color-swatch' with swatch_product, swatch_product: product,
+    swatch_option: option, hide_out_of_stock_variants: false, show_color_label: show_color_label,
+    option_index: forloop.index %}"
+  position: 11926..12126
+{% endcomment %}

@@ -69,12 +69,7 @@
 
               {% if section.settings.button_label != blank %}
                 {% if section.settings.override_button_colors %}
-                  {% render 'button-color-overrides' with
-                    id: section.id,
-                    style: section.settings.buttons_style,
-                    text_color: section.settings.button_text_color,
-                    background_color: section.settings.button_background_color
-                  %}
+                  {% render 'button-color-overrides' with id, id: section.id, style: section.settings.buttons_style, text_color: section.settings.button_text_color, background_color: section.settings.button_background_color %}
                 {% endif %}
 
                 {% capture button_attr %}
@@ -82,15 +77,7 @@
                   data-animate-order="{{ animation_order | plus: animation_offset }}"
                 {% endcapture %}
                 
-                {% render 'dynamic-section-button' with
-                  id: section.id,
-                  link: section.settings.button_link,
-                  label: section.settings.button_label,
-                  style: section.settings.buttons_style,
-                  div_classes: 'clearfix',
-                  a_classes: 'homepage-featured-box-btn',
-                  attributes: button_attr
-                %}
+                {% render 'dynamic-section-button' with id, id: section.id, link: section.settings.button_link, label: section.settings.button_label, style: section.settings.buttons_style, div_classes: 'clearfix', a_classes: 'homepage-featured-box-btn', attributes: button_attr %}
               {% endif %}
 
             </div>
@@ -317,3 +304,35 @@
   }
 }
 {% endschema %}
+{% comment %}
+
+This file has been rewritten to preserve the original behavior.
+
+---
+Changes:
+- from: |-
+    {% render 'button-color-overrides' with
+                        id: section.id,
+                        style: section.settings.buttons_style,
+                        text_color: section.settings.button_text_color,
+                        background_color: section.settings.button_background_color
+                      %}
+  to: "{% render 'button-color-overrides' with id, id: section.id, style: section.settings.buttons_style,
+    text_color: section.settings.button_text_color, background_color: section.settings.button_background_color
+    %}"
+  position: 3703..3911
+- from: |-
+    {% render 'dynamic-section-button' with
+                      id: section.id,
+                      link: section.settings.button_link,
+                      label: section.settings.button_label,
+                      style: section.settings.buttons_style,
+                      div_classes: 'clearfix',
+                      a_classes: 'homepage-featured-box-btn',
+                      attributes: button_attr
+                    %}
+  to: "{% render 'dynamic-section-button' with id, id: section.id, link: section.settings.button_link,
+    label: section.settings.button_label, style: section.settings.buttons_style, div_classes:
+    'clearfix', a_classes: 'homepage-featured-box-btn', attributes: button_attr %}"
+  position: 4166..4430
+{% endcomment %}

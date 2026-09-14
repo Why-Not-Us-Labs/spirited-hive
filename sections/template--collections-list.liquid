@@ -95,7 +95,7 @@
                 <div class="list-collections--more-link nav-link-animated--custom inline-icon--wrapper">
                   <a class="animated-link--item--nested" href="{{ collection.url }}" title="{{ 'collections.general.link_title' | t: title: collection_title }}">
                     <span class="animated-underline">{{ 'collections.general.see_more' | t }} {{ collection_title }}</span>
-                    {% render 'theme-icon' with icon: 'chevron_right', iconSize: 16 %}
+                    {% render 'theme-icon' with icon, icon: 'chevron_right', iconSize: 16 %}
                   </a>
                 </div>
 
@@ -127,7 +127,7 @@
               <div class="list-collections--more-link nav-link-animated--custom inline-icon--wrapper">
                 <a class="animated-link--item" href="{{ collection.url }}" title="{{ 'collections.general.link_title' | t: title: collection_title }}">
                   <span>{{ 'collections.general.see_more' | t }} {{ collection_title }}</span>
-                  {% render 'theme-icon' with icon: 'chevron_right', iconSize: 16 %}
+                  {% render 'theme-icon' with icon, icon: 'chevron_right', iconSize: 16 %}
                 </a>
               </div>
               {% endif %}
@@ -318,3 +318,16 @@
   ]
 }
 {% endschema %}
+{% comment %}
+
+This file has been rewritten to preserve the original behavior.
+
+---
+Changes:
+- from: "{% render 'theme-icon' with icon: 'chevron_right', iconSize: 16 %}"
+  to: "{% render 'theme-icon' with icon, icon: 'chevron_right', iconSize: 16 %}"
+  position: 4203..4275
+- from: "{% render 'theme-icon' with icon: 'chevron_right', iconSize: 16 %}"
+  to: "{% render 'theme-icon' with icon, icon: 'chevron_right', iconSize: 16 %}"
+  position: 5686..5758
+{% endcomment %}

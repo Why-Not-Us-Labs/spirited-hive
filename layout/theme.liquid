@@ -159,24 +159,9 @@
     <script src="{{ 'component-cart-update.js' | asset_url }}" type="module" defer="defer" data-flow-load-key="component-cart-update"></script>
   </safe-load-scripts>
   {% if settings.drawer--override_button_colors %}
-    {% render 'button-color-overrides' with
-      id: 'drawer-filled',
-      style: 'filled',
-      text_color: settings.drawer--button_text_color,
-      background_color: settings.drawer--button_background_color
-    %}
-    {% render 'button-color-overrides' with
-      id: 'drawer-outlined',
-      style: 'outlined',
-      text_color: settings.drawer--button_text_color,
-      background_color: settings.drawer--button_background_color
-    %}
-    {% render 'button-color-overrides' with
-      id: 'drawer-underlined',
-      style: 'underlined',
-      text_color: settings.drawer--button_text_color,
-      background_color: settings.drawer--button_background_color
-    %}
+    {% render 'button-color-overrides' with id, id: 'drawer-filled', style: 'filled', text_color: settings.drawer--button_text_color, background_color: settings.drawer--button_background_color %}
+    {% render 'button-color-overrides' with id, id: 'drawer-outlined', style: 'outlined', text_color: settings.drawer--button_text_color, background_color: settings.drawer--button_background_color %}
+    {% render 'button-color-overrides' with id, id: 'drawer-underlined', style: 'underlined', text_color: settings.drawer--button_text_color, background_color: settings.drawer--button_background_color %}
   {% endif %}
 
   {% comment %} Cart drawer {% endcomment %}
@@ -366,3 +351,43 @@
 <!--End_Gem_Page_Footer_Script-->
 </body>
 </html>
+{% comment %}
+
+This file has been rewritten to preserve the original behavior.
+
+---
+Changes:
+- from: |-
+    {% render 'button-color-overrides' with
+          id: 'drawer-filled',
+          style: 'filled',
+          text_color: settings.drawer--button_text_color,
+          background_color: settings.drawer--button_background_color
+        %}
+  to: "{% render 'button-color-overrides' with id, id: 'drawer-filled', style: 'filled',
+    text_color: settings.drawer--button_text_color, background_color: settings.drawer--button_background_color
+    %}"
+  position: 6984..7175
+- from: |-
+    {% render 'button-color-overrides' with
+          id: 'drawer-outlined',
+          style: 'outlined',
+          text_color: settings.drawer--button_text_color,
+          background_color: settings.drawer--button_background_color
+        %}
+  to: "{% render 'button-color-overrides' with id, id: 'drawer-outlined', style: 'outlined',
+    text_color: settings.drawer--button_text_color, background_color: settings.drawer--button_background_color
+    %}"
+  position: 7180..7375
+- from: |-
+    {% render 'button-color-overrides' with
+          id: 'drawer-underlined',
+          style: 'underlined',
+          text_color: settings.drawer--button_text_color,
+          background_color: settings.drawer--button_background_color
+        %}
+  to: "{% render 'button-color-overrides' with id, id: 'drawer-underlined', style:
+    'underlined', text_color: settings.drawer--button_text_color, background_color:
+    settings.drawer--button_background_color %}"
+  position: 7380..7579
+{% endcomment %}

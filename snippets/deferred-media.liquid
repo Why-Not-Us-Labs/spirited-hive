@@ -160,7 +160,7 @@
               <div class="media-buffer--right"></div>
               {% comment %} Loading icon {% endcomment %}
               <div class="hidden" data-media-loading-icon>
-                {% render 'theme-icon' with icon: 'circle-notch', iconClasses: 'spin js fa-2x', iconSize: '1.6em' %}
+                {% render 'theme-icon' with icon, icon: 'circle-notch', iconClasses: 'spin js fa-2x', iconSize: '1.6em' %}
               </div>
             </div>
           {%- else -%}
@@ -170,7 +170,7 @@
               <div class="media-buffer--right"></div>
               {% comment %} Loading icon {% endcomment %}
               <div class="hidden" data-media-loading-icon>
-                {% render 'theme-icon' with icon: 'circle-notch', iconClasses: 'spin js fa-2x', iconSize: '1.6em' %}
+                {% render 'theme-icon' with icon, icon: 'circle-notch', iconClasses: 'spin js fa-2x', iconSize: '1.6em' %}
               </div>
             </div>
           {%- endif -%}
@@ -191,7 +191,7 @@
             ></iframe>
             {% comment %} Loading icon {% endcomment %}
             <div class="hidden" data-media-loading-icon>
-              {% render 'theme-icon' with icon: 'circle-notch', iconClasses: 'spin js fa-2x', iconSize: '1.6em' %}
+              {% render 'theme-icon' with icon, icon: 'circle-notch', iconClasses: 'spin js fa-2x', iconSize: '1.6em' %}
             </div>
           </div>
         {%-  when 'vimeo' -%}
@@ -211,7 +211,7 @@
             ></iframe>
             {% comment %} Loading icon {% endcomment %}
             <div class="hidden" data-media-loading-icon>
-              {% render 'theme-icon' with icon: 'circle-notch', iconClasses: 'spin js fa-2x', iconSize: '1.6em' %}
+              {% render 'theme-icon' with icon, icon: 'circle-notch', iconClasses: 'spin js fa-2x', iconSize: '1.6em' %}
             </div>
           </div>
         {%- when 'video' -%}
@@ -226,7 +226,7 @@
             {{ delayed_media | media_tag: image_size: "2048x", class: video_class, autoplay: true, loop: enable_video_loop, controls: show_controls, muted: muted, preload: "none", title: alt_text }}
             {% comment %} Loading icon {% endcomment %}
             <div class="hidden" data-media-loading-icon>
-              {% render 'theme-icon' with icon: 'circle-notch', iconClasses: 'spin js fa-2x', iconSize: '1.6em' %}
+              {% render 'theme-icon' with icon, icon: 'circle-notch', iconClasses: 'spin js fa-2x', iconSize: '1.6em' %}
             </div>
           </div>
         {%- when 'model' -%}
@@ -248,7 +248,7 @@
         data-media-play-button
         aria-label="{{ 'general.accessibility.play_icon.play_media' | t | append: ' ' | append: alt_text }}"
       >
-        {% render 'theme-icon' with icon: 'play', iconSize: 20 %}
+        {% render 'theme-icon' with icon, icon: 'play', iconSize: 20 %}
       </button>
     {% endif %}
 
@@ -261,8 +261,45 @@
         data-media-play-button
         aria-label="{{ 'general.accessibility.3d_model.load_3d_model' | t }}"
       >
-        {% render 'theme-icon' with icon: 'cube', iconSize: 20 %}
+        {% render 'theme-icon' with icon, icon: 'cube', iconSize: 20 %}
       </button>
     {% endif %}
   </deferred-media>
-{% endif %}
+{% endif %}{%- comment -%}
+
+This file has been rewritten to preserve the original behavior.
+
+---
+Changes:
+- from: "{% render 'theme-icon' with icon: 'circle-notch', iconClasses: 'spin js fa-2x',
+    iconSize: '1.6em' %}"
+  to: "{% render 'theme-icon' with icon, icon: 'circle-notch', iconClasses: 'spin
+    js fa-2x', iconSize: '1.6em' %}"
+  position: 6693..6799
+- from: "{% render 'theme-icon' with icon: 'circle-notch', iconClasses: 'spin js fa-2x',
+    iconSize: '1.6em' %}"
+  to: "{% render 'theme-icon' with icon, icon: 'circle-notch', iconClasses: 'spin
+    js fa-2x', iconSize: '1.6em' %}"
+  position: 7475..7581
+- from: "{% render 'theme-icon' with icon: 'circle-notch', iconClasses: 'spin js fa-2x',
+    iconSize: '1.6em' %}"
+  to: "{% render 'theme-icon' with icon, icon: 'circle-notch', iconClasses: 'spin
+    js fa-2x', iconSize: '1.6em' %}"
+  position: 8475..8581
+- from: "{% render 'theme-icon' with icon: 'circle-notch', iconClasses: 'spin js fa-2x',
+    iconSize: '1.6em' %}"
+  to: "{% render 'theme-icon' with icon, icon: 'circle-notch', iconClasses: 'spin
+    js fa-2x', iconSize: '1.6em' %}"
+  position: 9430..9536
+- from: "{% render 'theme-icon' with icon: 'circle-notch', iconClasses: 'spin js fa-2x',
+    iconSize: '1.6em' %}"
+  to: "{% render 'theme-icon' with icon, icon: 'circle-notch', iconClasses: 'spin
+    js fa-2x', iconSize: '1.6em' %}"
+  position: 10327..10433
+- from: "{% render 'theme-icon' with icon: 'play', iconSize: 20 %}"
+  to: "{% render 'theme-icon' with icon, icon: 'play', iconSize: 20 %}"
+  position: 11472..11535
+- from: "{% render 'theme-icon' with icon: 'cube', iconSize: 20 %}"
+  to: "{% render 'theme-icon' with icon, icon: 'cube', iconSize: 20 %}"
+  position: 11948..12011
+{%- endcomment -%}

@@ -155,15 +155,7 @@
       {%comment%} Recipe Card Sidebar (only shows for first video if recipe exists) {%endcomment%}
       {% if section.settings.show_recipe_card %}
         <div class="holiday-video-carousel__recipe-sidebar" data-recipe-sidebar>
-          {% render 'holiday-recipe-card' with
-            recipe_title: section.settings.recipe_title,
-            recipe_description: section.settings.recipe_description,
-            recipe_ingredients: section.settings.recipe_ingredients,
-            recipe_instructions: section.settings.recipe_instructions,
-            recipe_image: section.settings.recipe_image,
-            prep_time: section.settings.prep_time,
-            servings: section.settings.servings
-          %}
+          {% render 'holiday-recipe-card' with recipe_title, recipe_title: section.settings.recipe_title, recipe_description: section.settings.recipe_description, recipe_ingredients: section.settings.recipe_ingredients, recipe_instructions: section.settings.recipe_instructions, recipe_image: section.settings.recipe_image, prep_time: section.settings.prep_time, servings: section.settings.servings %}
         </div>
       {% endif %}
     </div>
@@ -875,3 +867,25 @@
   ]
 }
 {% endschema %}
+{% comment %}
+
+This file has been rewritten to preserve the original behavior.
+
+---
+Changes:
+- from: |-
+    {% render 'holiday-recipe-card' with
+                recipe_title: section.settings.recipe_title,
+                recipe_description: section.settings.recipe_description,
+                recipe_ingredients: section.settings.recipe_ingredients,
+                recipe_instructions: section.settings.recipe_instructions,
+                recipe_image: section.settings.recipe_image,
+                prep_time: section.settings.prep_time,
+                servings: section.settings.servings
+              %}
+  to: "{% render 'holiday-recipe-card' with recipe_title, recipe_title: section.settings.recipe_title,
+    recipe_description: section.settings.recipe_description, recipe_ingredients: section.settings.recipe_ingredients,
+    recipe_instructions: section.settings.recipe_instructions, recipe_image: section.settings.recipe_image,
+    prep_time: section.settings.prep_time, servings: section.settings.servings %}"
+  position: 8829..9220
+{% endcomment %}

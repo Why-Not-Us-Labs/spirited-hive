@@ -79,22 +79,10 @@
                 data-animate-order="{{ animation_order | plus: animation_offset }}"
               {% endcapture %}
 
-              {% render 'dynamic-section-button' with
-                id: section.id,
-                link: section.settings.cta_link,
-                label: section.settings.cta_label,
-                style: 'filled',
-                wrapper: false,
-                attributes: button_attr
-              %}
+              {% render 'dynamic-section-button' with id, id: section.id, link: section.settings.cta_link, label: section.settings.cta_label, style: 'filled', wrapper: false, attributes: button_attr %}
 
               {% if section.settings.override_button_colors %}
-                {% render 'button-color-overrides' with
-                  id: section.id,
-                  style: 'filled',
-                  text_color: section.settings.button_text_color,
-                  background_color: section.settings.button_background_color
-                %}
+                {% render 'button-color-overrides' with id, id: section.id, style: 'filled', text_color: section.settings.button_text_color, background_color: section.settings.button_background_color %}
               {% endif %}
             </div>
           {% endif %}
@@ -609,3 +597,34 @@
   ]
 }
 {% endschema %}
+{% comment %}
+
+This file has been rewritten to preserve the original behavior.
+
+---
+Changes:
+- from: |-
+    {% render 'dynamic-section-button' with
+                    id: section.id,
+                    link: section.settings.cta_link,
+                    label: section.settings.cta_label,
+                    style: 'filled',
+                    wrapper: false,
+                    attributes: button_attr
+                  %}
+  to: "{% render 'dynamic-section-button' with id, id: section.id, link: section.settings.cta_link,
+    label: section.settings.cta_label, style: 'filled', wrapper: false, attributes:
+    button_attr %}"
+  position: 3035..3222
+- from: |-
+    {% render 'button-color-overrides' with
+                      id: section.id,
+                      style: 'filled',
+                      text_color: section.settings.button_text_color,
+                      background_color: section.settings.button_background_color
+                    %}
+  to: "{% render 'button-color-overrides' with id, id: section.id, style: 'filled',
+    text_color: section.settings.button_text_color, background_color: section.settings.button_background_color
+    %}"
+  position: 3303..3489
+{% endcomment %}

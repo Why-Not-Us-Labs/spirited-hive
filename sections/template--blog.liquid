@@ -100,7 +100,7 @@
                 <p class="blog-main--article-read-more-link nav-link-animated--custom">
                   <a class="animated-link--item--nested" href="{{ article.url }}">
                     <span class="animated-underline">{{ 'blogs.article.read_more' | t }}</span>
-                    {% render 'theme-icon' with icon: 'chevron_right', iconSize: 16 %}
+                    {% render 'theme-icon' with icon, icon: 'chevron_right', iconSize: 16 %}
                   </a>
                 </p>
               </div>
@@ -217,3 +217,13 @@
   ]
 }
 {% endschema %}
+{% comment %}
+
+This file has been rewritten to preserve the original behavior.
+
+---
+Changes:
+- from: "{% render 'theme-icon' with icon: 'chevron_right', iconSize: 16 %}"
+  to: "{% render 'theme-icon' with icon, icon: 'chevron_right', iconSize: 16 %}"
+  position: 4925..4997
+{% endcomment %}

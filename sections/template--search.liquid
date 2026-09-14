@@ -1,11 +1,11 @@
 {{ 'template-search.min.css' | asset_url | stylesheet_tag: preload: true }}
 
 {% capture icon_caret %}
-  {% render 'theme-icon' with icon: 'chevron_down', iconSize: 16, iconClasses: 'icon icon-caret' %}
+  {% render 'theme-icon' with icon, icon: 'chevron_down', iconSize: 16, iconClasses: 'icon icon-caret' %}
 {% endcapture %}
 
 {% capture icon_close %}
-  {% render 'theme-icon' with icon: 'close', iconSize: 12, iconClasses: 'icon icon-close-small' %}
+  {% render 'theme-icon' with icon, icon: 'close', iconSize: 12, iconClasses: 'icon icon-close-small' %}
 {% endcapture %}
 
 <style>
@@ -1206,7 +1206,7 @@
                           <rect width="16" height="16" stroke="currentColor" fill="none" stroke-width="1"></rect>
                         </svg>
 
-                        {% render 'theme-icon' with icon: 'checkmark', iconSize: 14, iconClasses: 'icon icon-checkmark', iconAttributes: 'aria-hidden="true" focusable="false"' %}
+                        {% render 'theme-icon' with icon, icon: 'checkmark', iconSize: 14, iconClasses: 'icon icon-checkmark', iconAttributes: 'aria-hidden="true" focusable="false"' %}
                       {% else %}
                         <div
                           aria-hidden="true" 
@@ -1307,7 +1307,7 @@
     <a aria-label="{{ 'general.accessibility.clear_all_filters' | t }}" href="{{ routes.search_url }}?q={{ search.terms }}&sort_by={{ sort_by }}" class="active-facets__button button button--secondary js-facet-remove" loading="false">
       <span class="active-facets__button--text">{{ 'sections.collection_template.clear_all' | t }}</span>
       <div class="active-facets__button--loading-icon hidden">
-        {% render 'theme-icon' with icon: 'circle-notch', iconClasses: 'spin js fa-2x' %}<span class="sr-only">{{ 'collections.paginate.loading' | t }}</span>
+        {% render 'theme-icon' with icon, icon: 'circle-notch', iconClasses: 'spin js fa-2x' %}<span class="sr-only">{{ 'collections.paginate.loading' | t }}</span>
       </div>
     </a>
     {%- for filter in search.filters -%}
@@ -1349,7 +1349,7 @@
             {{ icon_close }}
           </span>
           <div class="active-facets__button--loading-icon hidden">
-            {% render 'theme-icon' with icon: 'circle-notch', iconClasses: 'spin js fa-2x' %}<span class="sr-only">{{ 'collections.paginate.loading' | t }}</span>
+            {% render 'theme-icon' with icon, icon: 'circle-notch', iconClasses: 'spin js fa-2x' %}<span class="sr-only">{{ 'collections.paginate.loading' | t }}</span>
           </div>
         </a>
       {%- endfor -%}
@@ -1364,7 +1364,7 @@
               {{ icon_close }}
             </span>
             <div class="active-facets__button--loading-icon hidden">
-              {% render 'theme-icon' with icon: 'circle-notch', iconClasses: 'spin js fa-2x' %}<span class="sr-only">{{ 'collections.paginate.loading' | t }}</span>
+              {% render 'theme-icon' with icon, icon: 'circle-notch', iconClasses: 'spin js fa-2x' %}<span class="sr-only">{{ 'collections.paginate.loading' | t }}</span>
             </div>
           </a>
         {%- endif -%}
@@ -1493,7 +1493,7 @@
                                         <rect width="16" height="16" stroke="currentColor" fill="none" stroke-width="1"></rect>
                                       </svg>
               
-                                      {% render 'theme-icon' with icon: 'checkmark', iconSize: 14, iconClasses: 'icon icon-checkmark', iconAttributes: 'aria-hidden="true" focusable="false"' %}
+                                      {% render 'theme-icon' with icon, icon: 'checkmark', iconSize: 14, iconClasses: 'icon icon-checkmark', iconAttributes: 'aria-hidden="true" focusable="false"' %}
                                     {{ type | capitalize }} ({{ count }})</label>
                                   </li>
                                 {% endfor %}
@@ -1521,7 +1521,7 @@
                           <div class="drawer__close js-drawer-close">
                             <button type="button" aria-label="{{ 'general.accessibility.dismiss.close' | t }}" class="mobile-menu--close-btn filter-drawer-btn icon-fallback-text standalone-icon--wrapper" data-drawer-close-btn>
                               <span class="fallback-text">{{ 'general.accessibility.dismiss.close' | t }}</span>
-                              {% render 'theme-icon' with icon: 'close', iconSize: 20 %}
+                              {% render 'theme-icon' with icon, icon: 'close', iconSize: 20 %}
                             </button>
                           </div>
 
@@ -1612,7 +1612,7 @@
                       <a aria-label="{{ 'general.accessibility.clear_all_filters' | t }}" href="{{ routes.search_url }}?q={{ search.terms }}&sort_by={{ sort_by }}" class="active-facets__button button button--secondary js-facet-remove" loading="false">
                         <span class="active-facets__button--text">{{ 'sections.collection_template.clear_all' | t }}</span>
                         <div class="active-facets__button--loading-icon hidden">
-                          {% render 'theme-icon' with icon: 'circle-notch', iconClasses: 'spin js fa-2x' %}<span class="sr-only">{{ 'collections.paginate.loading' | t }}</span>
+                          {% render 'theme-icon' with icon, icon: 'circle-notch', iconClasses: 'spin js fa-2x' %}<span class="sr-only">{{ 'collections.paginate.loading' | t }}</span>
                         </div>
                       </a>
               
@@ -1656,7 +1656,7 @@
                                   {{ icon_close }}
                                 </span>
                                 <div class="active-facets__button--loading-icon hidden">
-                                  {% render 'theme-icon' with icon: 'circle-notch', iconClasses: 'spin js fa-2x' %}<span class="sr-only">{{ 'collections.paginate.loading' | t }}</span>
+                                  {% render 'theme-icon' with icon, icon: 'circle-notch', iconClasses: 'spin js fa-2x' %}<span class="sr-only">{{ 'collections.paginate.loading' | t }}</span>
                                 </div>
                               </a>
                           {%- endfor -%}
@@ -1672,7 +1672,7 @@
                                   {{ icon_close }}
                                 </span>
                                 <div class="active-facets__button--loading-icon hidden">
-                                  {% render 'theme-icon' with icon: 'circle-notch', iconClasses: 'spin js fa-2x' %}<span class="sr-only">{{ 'collections.paginate.loading' | t }}</span>
+                                  {% render 'theme-icon' with icon, icon: 'circle-notch', iconClasses: 'spin js fa-2x' %}<span class="sr-only">{{ 'collections.paginate.loading' | t }}</span>
                                 </div>
                               </a>
                               {%- endif -%}
@@ -1878,4 +1878,67 @@
     }
   ]
 }
-{% endschema %}
+{% endschema %}{%- comment -%}
+
+This file has been rewritten to preserve the original behavior.
+
+---
+Changes:
+- from: "{% render 'theme-icon' with icon: 'chevron_down', iconSize: 16, iconClasses:
+    'icon icon-caret' %}"
+  to: "{% render 'theme-icon' with icon, icon: 'chevron_down', iconSize: 16, iconClasses:
+    'icon icon-caret' %}"
+  position: 104..207
+- from: "{% render 'theme-icon' with icon: 'close', iconSize: 12, iconClasses: 'icon
+    icon-close-small' %}"
+  to: "{% render 'theme-icon' with icon, icon: 'close', iconSize: 12, iconClasses:
+    'icon icon-close-small' %}"
+  position: 253..355
+- from: '{% render ''theme-icon'' with icon: ''checkmark'', iconSize: 14, iconClasses:
+    ''icon icon-checkmark'', iconAttributes: ''aria-hidden="true" focusable="false"''
+    %}'
+  to: '{% render ''theme-icon'' with icon, icon: ''checkmark'', iconSize: 14, iconClasses:
+    ''icon icon-checkmark'', iconAttributes: ''aria-hidden="true" focusable="false"''
+    %}'
+  position: 31444..31604
+- from: "{% render 'theme-icon' with icon: 'circle-notch', iconClasses: 'spin js fa-2x'
+    %}"
+  to: "{% render 'theme-icon' with icon, icon: 'circle-notch', iconClasses: 'spin
+    js fa-2x' %}"
+  position: 37324..37411
+- from: "{% render 'theme-icon' with icon: 'circle-notch', iconClasses: 'spin js fa-2x'
+    %}"
+  to: "{% render 'theme-icon' with icon, icon: 'circle-notch', iconClasses: 'spin
+    js fa-2x' %}"
+  position: 39258..39345
+- from: "{% render 'theme-icon' with icon: 'circle-notch', iconClasses: 'spin js fa-2x'
+    %}"
+  to: "{% render 'theme-icon' with icon, icon: 'circle-notch', iconClasses: 'spin
+    js fa-2x' %}"
+  position: 40572..40659
+- from: '{% render ''theme-icon'' with icon: ''checkmark'', iconSize: 14, iconClasses:
+    ''icon icon-checkmark'', iconAttributes: ''aria-hidden="true" focusable="false"''
+    %}'
+  to: '{% render ''theme-icon'' with icon, icon: ''checkmark'', iconSize: 14, iconClasses:
+    ''icon icon-checkmark'', iconAttributes: ''aria-hidden="true" focusable="false"''
+    %}'
+  position: 48051..48211
+- from: "{% render 'theme-icon' with icon: 'close', iconSize: 20 %}"
+  to: "{% render 'theme-icon' with icon, icon: 'close', iconSize: 20 %}"
+  position: 49976..50040
+- from: "{% render 'theme-icon' with icon: 'circle-notch', iconClasses: 'spin js fa-2x'
+    %}"
+  to: "{% render 'theme-icon' with icon, icon: 'circle-notch', iconClasses: 'spin
+    js fa-2x' %}"
+  position: 55208..55295
+- from: "{% render 'theme-icon' with icon: 'circle-notch', iconClasses: 'spin js fa-2x'
+    %}"
+  to: "{% render 'theme-icon' with icon, icon: 'circle-notch', iconClasses: 'spin
+    js fa-2x' %}"
+  position: 57948..58035
+- from: "{% render 'theme-icon' with icon: 'circle-notch', iconClasses: 'spin js fa-2x'
+    %}"
+  to: "{% render 'theme-icon' with icon, icon: 'circle-notch', iconClasses: 'spin
+    js fa-2x' %}"
+  position: 59589..59676
+{%- endcomment -%}

@@ -8,7 +8,7 @@
     style="--padding-section-top: {{ section.settings.section_padding_top }}px; --padding-section-bottom: {{ section.settings.section_padding_bottom }}px;"
   >
     {% comment %} Section title and description {% endcomment %}
-    {% render 'dynamic-section-header' with section_title: section.settings.section_title, section_description: section.settings.section_description %}
+    {% render 'dynamic-section-header' with section_title, section_title: section.settings.section_title, section_description: section.settings.section_description %}
 
     <div class="{% unless section.settings.section_width == 'full-width' %}width--{{ section.settings.section_width }}{% endunless %} main-content-wrapper{% if section.settings.image_position_desktop == 'left' %} main-content-wrapper--image-left{% endif %}{% if section.settings.image_position_mobile == 'top' %} main-content-wrapper--image-top{% endif %}">
       <div class="accordion-wrapper">
@@ -35,8 +35,8 @@
                   {{ block.settings.accordion_header }}
                   <span class="inline-icon--wrapper icon--right">
                     {% if section.settings.faq_icon == "plus_minus" %}
-                      {% render 'theme-icon' with icon: 'plus', iconClasses: 'plus-icon' %}
-                      {% render 'theme-icon' with icon: 'minus', iconClasses: 'minus-icon' %}
+                      {% render 'theme-icon' with icon, icon: 'plus', iconClasses: 'plus-icon' %}
+                      {% render 'theme-icon' with icon, icon: 'minus', iconClasses: 'minus-icon' %}
                     {% elsif section.settings.faq_icon == "caret" %}
                       {% render 'theme-icon', icon: 'chevron_down', iconClasses: 'chevron-down' %}
                     {% endif %}
@@ -62,8 +62,8 @@
                     <span class="inline-icon--wrapper icon--right">
                       {% assign iconSize = 20 %}
                       {% if section.settings.faq_icon == "plus_minus" %}
-                        {% render 'theme-icon' with icon: 'plus', iconSize: iconSize, iconClasses: 'plus-icon' %}
-                        {% render 'theme-icon' with icon: 'minus', iconSize: iconSize, iconClasses: 'minus-icon' %}
+                        {% render 'theme-icon' with icon, icon: 'plus', iconSize: iconSize, iconClasses: 'plus-icon' %}
+                        {% render 'theme-icon' with icon, icon: 'minus', iconSize: iconSize, iconClasses: 'minus-icon' %}
                       {% elsif section.settings.faq_icon == "caret" %}
                         {% render 'theme-icon', icon: 'chevron_up', iconSize: iconSize, iconClasses: 'chevron-up' %}
                         {% render 'theme-icon', icon: 'chevron_down', iconSize: iconSize, iconClasses: 'chevron-down' %}
@@ -401,3 +401,32 @@
   }
 }
 {% endschema %}
+{% comment %}
+
+This file has been rewritten to preserve the original behavior.
+
+---
+Changes:
+- from: "{% render 'dynamic-section-header' with section_title: section.settings.section_title,
+    section_description: section.settings.section_description %}"
+  to: "{% render 'dynamic-section-header' with section_title, section_title: section.settings.section_title,
+    section_description: section.settings.section_description %}"
+  position: 613..775
+- from: "{% render 'theme-icon' with icon: 'plus', iconClasses: 'plus-icon' %}"
+  to: "{% render 'theme-icon' with icon, icon: 'plus', iconClasses: 'plus-icon' %}"
+  position: 2356..2431
+- from: "{% render 'theme-icon' with icon: 'minus', iconClasses: 'minus-icon' %}"
+  to: "{% render 'theme-icon' with icon, icon: 'minus', iconClasses: 'minus-icon'
+    %}"
+  position: 2454..2531
+- from: "{% render 'theme-icon' with icon: 'plus', iconSize: iconSize, iconClasses:
+    'plus-icon' %}"
+  to: "{% render 'theme-icon' with icon, icon: 'plus', iconSize: iconSize, iconClasses:
+    'plus-icon' %}"
+  position: 3749..3844
+- from: "{% render 'theme-icon' with icon: 'minus', iconSize: iconSize, iconClasses:
+    'minus-icon' %}"
+  to: "{% render 'theme-icon' with icon, icon: 'minus', iconSize: iconSize, iconClasses:
+    'minus-icon' %}"
+  position: 3869..3966
+{% endcomment %}

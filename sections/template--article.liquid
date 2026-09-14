@@ -58,7 +58,7 @@
         {% if blog.previous_article %}
           <span class="left inline-icon--wrapper icon--left">
             <a class="animated-link--item--nested" href="{{ blog.previous_article }}">
-              {% render 'theme-icon' with icon: 'chevron_left', iconSize: 16 %}
+              {% render 'theme-icon' with icon, icon: 'chevron_left', iconSize: 16 %}
               <span class="animated-underline">{{ 'blogs.article.older_post' | t }}</span>
             </a>
           </span>
@@ -67,7 +67,7 @@
           <span class="right inline-icon--wrapper icon--right">
             <a class="animated-link--item--nested" href="{{ blog.next_article }}">
               <span class="animated-underline">{{ 'blogs.article.newer_post' | t }}</span>
-              {% render 'theme-icon' with icon: 'chevron_right', iconSize: 16 %}
+              {% render 'theme-icon' with icon, icon: 'chevron_right', iconSize: 16 %}
             </a>
           </span>
         {% endif %}
@@ -292,3 +292,16 @@
   ]
 }
 {% endschema %}
+{% comment %}
+
+This file has been rewritten to preserve the original behavior.
+
+---
+Changes:
+- from: "{% render 'theme-icon' with icon: 'chevron_left', iconSize: 16 %}"
+  to: "{% render 'theme-icon' with icon, icon: 'chevron_left', iconSize: 16 %}"
+  position: 2316..2387
+- from: "{% render 'theme-icon' with icon: 'chevron_right', iconSize: 16 %}"
+  to: "{% render 'theme-icon' with icon, icon: 'chevron_right', iconSize: 16 %}"
+  position: 2821..2893
+{% endcomment %}

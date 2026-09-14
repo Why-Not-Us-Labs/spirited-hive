@@ -73,7 +73,7 @@
 
       {% if settings.show_badges %}
         {%- if svg_index == 1 -%}
-          {%- render 'badge' with badge: 'sold-out', attributes: badge_attributes -%}
+          {%- render 'badge' with badge, badge: 'sold-out', attributes: badge_attributes -%}
         {%- endif -%}
       {% endif %}
 
@@ -98,7 +98,7 @@
               {% endif %}
 
               {% if quick_shop_mobile_enabled %}
-                <a class="quick-add-button-onboarding quick-add-button-onboarding-mobile btn-hover-default-inner icon-btn-focus-inner" tabindex="0" href="{{ product.url | within: collection }}"><span class="btn-colors-primary round-icon-btn-sm">{% render 'theme-icon' with icon: 'shopping-bag', iconClasses: 'quick-view-mobile-icon', iconSize: 16 %}</span></a>
+                <a class="quick-add-button-onboarding quick-add-button-onboarding-mobile btn-hover-default-inner icon-btn-focus-inner" tabindex="0" href="{{ product.url | within: collection }}"><span class="btn-colors-primary round-icon-btn-sm">{% render 'theme-icon' with icon, icon: 'shopping-bag', iconClasses: 'quick-view-mobile-icon', iconSize: 16 %}</span></a>
               {% endif %}
             </div>
           </div>
@@ -132,21 +132,11 @@
     {% endif %}
 
     {% if settings.show_product_rating %}
-      {% render 'reviews-star-rating' with
-        rating_product: product,
-        star_color: settings.star_rating_color,
-        classes: alignment_class,
-        star_size: settings.star_size,
-        no_reviews_label: settings.no_reviews_label,
-        show_rating_as: settings.show_rating_as,
-        show_product_rating_if_no_reviews: settings.show_product_rating_if_no_reviews,
-        color_scheme: section_color_scheme,
-        wrapper_class: 'product-grid--rating'
-      %}
+      {% render 'reviews-star-rating' with rating_product, rating_product: product, star_color: settings.star_rating_color, classes: alignment_class, star_size: settings.star_size, no_reviews_label: settings.no_reviews_label, show_rating_as: settings.show_rating_as, show_product_rating_if_no_reviews: settings.show_product_rating_if_no_reviews, color_scheme: section_color_scheme, wrapper_class: 'product-grid--rating' %}
     {% endif %}
 
     {% if settings.show_card_color_swatches %}
-      {% render 'card-color-swatch' with swatch_product: null, swatch_option: '', hide_out_of_stock_variants: false, show_color_label: show_color_label %}
+      {% render 'card-color-swatch' with swatch_product, swatch_product: nil, swatch_option: '', hide_out_of_stock_variants: false, show_color_label: show_color_label %}
     {% endif %}
   </div>
 
@@ -170,4 +160,42 @@
       </div>
     {% endif %}
   {% endif %}
-</product-card>
+</product-card>{%- comment -%}
+
+This file has been rewritten to preserve the original behavior.
+
+---
+Changes:
+- from: "{%- render 'badge' with badge: 'sold-out', attributes: badge_attributes -%}"
+  to: "{%- render 'badge' with badge, badge: 'sold-out', attributes: badge_attributes
+    -%}"
+  position: 2429..2511
+- from: "{% render 'theme-icon' with icon: 'shopping-bag', iconClasses: 'quick-view-mobile-icon',
+    iconSize: 16 %}"
+  to: "{% render 'theme-icon' with icon, icon: 'shopping-bag', iconClasses: 'quick-view-mobile-icon',
+    iconSize: 16 %}"
+  position: 4143..4253
+- from: |-
+    {% render 'reviews-star-rating' with
+            rating_product: product,
+            star_color: settings.star_rating_color,
+            classes: alignment_class,
+            star_size: settings.star_size,
+            no_reviews_label: settings.no_reviews_label,
+            show_rating_as: settings.show_rating_as,
+            show_product_rating_if_no_reviews: settings.show_product_rating_if_no_reviews,
+            color_scheme: section_color_scheme,
+            wrapper_class: 'product-grid--rating'
+          %}
+  to: "{% render 'reviews-star-rating' with rating_product, rating_product: product,
+    star_color: settings.star_rating_color, classes: alignment_class, star_size: settings.star_size,
+    no_reviews_label: settings.no_reviews_label, show_rating_as: settings.show_rating_as,
+    show_product_rating_if_no_reviews: settings.show_product_rating_if_no_reviews,
+    color_scheme: section_color_scheme, wrapper_class: 'product-grid--rating' %}"
+  position: 5530..5946
+- from: "{% render 'card-color-swatch' with swatch_product: null, swatch_option: '',
+    hide_out_of_stock_variants: false, show_color_label: show_color_label %}"
+  to: "{% render 'card-color-swatch' with swatch_product, swatch_product: nil, swatch_option:
+    '', hide_out_of_stock_variants: false, show_color_label: show_color_label %}"
+  position: 6017..6180
+{%- endcomment -%}

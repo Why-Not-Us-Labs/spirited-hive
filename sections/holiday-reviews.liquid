@@ -36,15 +36,9 @@
 
   {% comment %} Section Header {% endcomment %}
   {% if is_holiday_season %}
-    {% render 'dynamic-section-header' with
-      section_title: section.settings.holiday_title,
-      section_description: section.settings.holiday_description
-    %}
+    {% render 'dynamic-section-header' with section_title, section_title: section.settings.holiday_title, section_description: section.settings.holiday_description %}
   {% else %}
-    {% render 'dynamic-section-header' with
-      section_title: section.settings.real_reviews_title,
-      section_description: section.settings.real_reviews_description
-    %}
+    {% render 'dynamic-section-header' with section_title, section_title: section.settings.real_reviews_title, section_description: section.settings.real_reviews_description %}
   {% endif %}
 
   <div class="testimonials-block">
@@ -94,7 +88,7 @@
               <div class="testimonials--star-wrapper inline-icon--wrapper">
                 {% assign star_total = block.settings.stars %}
                 {% for i in (1..star_total) %}
-                  {% render 'theme-icon' with icon: 'star-filled', iconAttributes: 'aria-hidden="true"', iconSize: 20 %}
+                  {% render 'theme-icon' with icon, icon: 'star-filled', iconAttributes: 'aria-hidden="true"', iconSize: 20 %}
                 {% endfor %}
               </div>
 
@@ -175,7 +169,7 @@
               <div class="testimonials--star-wrapper inline-icon--wrapper">
                 {% assign star_total = block.settings.stars %}
                 {% for i in (1..star_total) %}
-                  {% render 'theme-icon' with icon: 'star-filled', iconAttributes: 'aria-hidden="true"', iconSize: 20 %}
+                  {% render 'theme-icon' with icon, icon: 'star-filled', iconAttributes: 'aria-hidden="true"', iconSize: 20 %}
                 {% endfor %}
               </div>
 
@@ -517,3 +511,36 @@
   ]
 }
 {% endschema %}
+{% comment %}
+
+This file has been rewritten to preserve the original behavior.
+
+---
+Changes:
+- from: |-
+    {% render 'dynamic-section-header' with
+          section_title: section.settings.holiday_title,
+          section_description: section.settings.holiday_description
+        %}
+  to: "{% render 'dynamic-section-header' with section_title, section_title: section.settings.holiday_title,
+    section_description: section.settings.holiday_description %}"
+  position: 1582..1744
+- from: |-
+    {% render 'dynamic-section-header' with
+          section_title: section.settings.real_reviews_title,
+          section_description: section.settings.real_reviews_description
+        %}
+  to: "{% render 'dynamic-section-header' with section_title, section_title: section.settings.real_reviews_title,
+    section_description: section.settings.real_reviews_description %}"
+  position: 1762..1934
+- from: '{% render ''theme-icon'' with icon: ''star-filled'', iconAttributes: ''aria-hidden="true"'',
+    iconSize: 20 %}'
+  to: '{% render ''theme-icon'' with icon, icon: ''star-filled'', iconAttributes:
+    ''aria-hidden="true"'', iconSize: 20 %}'
+  position: 3810..3918
+- from: '{% render ''theme-icon'' with icon: ''star-filled'', iconAttributes: ''aria-hidden="true"'',
+    iconSize: 20 %}'
+  to: '{% render ''theme-icon'' with icon, icon: ''star-filled'', iconAttributes:
+    ''aria-hidden="true"'', iconSize: 20 %}'
+  position: 6740..6848
+{% endcomment %}

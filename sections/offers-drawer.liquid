@@ -27,7 +27,7 @@
           class="global-drawer__close"
         >
           <span class="fallback-text">{{ 'general.accessibility.dismiss.close' | t }}</span>
-          {% render 'theme-icon' with icon: 'close', iconSize: 20 %}
+          {% render 'theme-icon' with icon, icon: 'close', iconSize: 20 %}
         </button>
         <h3 class="offers-drawer__heading" data-offers-drawer-heading>
           {% if section.settings.title != blank %}
@@ -78,8 +78,8 @@
                       <copy-code class="offers-drawer__offer-discount-code">
                         <div data-offers-drawer-code class="offers-drawer__offer-discount-code--code" tabindex="0">{{ block.settings.discount_code }}</div>
                         <button data-offers-drawer-copy-btn class="offers-drawer__offer-discount-code--btn" aria-label="{{ 'general.accessibility.copy' | t }}">
-                          <span data-offers-drawer-copy-icon>{% render 'theme-icon' with icon: 'copy', iconSize: 24 %}</span>
-                          <span data-offers-drawer-check-icon class="hide-icon">{% render 'theme-icon' with icon: 'checkmark', iconSize: 24 %}</span>
+                          <span data-offers-drawer-copy-icon>{% render 'theme-icon' with icon, icon: 'copy', iconSize: 24 %}</span>
+                          <span data-offers-drawer-check-icon class="hide-icon">{% render 'theme-icon' with icon, icon: 'checkmark', iconSize: 24 %}</span>
                         </button>
                       </copy-code>
                       <safe-load-scripts class="hidden">
@@ -87,13 +87,7 @@
                       </safe-load-scripts>
                     {% endif %}
                     {% if block.settings.button_label != blank %}
-                      {% render 'dynamic-section-button' with
-                          id: block.id,
-                          link: block.settings.link,
-                          label: block.settings.button_label,
-                          style: section.settings.buttons_style,
-                          a_classes: button_class
-                        %}
+                      {% render 'dynamic-section-button' with id, id: block.id, link: block.settings.link, label: block.settings.button_label, style: section.settings.buttons_style, a_classes: button_class %}
                     {% endif %}
                   </div>
                 </div>
@@ -238,4 +232,31 @@
     }
   ]
 }
-{% endschema %}
+{% endschema %}{%- comment -%}
+
+This file has been rewritten to preserve the original behavior.
+
+---
+Changes:
+- from: "{% render 'theme-icon' with icon: 'close', iconSize: 20 %}"
+  to: "{% render 'theme-icon' with icon, icon: 'close', iconSize: 20 %}"
+  position: 934..998
+- from: "{% render 'theme-icon' with icon: 'copy', iconSize: 24 %}"
+  to: "{% render 'theme-icon' with icon, icon: 'copy', iconSize: 24 %}"
+  position: 4086..4149
+- from: "{% render 'theme-icon' with icon: 'checkmark', iconSize: 24 %}"
+  to: "{% render 'theme-icon' with icon, icon: 'checkmark', iconSize: 24 %}"
+  position: 4237..4305
+- from: |-
+    {% render 'dynamic-section-button' with
+                              id: block.id,
+                              link: block.settings.link,
+                              label: block.settings.button_label,
+                              style: section.settings.buttons_style,
+                              a_classes: button_class
+                            %}
+  to: "{% render 'dynamic-section-button' with id, id: block.id, link: block.settings.link,
+    label: block.settings.button_label, style: section.settings.buttons_style, a_classes:
+    button_class %}"
+  position: 4762..4948
+{%- endcomment -%}
